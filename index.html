@@ -97,6 +97,12 @@
   --font-size-base: var(--font-text-md-size, 14px);
   --red: light-dark(rgb(186 38 35), rgb(250 66 62));
   --green: light-dark(rgb(0 162 64), rgb(64 201 119));
+  --privacy-protective: light-dark(#15803d, #4ade80);
+  --privacy-identifying: light-dark(#b91c1c, #f87171);
+  --privacy-caution: light-dark(#d97706, #fbbf24);
+  --privacy-unknown: light-dark(#64748b, #94a3b8);
+  --privacy-not-applicable: light-dark(#94a3b8, #cbd5e1);
+  --privacy-unclear: light-dark(#475569, #64748b);
   --viz-series-1: var(--primary);
   --viz-series-2: light-dark(rgb(243 136 59), rgb(245 154 86));
   --viz-series-3: light-dark(rgb(93 201 119), rgb(116 213 139));
@@ -904,7 +910,7 @@ html&gt;body{padding:0}&lt;/style&gt;
   &lt;div class=&quot;globe-stage&quot;&gt;
     &lt;svg class=&quot;globe-svg&quot; viewBox=&quot;0 0 960 640&quot; role=&quot;img&quot; aria-labelledby=&quot;globe-title globe-description&quot;&gt;
       &lt;title id=&quot;globe-title&quot;&gt;University Wi-Fi anonymous identity globe&lt;/title&gt;
-      &lt;desc id=&quot;globe-description&quot;&gt;A rotatable globe comparing eduroam and school-owned non-eduroam Wi-Fi guidance by country. Lighter countries have a higher share of privacy-preserving explicit anonymous values.&lt;/desc&gt;
+      &lt;desc id=&quot;globe-description&quot;&gt;A rotatable globe comparing eduroam and school-owned non-eduroam Wi-Fi guidance by country. Darker green countries have a higher share of reviewed guides specifying explicit anonymous values. This is a guidance share, not an overall risk score.&lt;/desc&gt;
       &lt;defs&gt;
         &lt;pattern id=&quot;review-hatch&quot; width=&quot;7&quot; height=&quot;7&quot; patternUnits=&quot;userSpaceOnUse&quot; patternTransform=&quot;rotate(45)&quot;&gt;
           &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;0&quot; y2=&quot;7&quot; stroke=&quot;var(--foreground)&quot; stroke-opacity=&quot;0.48&quot; stroke-width=&quot;1.2&quot;&gt;&lt;/line&gt;
@@ -930,6 +936,18 @@ html&gt;body{padding:0}&lt;/style&gt;
     &lt;span class=&quot;legend-key&quot;&gt;&lt;i class=&quot;pending-key&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Review in progress&lt;/span&gt;
     &lt;span class=&quot;legend-key&quot;&gt;&lt;i class=&quot;compact-key&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Enlarged compact-area locator&lt;/span&gt;
   &lt;/div&gt;
+  &lt;p class=&quot;text-muted text-small&quot;&gt;Darker green = a higher explicit anonymous share among valid reviewed guides. This measures documented instructions, not an overall risk score. Low anonymous share may include unknown, blank or app-based instructions; it does not establish real identity exposure.&lt;/p&gt;
+  &lt;details class=&quot;category-help card&quot;&gt;&lt;summary&gt;ⓘ Category definitions and privacy colors&lt;/summary&gt;
+    &lt;p&gt;Green marks an explicitly anonymous instruction; red marks an identifying instruction; amber marks blank or potentially identifying instructions that need context. Grey categories describe missing detail, delegated setup or uncertainty. Colors do not verify runtime identity transmission.&lt;/p&gt;
+    &lt;details&gt;&lt;summary&gt;Explicit anonymous value&lt;/summary&gt;&lt;p&gt;The reviewed guidance specifies an anonymous outer identity value, such as anonymous or anonymous@realm, rather than a personal account name. This indicates a privacy-preserving instruction; runtime transmission was not tested.&lt;/p&gt;&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Real identity used&lt;/summary&gt;&lt;p&gt;The reviewed guidance specifies a personal account name or identifying value for the outer/anonymous identity field. This indicates a potentially identifying instruction, not a captured network transmission.&lt;/p&gt;&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Potentially identifying / review&lt;/summary&gt;&lt;p&gt;A value is specified but may identify a person, or its privacy meaning needs further review. It is not counted as a confirmed anonymous value.&lt;/p&gt;&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Explicit blank&lt;/summary&gt;&lt;p&gt;The reviewed guidance explicitly instructs users to leave the outer/anonymous identity field blank. A blank instruction is different from no instruction; client defaults may affect the identity sent.&lt;/p&gt;&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Not publicly specified&lt;/summary&gt;&lt;p&gt;A valid reviewed public guide does not explicitly state an outer/anonymous identity value. This does not mean a blank value is configured or a real identity is transmitted.&lt;/p&gt;&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Profile/app-based or not applicable&lt;/summary&gt;&lt;p&gt;A grouped review category covering setup delegated to a profile/app or a case where the manual identity instruction is not applicable. It does not classify the downloaded profile or establish privacy protection.&lt;/p&gt;&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Unclear&lt;/summary&gt;&lt;p&gt;A valid public guide was reviewed, but its outer/anonymous identity instruction could not be confidently classified. Missing, inaccessible or inconclusive guides are counted separately from the pie.&lt;/p&gt;&lt;/details&gt;
+    &lt;p&gt;The country pie uses only institutions with a valid reviewed public guide. No valid guide and guide inconclusive are separate coverage results, not identity outcomes. Country colors use the explicit-anonymous share of these valid guides.&lt;/p&gt;
+  &lt;/details&gt;
   &lt;p class=&quot;text-muted text-small interaction-hint&quot;&gt;Drag to rotate · scroll to zoom · select a country to bring it to the front&lt;/p&gt;
 
   &lt;dialog class=&quot;card globe-dialog&quot; aria-labelledby=&quot;dialog-country-name&quot;&gt;
@@ -1081,8 +1099,8 @@ html&gt;body{padding:0}&lt;/style&gt;
     width: min(190px, 34vw);
     height: 0.7rem;
     background: linear-gradient(90deg,
-      color-mix(in oklab, var(--destructive) 78%, var(--background)),
-      color-mix(in oklab, var(--destructive) 18%, var(--background)));
+      color-mix(in oklab, var(--privacy-protective) 12%, var(--background)),
+      color-mix(in oklab, var(--privacy-protective) 90%, var(--background)));
     border: 1px solid color-mix(in srgb, var(--border) 78%, transparent);
   }
 
@@ -1188,6 +1206,11 @@ html&gt;body{padding:0}&lt;/style&gt;
     font-size: 0.72rem;
   }
 
+  #wifi-identity-globe summary { cursor: pointer; }
+  #wifi-identity-globe summary:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
+  #wifi-identity-globe .category-help { padding: 1rem; margin: 0.8rem 0; }
+  #wifi-identity-globe .category-help details { margin: 0.65rem 0; }
+  #wifi-identity-globe .category-info p { font-size: 0.85rem; line-height: 1.5; margin: 0.5rem 0; }
   #wifi-identity-globe .pie-legend {
     display: grid;
     gap: 0.42rem;
@@ -1324,14 +1347,49 @@ html&gt;body{padding:0}&lt;/style&gt;
   };
 
   const slices = [
-    { field: &quot;anonymousValue&quot;, label: &quot;Explicit anonymous value&quot;, color: &quot;var(--viz-series-2)&quot; },
-    { field: &quot;realIdentity&quot;, label: &quot;Real identity used&quot;, color: &quot;var(--destructive)&quot; },
-    { field: &quot;needsReview&quot;, label: &quot;Potentially identifying / review&quot;, color: &quot;var(--viz-series-5)&quot; },
-    { field: &quot;explicitBlank&quot;, label: &quot;Explicit blank&quot;, color: &quot;var(--viz-series-1)&quot; },
-    { field: &quot;notSpecified&quot;, label: &quot;Not publicly specified&quot;, color: &quot;var(--viz-series-3)&quot; },
-    { field: &quot;notApplicable&quot;, label: &quot;Profile/app-based or not applicable&quot;, color: &quot;var(--viz-series-4)&quot; },
-    { field: &quot;unclear&quot;, label: &quot;Unclear&quot;, color: &quot;var(--viz-series-6)&quot; }
-  ];
+  {
+    &quot;field&quot;: &quot;anonymousValue&quot;,
+    &quot;label&quot;: &quot;Explicit anonymous value&quot;,
+    &quot;color&quot;: &quot;var(--privacy-protective)&quot;,
+    &quot;description&quot;: &quot;The reviewed guidance specifies an anonymous outer identity value, such as anonymous or anonymous@realm, rather than a personal account name. This indicates a privacy-preserving instruction; runtime transmission was not tested.&quot;
+  },
+  {
+    &quot;field&quot;: &quot;realIdentity&quot;,
+    &quot;label&quot;: &quot;Real identity used&quot;,
+    &quot;color&quot;: &quot;var(--privacy-identifying)&quot;,
+    &quot;description&quot;: &quot;The reviewed guidance specifies a personal account name or identifying value for the outer/anonymous identity field. This indicates a potentially identifying instruction, not a captured network transmission.&quot;
+  },
+  {
+    &quot;field&quot;: &quot;needsReview&quot;,
+    &quot;label&quot;: &quot;Potentially identifying / review&quot;,
+    &quot;color&quot;: &quot;var(--privacy-caution)&quot;,
+    &quot;description&quot;: &quot;A value is specified but may identify a person, or its privacy meaning needs further review. It is not counted as a confirmed anonymous value.&quot;
+  },
+  {
+    &quot;field&quot;: &quot;explicitBlank&quot;,
+    &quot;label&quot;: &quot;Explicit blank&quot;,
+    &quot;color&quot;: &quot;var(--privacy-caution)&quot;,
+    &quot;description&quot;: &quot;The reviewed guidance explicitly instructs users to leave the outer/anonymous identity field blank. A blank instruction is different from no instruction; client defaults may affect the identity sent.&quot;
+  },
+  {
+    &quot;field&quot;: &quot;notSpecified&quot;,
+    &quot;label&quot;: &quot;Not publicly specified&quot;,
+    &quot;color&quot;: &quot;var(--privacy-unknown)&quot;,
+    &quot;description&quot;: &quot;A valid reviewed public guide does not explicitly state an outer/anonymous identity value. This does not mean a blank value is configured or a real identity is transmitted.&quot;
+  },
+  {
+    &quot;field&quot;: &quot;notApplicable&quot;,
+    &quot;label&quot;: &quot;Profile/app-based or not applicable&quot;,
+    &quot;color&quot;: &quot;var(--privacy-not-applicable)&quot;,
+    &quot;description&quot;: &quot;A grouped review category covering setup delegated to a profile/app or a case where the manual identity instruction is not applicable. It does not classify the downloaded profile or establish privacy protection.&quot;
+  },
+  {
+    &quot;field&quot;: &quot;unclear&quot;,
+    &quot;label&quot;: &quot;Unclear&quot;,
+    &quot;color&quot;: &quot;var(--privacy-unclear)&quot;,
+    &quot;description&quot;: &quot;A valid public guide was reviewed, but its outer/anonymous identity instruction could not be confidently classified. Missing, inaccessible or inconclusive guides are counted separately from the pie.&quot;
+  }
+];
 
   const countries = feature(world, world.objects.features).features;
   const featureByIso = new Map(countries.map((country) =&gt; [country.properties.id, country]));
@@ -1433,8 +1491,8 @@ html&gt;body{padding:0}&lt;/style&gt;
     if (row.guideFound === 0) {
       return &quot;color-mix(in srgb, var(--muted-foreground) 28%, var(--muted))&quot;;
     }
-    const destructiveWeight = Math.round(78 - Math.max(0, Math.min(1, row.anonymousShare)) * 60);
-    return `color-mix(in oklab, var(--destructive) ${destructiveWeight}%, var(--background))`;
+    const strength = Math.round(12 + Math.max(0, Math.min(1, row.anonymousShare)) * 78);
+    return `color-mix(in oklab, var(--privacy-protective) ${strength}%, var(--background))`;
   }
 
   function rateLabel(row) {
@@ -1600,7 +1658,7 @@ html&gt;body{padding:0}&lt;/style&gt;
           fill: item.color
         });
         const segmentTitle = createSvgElement(&quot;title&quot;);
-        segmentTitle.textContent = `${item.label}: ${value} (${Math.round(share * 100)}%)`;
+        segmentTitle.textContent = `${item.label}: ${value} (${Math.round(share * 100)}%). ${item.description}`;
         segment.appendChild(segmentTitle);
         sliceGroup.appendChild(segment);
         angle = nextAngle;
@@ -1612,7 +1670,14 @@ html&gt;body{padding:0}&lt;/style&gt;
       swatch.className = &quot;pie-legend-swatch&quot;;
       swatch.style.background = item.color;
       const label = document.createElement(&quot;span&quot;);
-      label.textContent = item.label;
+      const info = document.createElement(&quot;details&quot;);
+      info.className = &quot;category-info&quot;;
+      const infoSummary = document.createElement(&quot;summary&quot;);
+      infoSummary.textContent = item.label + &quot; ⓘ&quot;;
+      const explanation = document.createElement(&quot;p&quot;);
+      explanation.textContent = item.description;
+      info.append(infoSummary, explanation);
+      label.appendChild(info);
       const count = document.createElement(&quot;span&quot;);
       count.className = &quot;pie-legend-value&quot;;
       count.textContent = `${value} · ${Math.round(share * 100)}%`;
