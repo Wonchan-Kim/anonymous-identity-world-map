@@ -891,11 +891,12 @@ html&gt;body{padding:0}&lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;wifi-identity-globe&quot;&gt;
+  &lt;div class=&quot;globe-heading&quot;&gt;&lt;h2&gt;University Wi-Fi guidance&lt;/h2&gt;&lt;button class=&quot;btn btn-ghost&quot; type=&quot;button&quot; onclick=&quot;document.getElementById(&#x27;about-data&#x27;).showModal()&quot;&gt;ⓘ About this data&lt;/button&gt;&lt;/div&gt;
   &lt;div class=&quot;viz-controls globe-controls&quot;&gt;
     &lt;label class=&quot;form-label&quot; for=&quot;network-mode&quot;&gt;Network dataset
       &lt;select class=&quot;form-select&quot; id=&quot;network-mode&quot;&gt;
         &lt;option value=&quot;eduroam&quot;&gt;eduroam&lt;/option&gt;
-        &lt;option value=&quot;schoolWifi&quot;&gt;School Wi-Fi (non-eduroam)&lt;/option&gt;
+        &lt;option value=&quot;schoolWifi&quot;&gt;University Wi-Fi (non-eduroam)&lt;/option&gt;
       &lt;/select&gt;
     &lt;/label&gt;
     &lt;label class=&quot;form-label&quot; for=&quot;country-picker&quot;&gt;Open country
@@ -936,20 +937,25 @@ html&gt;body{padding:0}&lt;/style&gt;
     &lt;span class=&quot;legend-key&quot;&gt;&lt;i class=&quot;pending-key&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Review in progress&lt;/span&gt;
     &lt;span class=&quot;legend-key&quot;&gt;&lt;i class=&quot;compact-key&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Enlarged compact-area locator&lt;/span&gt;
   &lt;/div&gt;
-  &lt;p class=&quot;text-muted text-small&quot;&gt;Darker green = a higher explicit anonymous share among valid reviewed guides. This measures documented instructions, not an overall risk score. Low anonymous share may include unknown, blank or app-based instructions; it does not establish real identity exposure.&lt;/p&gt;
-  &lt;details class=&quot;category-help card&quot;&gt;&lt;summary&gt;ⓘ Category definitions and privacy colors&lt;/summary&gt;
-    &lt;p&gt;Green marks an explicitly anonymous instruction; red marks an identifying instruction; amber marks blank or potentially identifying instructions that need context. Grey categories describe missing detail, delegated setup or uncertainty. Colors do not verify runtime identity transmission.&lt;/p&gt;
-    &lt;details&gt;&lt;summary&gt;Explicit anonymous value&lt;/summary&gt;&lt;p&gt;The reviewed guidance specifies an anonymous outer identity value, such as anonymous or anonymous@realm, rather than a personal account name. This indicates a privacy-preserving instruction; runtime transmission was not tested.&lt;/p&gt;&lt;/details&gt;
-&lt;details&gt;&lt;summary&gt;Real identity used&lt;/summary&gt;&lt;p&gt;The reviewed guidance specifies a personal account name or identifying value for the outer/anonymous identity field. This indicates a potentially identifying instruction, not a captured network transmission.&lt;/p&gt;&lt;/details&gt;
-&lt;details&gt;&lt;summary&gt;Potentially identifying / review&lt;/summary&gt;&lt;p&gt;A value is specified but may identify a person, or its privacy meaning needs further review. It is not counted as a confirmed anonymous value.&lt;/p&gt;&lt;/details&gt;
-&lt;details&gt;&lt;summary&gt;Explicit blank&lt;/summary&gt;&lt;p&gt;The reviewed guidance explicitly instructs users to leave the outer/anonymous identity field blank. A blank instruction is different from no instruction; client defaults may affect the identity sent.&lt;/p&gt;&lt;/details&gt;
-&lt;details&gt;&lt;summary&gt;Not publicly specified&lt;/summary&gt;&lt;p&gt;A valid reviewed public guide does not explicitly state an outer/anonymous identity value. This does not mean a blank value is configured or a real identity is transmitted.&lt;/p&gt;&lt;/details&gt;
-&lt;details&gt;&lt;summary&gt;Profile/app-based or not applicable&lt;/summary&gt;&lt;p&gt;A grouped review category covering setup delegated to a profile/app or a case where the manual identity instruction is not applicable. It does not classify the downloaded profile or establish privacy protection.&lt;/p&gt;&lt;/details&gt;
-&lt;details&gt;&lt;summary&gt;Unclear&lt;/summary&gt;&lt;p&gt;A valid public guide was reviewed, but its outer/anonymous identity instruction could not be confidently classified. Missing, inaccessible or inconclusive guides are counted separately from the pie.&lt;/p&gt;&lt;/details&gt;
-    &lt;p&gt;The country pie uses only institutions with a valid reviewed public guide. No valid guide and guide inconclusive are separate coverage results, not identity outcomes. Country colors use the explicit-anonymous share of these valid guides.&lt;/p&gt;
-  &lt;/details&gt;
+  &lt;p class=&quot;text-muted text-small interaction-hint&quot;&gt;Darker green = more guides specify an anonymous identity.&lt;/p&gt;
+
   &lt;p class=&quot;text-muted text-small interaction-hint&quot;&gt;Drag to rotate · scroll to zoom · select a country to bring it to the front&lt;/p&gt;
 
+  &lt;dialog class=&quot;card about-dialog&quot; id=&quot;about-data&quot; aria-labelledby=&quot;about-title&quot;&gt;
+    &lt;div class=&quot;dialog-header&quot;&gt;&lt;h3 id=&quot;about-title&quot;&gt;About this data&lt;/h3&gt;&lt;button class=&quot;btn btn-ghost&quot; type=&quot;button&quot; onclick=&quot;this.closest(&#x27;dialog&#x27;).close()&quot;&gt;Close&lt;/button&gt;&lt;/div&gt;
+    &lt;h4&gt;Reading the map and country charts&lt;/h4&gt;
+    &lt;p&gt;Green marks an explicitly anonymous instruction; red marks an identifying instruction; amber marks blank or potentially identifying instructions that need context. Grey categories describe missing detail, delegated setup or uncertainty. Colors do not verify runtime identity transmission.&lt;/p&gt;
+    &lt;h4&gt;Explicit anonymous value&lt;/h4&gt;&lt;p&gt;The reviewed guidance specifies an anonymous outer identity value, such as anonymous or anonymous@realm, rather than a personal account name. This indicates a privacy-preserving instruction; runtime transmission was not tested.&lt;/p&gt;
+&lt;h4&gt;Real identity used&lt;/h4&gt;&lt;p&gt;The reviewed guidance specifies a personal account name or identifying value for the outer/anonymous identity field. This indicates a potentially identifying instruction, not a captured network transmission.&lt;/p&gt;
+&lt;h4&gt;Potentially identifying / review&lt;/h4&gt;&lt;p&gt;A value is specified but may identify a person, or its privacy meaning needs further review. It is not counted as a confirmed anonymous value.&lt;/p&gt;
+&lt;h4&gt;Explicit blank&lt;/h4&gt;&lt;p&gt;The reviewed guidance explicitly instructs users to leave the outer/anonymous identity field blank. A blank instruction is different from no instruction; client defaults may affect the identity sent.&lt;/p&gt;
+&lt;h4&gt;Not publicly specified&lt;/h4&gt;&lt;p&gt;A valid reviewed public guide does not explicitly state an outer/anonymous identity value. This does not mean a blank value is configured or a real identity is transmitted.&lt;/p&gt;
+&lt;h4&gt;Profile/app-based or not applicable&lt;/h4&gt;&lt;p&gt;A grouped review category covering setup delegated to a profile/app or a case where the manual identity instruction is not applicable. It does not classify the downloaded profile or establish privacy protection.&lt;/p&gt;
+&lt;h4&gt;Unclear&lt;/h4&gt;&lt;p&gt;A valid public guide was reviewed, but its outer/anonymous identity instruction could not be confidently classified. Missing, inaccessible or inconclusive guides are counted separately from the pie.&lt;/p&gt;
+    &lt;p&gt;The country pie uses only institutions with a valid reviewed public guide. No valid guide and guide inconclusive are separate coverage results, not identity outcomes. Country colors use the explicit-anonymous share of these valid guides.&lt;/p&gt;
+    &lt;h4&gt;Map symbols&lt;/h4&gt;&lt;p&gt;No country dataset: no collected country sample. No guide evidence: no valid guide in the sampled institutions. Hatching: review in progress. Enlarged circles: small mapped areas made easier to select.&lt;/p&gt;
+    &lt;h4&gt;Scope&lt;/h4&gt;&lt;p&gt;The research focuses on university and higher-education Wi-Fi guidance. The non-eduroam view covers university-owned Wi-Fi networks.&lt;/p&gt;
+  &lt;/dialog&gt;
   &lt;dialog class=&quot;card globe-dialog&quot; aria-labelledby=&quot;dialog-country-name&quot;&gt;
     &lt;div class=&quot;dialog-header&quot;&gt;
       &lt;div&gt;
@@ -1208,8 +1214,14 @@ html&gt;body{padding:0}&lt;/style&gt;
 
   #wifi-identity-globe summary { cursor: pointer; }
   #wifi-identity-globe summary:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
-  #wifi-identity-globe .category-help { padding: 1rem; margin: 0.8rem 0; }
-  #wifi-identity-globe .category-help details { margin: 0.65rem 0; }
+  #wifi-identity-globe .globe-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5rem; padding: 1rem 0; }
+  #wifi-identity-globe .globe-heading h2 { margin: 0; font-size: 1.25rem; }
+  #wifi-identity-globe .about-dialog { box-sizing: border-box; width: min(700px, calc(100vw - 2rem)); max-height: calc(100dvh - 2rem); overflow: auto; padding: 1.5rem; line-height: 1.65; }
+  #wifi-identity-globe .about-dialog::backdrop { background: color-mix(in srgb, var(--foreground) 34%, transparent); }
+  #wifi-identity-globe .about-dialog h4 { margin: 1.5rem 0 0.45rem; }
+  #wifi-identity-globe .about-dialog p { margin-bottom: 0.8rem; }
+  #wifi-identity-globe .category-info summary { list-style: none; }
+  #wifi-identity-globe .category-info summary::-webkit-details-marker { display: none; }
   #wifi-identity-globe .category-info p { font-size: 0.85rem; line-height: 1.5; margin: 0.5rem 0; }
   #wifi-identity-globe .pie-legend {
     display: grid;
@@ -1322,11 +1334,11 @@ html&gt;body{padding:0}&lt;/style&gt;
   const modeInfo = {
     eduroam: {
       label: &quot;eduroam&quot;,
-      description: &quot;eduroam setup guides and their anonymous identity instructions&quot;
+      description: &quot;eduroam · public university setup guidance&quot;
     },
     schoolWifi: {
-      label: &quot;School Wi-Fi (non-eduroam)&quot;,
-      description: &quot;school-owned non-eduroam Wi-Fi guides and their anonymous identity instructions&quot;
+      label: &quot;University Wi-Fi (non-eduroam)&quot;,
+      description: &quot;University-owned Wi-Fi · public setup guidance&quot;
     }
   };
 
@@ -1351,43 +1363,50 @@ html&gt;body{padding:0}&lt;/style&gt;
     &quot;field&quot;: &quot;anonymousValue&quot;,
     &quot;label&quot;: &quot;Explicit anonymous value&quot;,
     &quot;color&quot;: &quot;var(--privacy-protective)&quot;,
-    &quot;description&quot;: &quot;The reviewed guidance specifies an anonymous outer identity value, such as anonymous or anonymous@realm, rather than a personal account name. This indicates a privacy-preserving instruction; runtime transmission was not tested.&quot;
+    &quot;description&quot;: &quot;The reviewed guidance specifies an anonymous outer identity value, such as anonymous or anonymous@realm, rather than a personal account name. This indicates a privacy-preserving instruction; runtime transmission was not tested.&quot;,
+    &quot;shortDescription&quot;: &quot;The guide specifies an anonymous value instead of a personal account name.&quot;
   },
   {
     &quot;field&quot;: &quot;realIdentity&quot;,
     &quot;label&quot;: &quot;Real identity used&quot;,
     &quot;color&quot;: &quot;var(--privacy-identifying)&quot;,
-    &quot;description&quot;: &quot;The reviewed guidance specifies a personal account name or identifying value for the outer/anonymous identity field. This indicates a potentially identifying instruction, not a captured network transmission.&quot;
+    &quot;description&quot;: &quot;The reviewed guidance specifies a personal account name or identifying value for the outer/anonymous identity field. This indicates a potentially identifying instruction, not a captured network transmission.&quot;,
+    &quot;shortDescription&quot;: &quot;The guide specifies a personal account name or identifying value.&quot;
   },
   {
     &quot;field&quot;: &quot;needsReview&quot;,
     &quot;label&quot;: &quot;Potentially identifying / review&quot;,
     &quot;color&quot;: &quot;var(--privacy-caution)&quot;,
-    &quot;description&quot;: &quot;A value is specified but may identify a person, or its privacy meaning needs further review. It is not counted as a confirmed anonymous value.&quot;
+    &quot;description&quot;: &quot;A value is specified but may identify a person, or its privacy meaning needs further review. It is not counted as a confirmed anonymous value.&quot;,
+    &quot;shortDescription&quot;: &quot;The specified value may identify a person or needs further review.&quot;
   },
   {
     &quot;field&quot;: &quot;explicitBlank&quot;,
     &quot;label&quot;: &quot;Explicit blank&quot;,
     &quot;color&quot;: &quot;var(--privacy-caution)&quot;,
-    &quot;description&quot;: &quot;The reviewed guidance explicitly instructs users to leave the outer/anonymous identity field blank. A blank instruction is different from no instruction; client defaults may affect the identity sent.&quot;
+    &quot;description&quot;: &quot;The reviewed guidance explicitly instructs users to leave the outer/anonymous identity field blank. A blank instruction is different from no instruction; client defaults may affect the identity sent.&quot;,
+    &quot;shortDescription&quot;: &quot;The guide explicitly instructs users to leave the identity field blank.&quot;
   },
   {
     &quot;field&quot;: &quot;notSpecified&quot;,
     &quot;label&quot;: &quot;Not publicly specified&quot;,
     &quot;color&quot;: &quot;var(--privacy-unknown)&quot;,
-    &quot;description&quot;: &quot;A valid reviewed public guide does not explicitly state an outer/anonymous identity value. This does not mean a blank value is configured or a real identity is transmitted.&quot;
+    &quot;description&quot;: &quot;A valid reviewed public guide does not explicitly state an outer/anonymous identity value. This does not mean a blank value is configured or a real identity is transmitted.&quot;,
+    &quot;shortDescription&quot;: &quot;The public guide gives no explicit outer identity instruction.&quot;
   },
   {
     &quot;field&quot;: &quot;notApplicable&quot;,
     &quot;label&quot;: &quot;Profile/app-based or not applicable&quot;,
     &quot;color&quot;: &quot;var(--privacy-not-applicable)&quot;,
-    &quot;description&quot;: &quot;A grouped review category covering setup delegated to a profile/app or a case where the manual identity instruction is not applicable. It does not classify the downloaded profile or establish privacy protection.&quot;
+    &quot;description&quot;: &quot;A grouped review category covering setup delegated to a profile/app or a case where the manual identity instruction is not applicable. It does not classify the downloaded profile or establish privacy protection.&quot;,
+    &quot;shortDescription&quot;: &quot;Setup uses a profile/app, or the manual identity instruction does not apply.&quot;
   },
   {
     &quot;field&quot;: &quot;unclear&quot;,
     &quot;label&quot;: &quot;Unclear&quot;,
     &quot;color&quot;: &quot;var(--privacy-unclear)&quot;,
-    &quot;description&quot;: &quot;A valid public guide was reviewed, but its outer/anonymous identity instruction could not be confidently classified. Missing, inaccessible or inconclusive guides are counted separately from the pie.&quot;
+    &quot;description&quot;: &quot;A valid public guide was reviewed, but its outer/anonymous identity instruction could not be confidently classified. Missing, inaccessible or inconclusive guides are counted separately from the pie.&quot;,
+    &quot;shortDescription&quot;: &quot;The reviewed guide does not support a confident classification.&quot;
   }
 ];
 
@@ -1675,7 +1694,7 @@ html&gt;body{padding:0}&lt;/style&gt;
       const infoSummary = document.createElement(&quot;summary&quot;);
       infoSummary.textContent = item.label + &quot; ⓘ&quot;;
       const explanation = document.createElement(&quot;p&quot;);
-      explanation.textContent = item.description;
+      explanation.textContent = item.shortDescription;
       info.append(infoSummary, explanation);
       label.appendChild(info);
       const count = document.createElement(&quot;span&quot;);
