@@ -99,7 +99,7 @@
   --green: light-dark(rgb(0 162 64), rgb(64 201 119));
   --privacy-protective: light-dark(#15803d, #4ade80);
   --privacy-identifying: light-dark(#b91c1c, #f87171);
-  --privacy-caution: light-dark(#d97706, #fbbf24);
+  --privacy-caution: light-dark(#eab308, #facc15);
   --privacy-unknown: light-dark(#64748b, #94a3b8);
   --privacy-not-applicable: light-dark(#94a3b8, #cbd5e1);
   --privacy-unclear: light-dark(#475569, #64748b);
@@ -911,7 +911,7 @@ html&gt;body{padding:0}&lt;/style&gt;
   &lt;div class=&quot;globe-stage&quot;&gt;
     &lt;svg class=&quot;globe-svg&quot; viewBox=&quot;0 0 960 640&quot; role=&quot;img&quot; aria-labelledby=&quot;globe-title globe-description&quot;&gt;
       &lt;title id=&quot;globe-title&quot;&gt;University Wi-Fi anonymous identity globe&lt;/title&gt;
-      &lt;desc id=&quot;globe-description&quot;&gt;A rotatable globe comparing eduroam and school-owned non-eduroam Wi-Fi guidance by country. Darker green countries have a higher share of reviewed guides specifying explicit anonymous values. This is a guidance share, not an overall risk score.&lt;/desc&gt;
+      &lt;desc id=&quot;globe-description&quot;&gt;A rotatable globe comparing eduroam and school-owned non-eduroam Wi-Fi guidance by country. Green marks observed anonymous instructions, yellow blank or review instructions, and red identifying instructions. Unknown cases remain unassessed; country colors are not overall risk scores.&lt;/desc&gt;
       &lt;defs&gt;
         &lt;pattern id=&quot;review-hatch&quot; width=&quot;7&quot; height=&quot;7&quot; patternUnits=&quot;userSpaceOnUse&quot; patternTransform=&quot;rotate(45)&quot;&gt;
           &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;0&quot; y2=&quot;7&quot; stroke=&quot;var(--foreground)&quot; stroke-opacity=&quot;0.48&quot; stroke-width=&quot;1.2&quot;&gt;&lt;/line&gt;
@@ -929,22 +929,23 @@ html&gt;body{padding:0}&lt;/style&gt;
   &lt;/div&gt;
 
   &lt;div class=&quot;globe-legend text-small&quot; aria-label=&quot;Globe color legend&quot;&gt;
-    &lt;span&gt;Lower explicit anonymous share&lt;/span&gt;
-    &lt;span class=&quot;risk-gradient&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
-    &lt;span&gt;Higher share&lt;/span&gt;
+    &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-protective)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Anonymous · low risk&lt;/span&gt;
+    &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-caution)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Blank / review · medium risk&lt;/span&gt;
+    &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-identifying)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Identifying · high risk&lt;/span&gt;
+    &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-unknown)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;No explicit value · unassessed&lt;/span&gt;
     &lt;span class=&quot;legend-key&quot;&gt;&lt;i class=&quot;no-data-key&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;No country dataset&lt;/span&gt;
     &lt;span class=&quot;legend-key&quot;&gt;&lt;i class=&quot;no-evidence-key&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;No guide evidence&lt;/span&gt;
     &lt;span class=&quot;legend-key&quot;&gt;&lt;i class=&quot;pending-key&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Review in progress&lt;/span&gt;
     &lt;span class=&quot;legend-key&quot;&gt;&lt;i class=&quot;compact-key&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Enlarged compact-area locator&lt;/span&gt;
   &lt;/div&gt;
-  &lt;p class=&quot;text-muted text-small interaction-hint&quot;&gt;Darker green = more guides specify an anonymous identity.&lt;/p&gt;
+  &lt;p class=&quot;text-muted text-small interaction-hint&quot;&gt;Colors summarize observed instructions; unknown cases remain unassessed.&lt;/p&gt;
 
   &lt;p class=&quot;text-muted text-small interaction-hint&quot;&gt;Drag to rotate · scroll to zoom · select a country to bring it to the front&lt;/p&gt;
 
   &lt;dialog class=&quot;card about-dialog&quot; id=&quot;about-data&quot; aria-labelledby=&quot;about-title&quot;&gt;
     &lt;div class=&quot;dialog-header&quot;&gt;&lt;h3 id=&quot;about-title&quot;&gt;About this data&lt;/h3&gt;&lt;button class=&quot;btn btn-ghost&quot; type=&quot;button&quot; onclick=&quot;this.closest(&#x27;dialog&#x27;).close()&quot;&gt;Close&lt;/button&gt;&lt;/div&gt;
     &lt;h4&gt;Reading the map and country charts&lt;/h4&gt;
-    &lt;p&gt;Green marks an explicitly anonymous instruction; red marks an identifying instruction; amber marks blank or potentially identifying instructions that need context. Grey categories describe missing detail, delegated setup or uncertainty. Colors do not verify runtime identity transmission.&lt;/p&gt;
+    &lt;p&gt;Green marks an explicitly anonymous instruction (low risk); red marks an identifying instruction (high risk); yellow marks blank or potentially identifying instructions that need context. Grey categories describe missing detail, delegated setup or uncertainty. Colors do not verify runtime identity transmission.&lt;/p&gt;
     &lt;h4&gt;Explicit anonymous value&lt;/h4&gt;&lt;p&gt;The reviewed guidance specifies an anonymous outer identity value, such as anonymous or anonymous@realm, rather than a personal account name. This indicates a privacy-preserving instruction; runtime transmission was not tested.&lt;/p&gt;
 &lt;h4&gt;Real identity used&lt;/h4&gt;&lt;p&gt;The reviewed guidance specifies a personal account name or identifying value for the outer/anonymous identity field. This indicates a potentially identifying instruction, not a captured network transmission.&lt;/p&gt;
 &lt;h4&gt;Potentially identifying / review&lt;/h4&gt;&lt;p&gt;A value is specified but may identify a person, or its privacy meaning needs further review. It is not counted as a confirmed anonymous value.&lt;/p&gt;
@@ -952,7 +953,7 @@ html&gt;body{padding:0}&lt;/style&gt;
 &lt;h4&gt;Not publicly specified&lt;/h4&gt;&lt;p&gt;A valid reviewed public guide does not explicitly state an outer/anonymous identity value. This does not mean a blank value is configured or a real identity is transmitted.&lt;/p&gt;
 &lt;h4&gt;Profile/app-based or not applicable&lt;/h4&gt;&lt;p&gt;A grouped review category covering setup delegated to a profile/app or a case where the manual identity instruction is not applicable. It does not classify the downloaded profile or establish privacy protection.&lt;/p&gt;
 &lt;h4&gt;Unclear&lt;/h4&gt;&lt;p&gt;A valid public guide was reviewed, but its outer/anonymous identity instruction could not be confidently classified. Missing, inaccessible or inconclusive guides are counted separately from the pie.&lt;/p&gt;
-    &lt;p&gt;The country pie uses only institutions with a valid reviewed public guide. No valid guide and guide inconclusive are separate coverage results, not identity outcomes. Country colors use the explicit-anonymous share of these valid guides.&lt;/p&gt;
+    &lt;p&gt;The country pie uses only institutions with a valid reviewed public guide. No valid guide and guide inconclusive are separate coverage results, not identity outcomes. Country colors summarize observed explicit instructions: red when an identifying instruction is present, yellow for a blank or review instruction, otherwise green when an anonymous instruction is present. Grey means no classified explicit instruction. Unknown, delegated and unspecified cases remain unassessed even in a colored country. Country colors are not an overall risk ranking.&lt;/p&gt;
     &lt;h4&gt;Map symbols&lt;/h4&gt;&lt;p&gt;No country dataset: no collected country sample. No guide evidence: no valid guide in the sampled institutions. Hatching: review in progress. Enlarged circles: small mapped areas made easier to select.&lt;/p&gt;
     &lt;h4&gt;Scope&lt;/h4&gt;&lt;p&gt;The research focuses on university and higher-education Wi-Fi guidance. The non-eduroam view covers university-owned Wi-Fi networks.&lt;/p&gt;
   &lt;/dialog&gt;
@@ -1510,8 +1511,10 @@ html&gt;body{padding:0}&lt;/style&gt;
     if (row.guideFound === 0) {
       return &quot;color-mix(in srgb, var(--muted-foreground) 28%, var(--muted))&quot;;
     }
-    const strength = Math.round(12 + Math.max(0, Math.min(1, row.anonymousShare)) * 78);
-    return `color-mix(in oklab, var(--privacy-protective) ${strength}%, var(--background))`;
+    if (row.realIdentity &gt; 0) return &quot;var(--privacy-identifying)&quot;;
+    if (row.needsReview &gt; 0 || row.explicitBlank &gt; 0) return &quot;var(--privacy-caution)&quot;;
+    if (row.anonymousValue &gt; 0) return &quot;var(--privacy-protective)&quot;;
+    return &quot;var(--privacy-unknown)&quot;;
   }
 
   function rateLabel(row) {
