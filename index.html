@@ -911,7 +911,7 @@ html&gt;body{padding:0}&lt;/style&gt;
   &lt;div class=&quot;globe-stage&quot;&gt;
     &lt;svg class=&quot;globe-svg&quot; viewBox=&quot;0 0 960 640&quot; role=&quot;img&quot; aria-labelledby=&quot;globe-title globe-description&quot;&gt;
       &lt;title id=&quot;globe-title&quot;&gt;University Wi-Fi anonymous identity globe&lt;/title&gt;
-      &lt;desc id=&quot;globe-description&quot;&gt;A rotatable globe comparing eduroam and school-owned non-eduroam Wi-Fi guidance by country. Green marks observed anonymous instructions, yellow blank or review instructions, and red identifying instructions. Unknown cases remain unassessed; country colors are not overall risk scores.&lt;/desc&gt;
+      &lt;desc id=&quot;globe-description&quot;&gt;A rotatable globe comparing eduroam and school-owned non-eduroam Wi-Fi guidance by country. One sampled guide can color a country: red for an identifying instruction, otherwise yellow for blank or review, otherwise green for an explicit anonymous instruction. Unknown cases remain unassessed; these are not country-wide risk scores.&lt;/desc&gt;
       &lt;defs&gt;
         &lt;pattern id=&quot;review-hatch&quot; width=&quot;7&quot; height=&quot;7&quot; patternUnits=&quot;userSpaceOnUse&quot; patternTransform=&quot;rotate(45)&quot;&gt;
           &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;0&quot; y2=&quot;7&quot; stroke=&quot;var(--foreground)&quot; stroke-opacity=&quot;0.48&quot; stroke-width=&quot;1.2&quot;&gt;&lt;/line&gt;
@@ -929,23 +929,23 @@ html&gt;body{padding:0}&lt;/style&gt;
   &lt;/div&gt;
 
   &lt;div class=&quot;globe-legend text-small&quot; aria-label=&quot;Globe color legend&quot;&gt;
-    &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-protective)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Anonymous · low risk&lt;/span&gt;
-    &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-caution)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Blank / review · medium risk&lt;/span&gt;
-    &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-identifying)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Identifying · high risk&lt;/span&gt;
-    &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-unknown)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;No explicit value · unassessed&lt;/span&gt;
+    &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-protective)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Explicit anonymous instruction found&lt;/span&gt;
+    &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-caution)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Blank / review instruction found&lt;/span&gt;
+    &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-identifying)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Identifying instruction found&lt;/span&gt;
+    &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-unknown)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;No classified explicit instruction&lt;/span&gt;
     &lt;span class=&quot;legend-key&quot;&gt;&lt;i class=&quot;no-data-key&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;No country dataset&lt;/span&gt;
     &lt;span class=&quot;legend-key&quot;&gt;&lt;i class=&quot;no-evidence-key&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;No guide evidence&lt;/span&gt;
     &lt;span class=&quot;legend-key&quot;&gt;&lt;i class=&quot;pending-key&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Review in progress&lt;/span&gt;
     &lt;span class=&quot;legend-key&quot;&gt;&lt;i class=&quot;compact-key&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Enlarged compact-area locator&lt;/span&gt;
   &lt;/div&gt;
-  &lt;p class=&quot;text-muted text-small interaction-hint&quot;&gt;Colors summarize observed instructions; unknown cases remain unassessed.&lt;/p&gt;
+  &lt;p class=&quot;text-muted text-small interaction-hint&quot;&gt;One documented route can color a whole country (red &amp;gt; yellow &amp;gt; green); this is not a country-wide risk score.&lt;/p&gt;
 
   &lt;p class=&quot;text-muted text-small interaction-hint&quot;&gt;Drag to rotate · scroll to zoom · select a country to bring it to the front&lt;/p&gt;
 
   &lt;dialog class=&quot;card about-dialog&quot; id=&quot;about-data&quot; aria-labelledby=&quot;about-title&quot;&gt;
     &lt;div class=&quot;dialog-header&quot;&gt;&lt;h3 id=&quot;about-title&quot;&gt;About this data&lt;/h3&gt;&lt;button class=&quot;btn btn-ghost&quot; type=&quot;button&quot; onclick=&quot;this.closest(&#x27;dialog&#x27;).close()&quot;&gt;Close&lt;/button&gt;&lt;/div&gt;
     &lt;h4&gt;Reading the map and country charts&lt;/h4&gt;
-    &lt;p&gt;Green marks an explicitly anonymous instruction (low risk); red marks an identifying instruction (high risk); yellow marks blank or potentially identifying instructions that need context. Grey categories describe missing detail, delegated setup or uncertainty. Colors do not verify runtime identity transmission.&lt;/p&gt;
+    &lt;p&gt;A country is colored red if any sampled guide route explicitly reuses a real identity; otherwise yellow if any sampled route instructs blank or requires review; otherwise green if an explicitly anonymous instruction is found. Grey means no classified explicit instruction. One route can color a whole country. These are documentation signals, not country-wide risk scores or verified runtime identity transmission.&lt;/p&gt;
     &lt;h4&gt;Explicit anonymous value&lt;/h4&gt;&lt;p&gt;The reviewed guidance specifies an anonymous outer identity value, such as anonymous or anonymous@realm, rather than a personal account name. This indicates a privacy-preserving instruction; runtime transmission was not tested.&lt;/p&gt;
 &lt;h4&gt;Real identity used&lt;/h4&gt;&lt;p&gt;The reviewed guidance specifies a personal account name or identifying value for the outer/anonymous identity field. This indicates a potentially identifying instruction, not a captured network transmission.&lt;/p&gt;
 &lt;h4&gt;Potentially identifying / review&lt;/h4&gt;&lt;p&gt;A value is specified but may identify a person, or its privacy meaning needs further review. It is not counted as a confirmed anonymous value.&lt;/p&gt;
@@ -955,7 +955,7 @@ html&gt;body{padding:0}&lt;/style&gt;
 &lt;h4&gt;Unclear&lt;/h4&gt;&lt;p&gt;A valid public guide was reviewed, but its outer/anonymous identity instruction could not be confidently classified. Missing, inaccessible or inconclusive guides are counted separately from the pie.&lt;/p&gt;
     &lt;p&gt;The country pie uses only institutions with a valid reviewed public guide. No valid guide and guide inconclusive are separate coverage results, not identity outcomes. Country colors summarize observed explicit instructions: red when an identifying instruction is present, yellow for a blank or review instruction, otherwise green when an anonymous instruction is present. Grey means no classified explicit instruction. Unknown, delegated and unspecified cases remain unassessed even in a colored country. Country colors are not an overall risk ranking.&lt;/p&gt;
     &lt;h4&gt;Map symbols&lt;/h4&gt;&lt;p&gt;No country dataset: no collected country sample. No guide evidence: no valid guide in the sampled institutions. Hatching: review in progress. Enlarged circles: small mapped areas made easier to select.&lt;/p&gt;
-    &lt;h4&gt;Indonesia review units&lt;/h4&gt;&lt;p&gt;Indonesia uses the five agreed guide categories: explicit blank, explicit value, same as Identity, field shown with no instruction, and not mentioned. Its pie counts EAP network/platform profiles; coverage counts unique universities. Captive portal, PSK and non-EAP cases are excluded, and inaccessible or unresolved guides remain pending outside the pie. The eduroam view is a candidate-guide sample, not a participant census. See the Indonesia country note for the denominator and review date.&lt;/p&gt;
+    &lt;h4&gt;Indonesia and Malaysia review units&lt;/h4&gt;&lt;p&gt;Indonesia and Malaysia use the five agreed guide categories: explicit blank, explicit value, same as Identity, field shown with no instruction, and not mentioned. Their pies count documented EAP setup routes; coverage counts unique universities. Malaysia is Android-only in both views, while Indonesia includes reviewed platforms. Captive portal, PSK and non-EAP cases are excluded, and inaccessible or unresolved guides stay outside the pies. The eduroam views are public-guide samples, not participation censuses. See each country note for its denominator and review date.&lt;/p&gt;
     &lt;h4&gt;Scope&lt;/h4&gt;&lt;p&gt;The research focuses on university and higher-education Wi-Fi guidance. The non-eduroam view covers university-owned Wi-Fi networks.&lt;/p&gt;
   &lt;/dialog&gt;
   &lt;dialog class=&quot;card globe-dialog&quot; aria-labelledby=&quot;dialog-country-name&quot;&gt;
@@ -1354,6 +1354,37 @@ html&gt;body{padding:0}&lt;/style&gt;
     mapData[mode].sort((a, b) =&gt; a.country.localeCompare(b.country));
   }
 
+  // Malaysia's primary map sample is Android-only in both network views.
+  // Guide coverage counts universities; pie outcomes count documented routes.
+  const malaysiaCommon = {
+    iso3: &quot;MYS&quot;, country: &quot;Malaysia&quot;, pending: 0,
+    anonymousValue: 0, anonymousShare: 0, notApplicable: 0, unclear: 0,
+    needsReview: 0, easyroamProfiles: 0, securew2Profiles: 0,
+    reviewComplete: true, identityUnit: &quot;Android EAP routes&quot;,
+    taxonomy: &quot;malaysia-five-category&quot;, reviewedOn: &quot;2026-09-16&quot;
+  };
+  const malaysiaRows = {
+    eduroam: {
+      ...malaysiaCommon, total: 21, completed: 21,
+      guideFound: 8, guideNotFound: 10, guideUnclear: 3,
+      profileTotal: 9, explicitValue: 0, realIdentity: 1,
+      explicitBlank: 3, fieldShown: 0, notSpecified: 5,
+      methodNote: &quot;2026-09-16: all 21 Malaysian university labels in the eduroam monitor APAN map sample were searched in English and Malay. Eight universities have nine eligible Android eduroam setup routes in public official guides: explicit blank 3, same as Identity 1, not mentioned 5. Three universities have inaccessible or unverified original guides and ten lack an established public eligible setup guide; these 13 are outside the pie. Historical and non-Android routes from the fuller review are excluded here. This is a public-guide sample, not a count of Malaysian eduroam participants or live outer identities.&quot;
+    },
+    schoolWifi: {
+      ...malaysiaCommon, total: 88, completed: 88,
+      guideFound: 10, guideNotFound: 71, guideUnclear: 7,
+      profileTotal: 12, explicitValue: 0, realIdentity: 0,
+      explicitBlank: 10, fieldShown: 1, notSpecified: 1,
+      methodNote: &quot;2026-09-16: all 88 uniRank 2026 Malaysia entries received an official-source review or additional direct English/Malay Android-guide search. Ten universities have 12 eligible non-eduroam Android EAP setup routes: explicit blank 10, field shown without instruction 1, not mentioned 1. Among the other 78, 71 have no verified eligible public Android guide or only excluded/historical routes, and seven have an unverified EAP mode or inaccessible automatic-onboarding original. They are outside the pie. An absent public guide does not establish that a campus lacks EAP. IIUM evidence is a SASMEC hospital-unit guide; USM has two Android certificate-setup branches for one SSID. Captive portals, PSK, eduroam, and Windows/iOS routes are excluded; outcomes describe guides, not live outer identities.&quot;
+    }
+  };
+  for (const [mode, row] of Object.entries(malaysiaRows)) {
+    mapData[mode] = mapData[mode].filter((item) =&gt; item.iso3 !== &quot;MYS&quot;);
+    mapData[mode].push(row);
+    mapData[mode].sort((a, b) =&gt; a.country.localeCompare(b.country));
+  }
+
   const ns = &quot;http://www.w3.org/2000/svg&quot;;
   const initialScale = 280;
   const initialRotation = [-15, -50, 0];
@@ -1695,7 +1726,7 @@ html&gt;body{padding:0}&lt;/style&gt;
   }
 
   function slicesFor(row) {
-    if (row.taxonomy !== &quot;indonesia-five-category&quot;) return slices;
+    if (row.taxonomy !== &quot;indonesia-five-category&quot; &amp;&amp; row.taxonomy !== &quot;malaysia-five-category&quot;) return slices;
     return [
       { field: &quot;explicitBlank&quot;, label: &quot;Explicit blank&quot;, color: &quot;var(--privacy-caution)&quot;, description: &quot;Written blank instruction, completed blank example, or disabled alternate identity/privacy. This is guide coding, not a verified empty transmitted identity.&quot; },
       { field: &quot;explicitValue&quot;, label: &quot;Explicit value&quot;, color: &quot;var(--privacy-caution)&quot;, description: &quot;A distinct value or rule is explicitly supplied. Telkom permits any user-chosen value; anonymity is not established.&quot; },

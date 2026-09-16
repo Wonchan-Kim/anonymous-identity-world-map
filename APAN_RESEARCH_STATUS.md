@@ -1,24 +1,24 @@
 # APAN public-guide research coverage
 
-Checked 2026-09-15 against the APAN layer loaded by the official
+Checked 2026-09-16 against the APAN layer loaded by the official
 [eduroam levels map](https://monitor.eduroam.org/user_map/eduroam_map.php?type=levels).
 Its country/territory inventory is provided by
 [apan_capital.kml](https://monitor.eduroam.org/kml/apan_capital.kml).
 This is the map's grouping, not a general APAN membership list or an eduroam
 participant census. The layer currently contains 25 countries/territories.
 
-## Existing country research records: 8
+## Existing country research records: 9
 
 Australia (AU), mainland China (CN), Hong Kong (HK), Indonesia (ID),
-Japan (JP), South Korea (KR), New Zealand (NZ), Singapore (SG).
+Japan (JP), Malaysia (MY), South Korea (KR), New Zealand (NZ), Singapore (SG).
 
 “Existing” means local official-guide research records are present, not that
 every country's discovery or unresolved-guide review is finished. Mainland
 China retains unresolved cases in its earlier dataset and is not included
-in the current public globe. Indonesia's new manual result is included in
+in the current public globe. Indonesia and Malaysia manual results are included in
 both network views; other country aggregates are unchanged.
 
-## No existing country-level official-guide research records: 17
+## No existing country-level official-guide research records: 16
 
 | Map ID | Country / territory |
 | --- | --- |
@@ -30,7 +30,6 @@ both network views; other country aggregates are unchanged.
 | LB | Lebanon |
 | LK | Sri Lanka |
 | MO | Macau |
-| MY | Malaysia |
 | NP | Nepal |
 | OM | Oman |
 | PH | Philippines |
@@ -59,3 +58,18 @@ official university setup-guide study.
   not establish the identity transmitted at runtime.
 
 Only aggregated research values are published; no credentials or API keys.
+
+## Malaysia public aggregates
+
+- eduroam: 21 mapped university labels searched; eight universities have nine
+  eligible Android guide routes. Route categories: explicit blank 3, same as
+  Identity 1, not mentioned 5. Three university sources remain unverified and
+  ten have no established public eligible setup guide; those 13 are outside the pie.
+- School Wi-Fi: 88 uniRank-listed institutions searched; ten universities have
+  12 eligible non-eduroam Android EAP routes. Route categories: explicit blank
+  10, field shown/no instruction 1, not mentioned 1. Of the other 78 entries,
+  71 have no verified eligible public Android guide or only excluded/historical
+  routes, and seven have an unverified EAP mode or inaccessible onboarding
+  original. All 78 are outside the pie.
+- These are public-guide classifications, not live outer-identity measurements,
+  a census of eduroam participants, or proof that undocumented campuses lack EAP.
