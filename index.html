@@ -955,7 +955,7 @@ html&gt;body{padding:0}&lt;/style&gt;
 &lt;h4&gt;Unclear&lt;/h4&gt;&lt;p&gt;A valid public guide was reviewed, but its outer/anonymous identity instruction could not be confidently classified. Missing, inaccessible or inconclusive guides are counted separately from the pie.&lt;/p&gt;
     &lt;p&gt;The country pie uses only institutions with a valid reviewed public guide. No valid guide and guide inconclusive are separate coverage results, not identity outcomes. Country colors summarize observed explicit instructions: red when an identifying instruction is present, yellow for a blank or review instruction, otherwise green when an anonymous instruction is present. Grey means no classified explicit instruction. Unknown, delegated and unspecified cases remain unassessed even in a colored country. Country colors are not an overall risk ranking.&lt;/p&gt;
     &lt;h4&gt;Map symbols&lt;/h4&gt;&lt;p&gt;No country dataset: no collected country sample. No guide evidence: no valid guide in the sampled institutions. Hatching: review in progress. Enlarged circles: small mapped areas made easier to select.&lt;/p&gt;
-    &lt;h4&gt;Indonesia and Malaysia review units&lt;/h4&gt;&lt;p&gt;Indonesia and Malaysia use the five agreed guide categories: explicit blank, explicit value, same as Identity, field shown with no instruction, and not mentioned. Their pies count documented EAP setup routes; coverage counts unique universities. Malaysia is Android-only in both views, while Indonesia includes reviewed platforms. Captive portal, PSK and non-EAP cases are excluded, and inaccessible or unresolved guides stay outside the pies. The eduroam views are public-guide samples, not participation censuses. See each country note for its denominator and review date.&lt;/p&gt;
+    &lt;h4&gt;Indonesia, Malaysia and Thailand review units&lt;/h4&gt;&lt;p&gt;Indonesia, Malaysia and Thailand use the five agreed guide categories: explicit blank, explicit value, same as Identity, field shown with no instruction, and not mentioned. Their pies count documented EAP setup routes; coverage counts unique universities. Malaysia and Thailand are Android-only in both views, while Indonesia includes reviewed platforms. Captive portal, PSK and non-EAP cases are excluded, and inaccessible or unresolved guides stay outside the pies. The eduroam views are public-guide samples, not participation censuses. See each country note for its denominator and review date.&lt;/p&gt;
     &lt;h4&gt;Scope&lt;/h4&gt;&lt;p&gt;The research focuses on university and higher-education Wi-Fi guidance. The non-eduroam view covers university-owned Wi-Fi networks.&lt;/p&gt;
   &lt;/dialog&gt;
   &lt;dialog class=&quot;card globe-dialog&quot; aria-labelledby=&quot;dialog-country-name&quot;&gt;
@@ -1385,6 +1385,39 @@ html&gt;body{padding:0}&lt;/style&gt;
     mapData[mode].sort((a, b) =&gt; a.country.localeCompare(b.country));
   }
 
+  // Thailand is Android-only. The eduroam coverage denominator is the
+  // 32-university monitor-map roster; its pie also includes eligible official
+  // routes found outside that roster. School Wi-Fi coverage uses all 124
+  // uniRank-listed institutions. Unresolved sources remain outside the pies.
+  const thailandCommon = {
+    iso3: &quot;THA&quot;, country: &quot;Thailand&quot;, pending: 0,
+    anonymousValue: 0, anonymousShare: 0, notApplicable: 0, unclear: 0,
+    needsReview: 0, easyroamProfiles: 0, securew2Profiles: 0,
+    reviewComplete: true, identityUnit: &quot;Android EAP routes&quot;,
+    taxonomy: &quot;thailand-five-category&quot;, reviewedOn: &quot;2026-09-22&quot;
+  };
+  const thailandRows = {
+    eduroam: {
+      ...thailandCommon, total: 32, completed: 32,
+      guideFound: 16, guideNotFound: 13, guideUnclear: 3,
+      profileTotal: 31, explicitValue: 2, realIdentity: 6,
+      explicitBlank: 15, fieldShown: 0, notSpecified: 8,
+      methodNote: &quot;2026-09-22: all 32 Thai university labels in the eduroam monitor APAN map roster were reviewed using official sources in English and Thai. Sixteen roster universities have 16 eligible Android routes. Fifteen additional eligible official Android eduroam routes from universities or units outside that map roster are included in the route pie, producing 31 routes from 30 universities: explicit blank 15, explicit value 2, same as Identity 6, not mentioned 8. Three roster-university originals remain unresolved and 13 roster universities lack an established eligible public Android guide; they are outside the pie. This is a public-guide evidence sample, not a participant census or a measurement of transmitted outer identities.&quot;
+    },
+    schoolWifi: {
+      ...thailandCommon, total: 124, completed: 124,
+      guideFound: 32, guideNotFound: 85, guideUnclear: 7,
+      profileTotal: 34, explicitValue: 0, realIdentity: 1,
+      explicitBlank: 15, fieldShown: 5, notSpecified: 13,
+      methodNote: &quot;2026-09-22: all 124 uniRank-listed Thai institutions were reviewed using direct official-source searches in English and Thai. Thirty-two universities provide 34 eligible non-eduroam Android EAP setup routes: explicit blank 15, same as Identity 1, field shown without instruction 5, not mentioned 13. Seven institutions have an inaccessible, incomplete, contradictory or ambiguous official Android source and 85 have no established eligible public Android guide; those 92 are outside the pie. Captive portals, MAC registration, PSK, eduroam and non-Android routes are excluded. Outcomes describe public guides, not live outer-identity transmission.&quot;
+    }
+  };
+  for (const [mode, row] of Object.entries(thailandRows)) {
+    mapData[mode] = mapData[mode].filter((item) =&gt; item.iso3 !== &quot;THA&quot;);
+    mapData[mode].push(row);
+    mapData[mode].sort((a, b) =&gt; a.country.localeCompare(b.country));
+  }
+
   const ns = &quot;http://www.w3.org/2000/svg&quot;;
   const initialScale = 280;
   const initialRotation = [-15, -50, 0];
@@ -1726,10 +1759,10 @@ html&gt;body{padding:0}&lt;/style&gt;
   }
 
   function slicesFor(row) {
-    if (row.taxonomy !== &quot;indonesia-five-category&quot; &amp;&amp; row.taxonomy !== &quot;malaysia-five-category&quot;) return slices;
+    if (row.taxonomy !== &quot;indonesia-five-category&quot; &amp;&amp; row.taxonomy !== &quot;malaysia-five-category&quot; &amp;&amp; row.taxonomy !== &quot;thailand-five-category&quot;) return slices;
     return [
       { field: &quot;explicitBlank&quot;, label: &quot;Explicit blank&quot;, color: &quot;var(--privacy-caution)&quot;, description: &quot;Written blank instruction, completed blank example, or disabled alternate identity/privacy. This is guide coding, not a verified empty transmitted identity.&quot; },
-      { field: &quot;explicitValue&quot;, label: &quot;Explicit value&quot;, color: &quot;var(--privacy-caution)&quot;, description: &quot;A distinct value or rule is explicitly supplied. Telkom permits any user-chosen value; anonymity is not established.&quot; },
+      { field: &quot;explicitValue&quot;, label: &quot;Explicit value&quot;, color: &quot;var(--privacy-caution)&quot;, description: &quot;A distinct value or rule is explicitly supplied. Its privacy meaning depends on the published value and is not inferred from the label alone.&quot; },
       { field: &quot;realIdentity&quot;, label: &quot;Same as Identity&quot;, color: &quot;var(--privacy-identifying)&quot;, description: &quot;The guide explicitly reuses the normal Identity value for Anonymous Identity.&quot; },
       { field: &quot;fieldShown&quot;, label: &quot;Field shown, no instruction&quot;, color: &quot;var(--privacy-unknown)&quot;, description: &quot;The Anonymous Identity field is visible but no value or instruction is supplied. Not coded as blank.&quot; },
       { field: &quot;notSpecified&quot;, label: &quot;Not mentioned&quot;, color: &quot;var(--privacy-unknown)&quot;, description: &quot;An accessible EAP setup guide was checked and does not mention Anonymous Identity. Omission is not a blank instruction.&quot; }
