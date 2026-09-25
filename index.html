@@ -925,6 +925,21 @@ html&gt;body{padding:0}&lt;/style&gt;
       &lt;/defs&gt;
     &lt;/svg&gt;
 
+    &lt;aside class=&quot;risk-index text-small&quot; aria-label=&quot;Guide classification risk index from 0 low to 100 high&quot;&gt;
+      &lt;span class=&quot;risk-index-title&quot;&gt;Risk index&lt;/span&gt;
+      &lt;div class=&quot;risk-index-body&quot;&gt;
+        &lt;div class=&quot;risk-index-scale&quot; aria-hidden=&quot;true&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;risk-index-ticks&quot;&gt;
+          &lt;span&gt;100&lt;/span&gt;
+          &lt;span&gt;75&lt;/span&gt;
+          &lt;span&gt;50&lt;/span&gt;
+          &lt;span&gt;25&lt;/span&gt;
+          &lt;span&gt;0&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;span class=&quot;risk-index-endpoints&quot;&gt;High · Low&lt;/span&gt;
+    &lt;/aside&gt;
+
     &lt;div class=&quot;globe-zoom-controls viz-row&quot; aria-label=&quot;Globe zoom controls&quot;&gt;
       &lt;button class=&quot;btn btn-ghost&quot; id=&quot;globe-zoom-in&quot; type=&quot;button&quot; aria-label=&quot;Zoom in&quot;&gt;+&lt;/button&gt;
       &lt;button class=&quot;btn btn-ghost&quot; id=&quot;globe-zoom-out&quot; type=&quot;button&quot; aria-label=&quot;Zoom out&quot;&gt;−&lt;/button&gt;
@@ -1097,6 +1112,74 @@ html&gt;body{padding:0}&lt;/style&gt;
     position: absolute;
     top: 0.5rem;
     left: 0.5rem;
+  }
+
+  #wifi-identity-globe .risk-index {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    z-index: 1;
+    display: grid;
+    justify-items: center;
+    gap: 0.25rem;
+    padding: 0.4rem;
+    color: var(--muted-foreground);
+    background: color-mix(in srgb, var(--background) 82%, transparent);
+    border: 1px solid color-mix(in srgb, var(--border) 78%, transparent);
+    border-radius: 0.4rem;
+    pointer-events: none;
+  }
+
+  #wifi-identity-globe .risk-index-title {
+    font-weight: 600;
+    color: var(--foreground);
+  }
+
+  #wifi-identity-globe .risk-index-body {
+    display: flex;
+    align-items: stretch;
+    gap: 0.28rem;
+    height: 156px;
+  }
+
+  #wifi-identity-globe .risk-index-scale {
+    width: 0.72rem;
+    border: 1px solid color-mix(in srgb, var(--border) 78%, transparent);
+    background: linear-gradient(to top,
+      var(--privacy-protective) 0%,
+      var(--privacy-protective) 25%,
+      var(--privacy-caution) 50%,
+      var(--privacy-review) 75%,
+      var(--privacy-identifying) 100%);
+  }
+
+  #wifi-identity-globe .risk-index-ticks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1;
+    padding: 0.08rem 0;
+  }
+
+  #wifi-identity-globe .risk-index-endpoints {
+    font-size: 0.68rem;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 560px) {
+    #wifi-identity-globe .risk-index {
+      top: 0.45rem;
+      right: 0.45rem;
+      padding: 0.28rem;
+    }
+
+    #wifi-identity-globe .risk-index-body {
+      height: 112px;
+    }
+
+    #wifi-identity-globe .risk-index-endpoints {
+      display: none;
+    }
   }
 
   #wifi-identity-globe .globe-tooltip {
