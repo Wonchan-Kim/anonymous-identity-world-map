@@ -100,6 +100,7 @@
   --privacy-protective: light-dark(#2563eb, #60a5fa);
   --privacy-identifying: light-dark(#b91c1c, #f87171);
   --privacy-caution: light-dark(#eab308, #facc15);
+  --privacy-review: light-dark(#ea580c, #fb923c);
   --privacy-unknown: light-dark(#64748b, #94a3b8);
   --privacy-not-applicable: light-dark(#94a3b8, #cbd5e1);
   --privacy-unclear: light-dark(#475569, #64748b);
@@ -908,10 +909,15 @@ html&gt;body{padding:0}&lt;/style&gt;
 
   &lt;p class=&quot;text-muted mode-description&quot; id=&quot;mode-description&quot;&gt;&lt;/p&gt;
 
+  &lt;div class=&quot;map-view-toggle viz-row&quot; role=&quot;group&quot; aria-label=&quot;Map view&quot;&gt;
+    &lt;button class=&quot;btn is-selected&quot; id=&quot;view-globe&quot; type=&quot;button&quot; aria-pressed=&quot;true&quot;&gt;Globe&lt;/button&gt;
+    &lt;button class=&quot;btn&quot; id=&quot;view-flat&quot; type=&quot;button&quot; aria-pressed=&quot;false&quot;&gt;Flat map&lt;/button&gt;
+  &lt;/div&gt;
+
   &lt;div class=&quot;globe-stage&quot;&gt;
     &lt;svg class=&quot;globe-svg&quot; viewBox=&quot;0 0 960 640&quot; role=&quot;img&quot; aria-labelledby=&quot;globe-title globe-description&quot;&gt;
-      &lt;title id=&quot;globe-title&quot;&gt;University Wi-Fi anonymous identity globe&lt;/title&gt;
-      &lt;desc id=&quot;globe-description&quot;&gt;A rotatable globe comparing eduroam and school-owned non-eduroam Wi-Fi guidance by country. One sampled guide can color a country: red for an identifying instruction, otherwise yellow for blank or review, otherwise blue for an explicit anonymous instruction. Unknown cases remain unassessed; these are not country-wide risk scores.&lt;/desc&gt;
+      &lt;title id=&quot;globe-title&quot;&gt;University Wi-Fi anonymous identity world map&lt;/title&gt;
+      &lt;desc id=&quot;globe-description&quot;&gt;An interactive globe or flat world map comparing eduroam and school-owned non-eduroam Wi-Fi guidance by country. Country color reflects the highest-risk classified instruction observed in reviewed guidance: red for identifying, orange for uncertain or review, yellow for explicit blank, blue for explicit anonymous, and grey for unclassified or missing evidence.&lt;/desc&gt;
       &lt;defs&gt;
         &lt;pattern id=&quot;review-hatch&quot; width=&quot;7&quot; height=&quot;7&quot; patternUnits=&quot;userSpaceOnUse&quot; patternTransform=&quot;rotate(45)&quot;&gt;
           &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;0&quot; y2=&quot;7&quot; stroke=&quot;var(--foreground)&quot; stroke-opacity=&quot;0.48&quot; stroke-width=&quot;1.2&quot;&gt;&lt;/line&gt;
@@ -929,23 +935,24 @@ html&gt;body{padding:0}&lt;/style&gt;
   &lt;/div&gt;
 
   &lt;div class=&quot;globe-legend text-small&quot; aria-label=&quot;Globe color legend&quot;&gt;
-    &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-protective)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Explicit anonymous instruction found&lt;/span&gt;
-    &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-caution)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Blank / review instruction found&lt;/span&gt;
-    &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-identifying)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Identifying instruction found&lt;/span&gt;
+    &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-protective)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Lower risk · explicit anonymous instruction&lt;/span&gt;
+    &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-caution)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Caution · explicit blank instruction&lt;/span&gt;
+    &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-review)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Needs review · uncertain explicit value&lt;/span&gt;
+    &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-identifying)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Higher risk · identifying instruction&lt;/span&gt;
     &lt;span class=&quot;legend-key&quot;&gt;&lt;i style=&quot;background:var(--privacy-unknown)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;No classified explicit instruction&lt;/span&gt;
     &lt;span class=&quot;legend-key&quot;&gt;&lt;i class=&quot;no-data-key&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;No country dataset&lt;/span&gt;
     &lt;span class=&quot;legend-key&quot;&gt;&lt;i class=&quot;no-evidence-key&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;No guide evidence&lt;/span&gt;
     &lt;span class=&quot;legend-key&quot;&gt;&lt;i class=&quot;pending-key&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Review in progress&lt;/span&gt;
     &lt;span class=&quot;legend-key&quot;&gt;&lt;i class=&quot;compact-key&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Enlarged compact-area locator&lt;/span&gt;
   &lt;/div&gt;
-  &lt;p class=&quot;text-muted text-small interaction-hint&quot;&gt;One documented route can color a whole country (red &amp;gt; yellow &amp;gt; blue); this is not a country-wide risk score.&lt;/p&gt;
+  &lt;p class=&quot;text-muted text-small interaction-hint&quot;&gt;Country color reflects the highest-risk classified instruction observed (red &amp;gt; orange &amp;gt; yellow &amp;gt; blue). This summarizes reviewed guidance, not measured runtime identity transmission.&lt;/p&gt;
 
-  &lt;p class=&quot;text-muted text-small interaction-hint&quot;&gt;Drag to rotate · scroll to zoom · select a country to bring it to the front&lt;/p&gt;
+  &lt;p class=&quot;text-muted text-small interaction-hint&quot; id=&quot;map-interaction-hint&quot;&gt;Drag to rotate · scroll to zoom · select a country to bring it to the front&lt;/p&gt;
 
   &lt;dialog class=&quot;card about-dialog&quot; id=&quot;about-data&quot; aria-labelledby=&quot;about-title&quot;&gt;
     &lt;div class=&quot;dialog-header&quot;&gt;&lt;h3 id=&quot;about-title&quot;&gt;About this data&lt;/h3&gt;&lt;button class=&quot;btn btn-ghost&quot; type=&quot;button&quot; onclick=&quot;this.closest(&#x27;dialog&#x27;).close()&quot;&gt;Close&lt;/button&gt;&lt;/div&gt;
     &lt;h4&gt;Reading the map and country charts&lt;/h4&gt;
-    &lt;p&gt;A country is colored red if any sampled guide route explicitly reuses a real identity; otherwise yellow if any sampled route instructs blank or requires review; otherwise blue if an explicitly anonymous instruction is found. Grey means no classified explicit instruction. One route can color a whole country. These are documentation signals, not country-wide risk scores or verified runtime identity transmission.&lt;/p&gt;
+    &lt;p&gt;Country color reflects the highest-risk classified instruction observed in the reviewed guidance: red if an identifying instruction is present; otherwise orange for an uncertain explicit value or review case; otherwise yellow for an explicit blank instruction; otherwise blue when an explicit anonymous instruction is found. Grey means no classified explicit instruction. These are documentation signals, not verified runtime identity transmission.&lt;/p&gt;
     &lt;h4&gt;Explicit anonymous value&lt;/h4&gt;&lt;p&gt;The reviewed guidance specifies an anonymous outer identity value, such as anonymous or anonymous@realm, rather than a personal account name. This indicates a privacy-preserving instruction; runtime transmission was not tested.&lt;/p&gt;
 &lt;h4&gt;Real identity used&lt;/h4&gt;&lt;p&gt;The reviewed guidance specifies a personal account name or identifying value for the outer/anonymous identity field. This indicates a potentially identifying instruction, not a captured network transmission.&lt;/p&gt;
 &lt;h4&gt;Potentially identifying / review&lt;/h4&gt;&lt;p&gt;A value is specified but may identify a person, or its privacy meaning needs further review. It is not counted as a confirmed anonymous value.&lt;/p&gt;
@@ -953,9 +960,8 @@ html&gt;body{padding:0}&lt;/style&gt;
 &lt;h4&gt;Not publicly specified&lt;/h4&gt;&lt;p&gt;A valid reviewed public guide does not explicitly state an outer/anonymous identity value. This does not mean a blank value is configured or a real identity is transmitted.&lt;/p&gt;
 &lt;h4&gt;Profile/app-based or not applicable&lt;/h4&gt;&lt;p&gt;A grouped review category covering setup delegated to a profile/app or a case where the manual identity instruction is not applicable. It does not classify the downloaded profile or establish privacy protection.&lt;/p&gt;
 &lt;h4&gt;Unclear&lt;/h4&gt;&lt;p&gt;A valid public guide was reviewed, but its outer/anonymous identity instruction could not be confidently classified. Missing, inaccessible or inconclusive guides are counted separately from the pie.&lt;/p&gt;
-    &lt;p&gt;The country pie uses only institutions with a valid reviewed public guide. No valid guide and guide inconclusive are separate coverage results, not identity outcomes. Country colors summarize observed explicit instructions: red when an identifying instruction is present, yellow for a blank or review instruction, otherwise blue when an anonymous instruction is present. Grey means no classified explicit instruction. Unknown, delegated and unspecified cases remain unassessed even in a colored country. Country colors are not an overall risk ranking.&lt;/p&gt;
+    &lt;p&gt;The country pie uses only institutions with a valid reviewed public guide. No valid guide and guide inconclusive are separate coverage results, not identity outcomes. Country colors summarize the highest-risk classified instruction observed: red for identifying, orange for uncertain or review, yellow for explicit blank, and blue for explicit anonymous. Grey means no classified explicit instruction. Unknown, delegated and unspecified cases remain unassessed even in a colored country.&lt;/p&gt;
     &lt;h4&gt;Map symbols&lt;/h4&gt;&lt;p&gt;No country dataset: no collected country sample. No guide evidence: no valid guide in the sampled institutions. Hatching: review in progress. Enlarged circles: small mapped areas made easier to select.&lt;/p&gt;
-    &lt;h4&gt;Indonesia, Malaysia and Thailand review units&lt;/h4&gt;&lt;p&gt;Indonesia, Malaysia and Thailand use the five agreed guide categories: explicit blank, explicit value, same as Identity, field shown with no instruction, and not mentioned. Their pies count documented EAP setup routes; coverage counts unique universities. Malaysia and Thailand are Android-only in both views, while Indonesia includes reviewed platforms. Captive portal, PSK and non-EAP cases are excluded, and inaccessible or unresolved guides stay outside the pies. The eduroam views are public-guide samples, not participation censuses. See each country note for its denominator and review date.&lt;/p&gt;
     &lt;h4&gt;Scope&lt;/h4&gt;&lt;p&gt;The research focuses on university and higher-education Wi-Fi guidance. The non-eduroam view covers university-owned Wi-Fi networks.&lt;/p&gt;
   &lt;/dialog&gt;
   &lt;dialog class=&quot;card globe-dialog&quot; aria-labelledby=&quot;dialog-country-name&quot;&gt;
@@ -1027,6 +1033,15 @@ html&gt;body{padding:0}&lt;/style&gt;
   #wifi-identity-globe .mode-description {
     margin-top: 0.35rem;
     text-align: center;
+  }
+
+  #wifi-identity-globe .map-view-toggle {
+    justify-content: center;
+    margin: 0.45rem 0 0.15rem;
+  }
+
+  #wifi-identity-globe .map-view-toggle .btn {
+    min-width: 92px;
   }
 
   #wifi-identity-globe .globe-stage {
@@ -1311,7 +1326,7 @@ html&gt;body{padding:0}&lt;/style&gt;
 &lt;/style&gt;
 
 &lt;script type=&quot;module&quot;&gt;
-  import { drag, geoCentroid, geoCircle, geoGraticule10, geoOrthographic, geoPath, select } from &quot;https://esm.sh/d3@7.9.0?bundle&quot;;
+  import { drag, geoCentroid, geoCircle, geoGraticule10, geoNaturalEarth1, geoOrthographic, geoPath, select } from &quot;https://esm.sh/d3@7.9.0?bundle&quot;;
   import { feature } from &quot;https://esm.sh/topojson-client@3.1.0&quot;;
   import world from &quot;https://esm.sh/@d3-maps/atlas@1.0.0/world/countries/countries-110m&quot;;
 
@@ -1421,8 +1436,12 @@ html&gt;body{padding:0}&lt;/style&gt;
   const ns = &quot;http://www.w3.org/2000/svg&quot;;
   const initialScale = 280;
   const initialRotation = [-15, -50, 0];
+  const flatInitialScale = 170;
   const minScale = 180;
   const maxScale = 720;
+  const flatMinScale = 110;
+  const flatMaxScale = 520;
+  let mapView = &quot;globe&quot;;
   let activeMode = &quot;eduroam&quot;;
   let activeByIso = new Map();
   let selectedIso = null;
@@ -1473,7 +1492,7 @@ html&gt;body{padding:0}&lt;/style&gt;
   {
     &quot;field&quot;: &quot;needsReview&quot;,
     &quot;label&quot;: &quot;Potentially identifying / review&quot;,
-    &quot;color&quot;: &quot;var(--privacy-caution)&quot;,
+    &quot;color&quot;: &quot;var(--privacy-review)&quot;,
     &quot;description&quot;: &quot;A value is specified but may identify a person, or its privacy meaning needs further review. It is not counted as a confirmed anonymous value.&quot;,
     &quot;shortDescription&quot;: &quot;The specified value may identify a person or needs further review.&quot;
   },
@@ -1509,7 +1528,7 @@ html&gt;body{padding:0}&lt;/style&gt;
 
   const countries = feature(world, world.objects.features).features;
   const featureByIso = new Map(countries.map((country) =&gt; [country.properties.id, country]));
-  const projection = geoOrthographic()
+  let projection = geoOrthographic()
     .translate([480, 320])
     .scale(initialScale)
     .clipAngle(90)
@@ -1608,7 +1627,8 @@ html&gt;body{padding:0}&lt;/style&gt;
       return &quot;color-mix(in srgb, var(--muted-foreground) 28%, var(--muted))&quot;;
     }
     if (row.realIdentity &gt; 0) return &quot;var(--privacy-identifying)&quot;;
-    if (row.needsReview &gt; 0 || row.explicitBlank &gt; 0) return &quot;var(--privacy-caution)&quot;;
+    if (row.needsReview &gt; 0 || row.explicitValue &gt; 0) return &quot;var(--privacy-review)&quot;;
+    if (row.explicitBlank &gt; 0) return &quot;var(--privacy-caution)&quot;;
     if (row.anonymousValue &gt; 0) return &quot;var(--privacy-protective)&quot;;
     return &quot;var(--privacy-unknown)&quot;;
   }
@@ -1673,6 +1693,48 @@ html&gt;body{padding:0}&lt;/style&gt;
     hideTooltip();
   }
 
+  function buildProjection(view) {
+    if (view === &quot;flat&quot;) {
+      return geoNaturalEarth1()
+        .translate([480, 320])
+        .scale(flatInitialScale)
+        .precision(0.4);
+    }
+    return geoOrthographic()
+      .translate([480, 320])
+      .scale(initialScale)
+      .clipAngle(90)
+      .precision(0.4)
+      .rotate(initialRotation);
+  }
+
+  function updateViewControls() {
+    const globeButton = root.querySelector(&quot;#view-globe&quot;);
+    const flatButton = root.querySelector(&quot;#view-flat&quot;);
+    const globeActive = mapView === &quot;globe&quot;;
+    globeButton.classList.toggle(&quot;is-selected&quot;, globeActive);
+    flatButton.classList.toggle(&quot;is-selected&quot;, !globeActive);
+    globeButton.setAttribute(&quot;aria-pressed&quot;, String(globeActive));
+    flatButton.setAttribute(&quot;aria-pressed&quot;, String(!globeActive));
+    root.querySelector(&quot;#map-interaction-hint&quot;).textContent = globeActive
+      ? &quot;Drag to rotate · scroll to zoom · select a country to bring it to the front&quot;
+      : &quot;Scroll to zoom · select a country to view details&quot;;
+    root.querySelector(&quot;#globe-reset&quot;).textContent = globeActive ? &quot;Reset globe&quot; : &quot;Reset map&quot;;
+    svg.style.cursor = globeActive ? &quot;grab&quot; : &quot;default&quot;;
+  }
+
+  function setMapView(view) {
+    if (view !== &quot;globe&quot; &amp;&amp; view !== &quot;flat&quot;) return;
+    mapView = view;
+    projection = buildProjection(view);
+    path.projection(projection);
+    picker.value = &quot;&quot;;
+    selectedIso = null;
+    if (dialog.open) dialog.close();
+    updateViewControls();
+    renderGlobe();
+  }
+
   function setMode(mode) {
     activeMode = mode;
     activeByIso = new Map((mapData[mode] || []).map((row) =&gt; [row.iso3, row]));
@@ -1684,7 +1746,9 @@ html&gt;body{padding:0}&lt;/style&gt;
   }
 
   function zoomGlobe(factor) {
-    projection.scale(Math.max(minScale, Math.min(maxScale, projection.scale() * factor)));
+    const lower = mapView === &quot;globe&quot; ? minScale : flatMinScale;
+    const upper = mapView === &quot;globe&quot; ? maxScale : flatMaxScale;
+    projection.scale(Math.max(lower, Math.min(upper, projection.scale() * factor)));
     renderGlobe();
   }
 
@@ -1694,6 +1758,7 @@ html&gt;body{padding:0}&lt;/style&gt;
       hideTooltip();
     })
     .on(&quot;drag&quot;, (event) =&gt; {
+      if (mapView !== &quot;globe&quot;) return;
       dragMoved = dragMoved || Math.abs(event.dx) + Math.abs(event.dy) &gt; 0.5;
       const rotation = projection.rotate();
       const sensitivity = 80 / projection.scale();
@@ -1717,11 +1782,15 @@ html&gt;body{padding:0}&lt;/style&gt;
   root.querySelector(&quot;#globe-zoom-in&quot;).addEventListener(&quot;click&quot;, () =&gt; zoomGlobe(1.25));
   root.querySelector(&quot;#globe-zoom-out&quot;).addEventListener(&quot;click&quot;, () =&gt; zoomGlobe(1 / 1.25));
   root.querySelector(&quot;#globe-reset&quot;).addEventListener(&quot;click&quot;, () =&gt; {
-    projection.scale(initialScale).rotate(initialRotation);
+    projection = buildProjection(mapView);
+    path.projection(projection);
     picker.value = &quot;&quot;;
     selectedIso = null;
     renderGlobe();
   });
+
+  root.querySelector(&quot;#view-globe&quot;).addEventListener(&quot;click&quot;, () =&gt; setMapView(&quot;globe&quot;));
+  root.querySelector(&quot;#view-flat&quot;).addEventListener(&quot;click&quot;, () =&gt; setMapView(&quot;flat&quot;));
 
   function centerCountry(iso) {
     const country = featureByIso.get(iso);
@@ -1730,7 +1799,9 @@ html&gt;body{padding:0}&lt;/style&gt;
     const [longitude, latitude] = country
       ? geoCentroid(country)
       : compact.coordinates;
-    projection.rotate([-longitude, -latitude, 0]);
+    if (mapView === &quot;globe&quot;) {
+      projection.rotate([-longitude, -latitude, 0]);
+    }
     renderGlobe();
   }
 
@@ -1762,7 +1833,7 @@ html&gt;body{padding:0}&lt;/style&gt;
     if (row.taxonomy !== &quot;indonesia-five-category&quot; &amp;&amp; row.taxonomy !== &quot;malaysia-five-category&quot; &amp;&amp; row.taxonomy !== &quot;thailand-five-category&quot;) return slices;
     return [
       { field: &quot;explicitBlank&quot;, label: &quot;Explicit blank&quot;, color: &quot;var(--privacy-caution)&quot;, description: &quot;Written blank instruction, completed blank example, or disabled alternate identity/privacy. This is guide coding, not a verified empty transmitted identity.&quot; },
-      { field: &quot;explicitValue&quot;, label: &quot;Explicit value&quot;, color: &quot;var(--privacy-caution)&quot;, description: &quot;A distinct value or rule is explicitly supplied. Its privacy meaning depends on the published value and is not inferred from the label alone.&quot; },
+      { field: &quot;explicitValue&quot;, label: &quot;Explicit value&quot;, color: &quot;var(--privacy-review)&quot;, description: &quot;A distinct value or rule is explicitly supplied. Its privacy meaning depends on the published value and is not inferred from the label alone.&quot; },
       { field: &quot;realIdentity&quot;, label: &quot;Same as Identity&quot;, color: &quot;var(--privacy-identifying)&quot;, description: &quot;The guide explicitly reuses the normal Identity value for Anonymous Identity.&quot; },
       { field: &quot;fieldShown&quot;, label: &quot;Field shown, no instruction&quot;, color: &quot;var(--privacy-unknown)&quot;, description: &quot;The Anonymous Identity field is visible but no value or instruction is supplied. Not coded as blank.&quot; },
       { field: &quot;notSpecified&quot;, label: &quot;Not mentioned&quot;, color: &quot;var(--privacy-unknown)&quot;, description: &quot;An accessible EAP setup guide was checked and does not mention Anonymous Identity. Omission is not a blank instruction.&quot; }
@@ -1874,6 +1945,7 @@ html&gt;body{padding:0}&lt;/style&gt;
     renderGlobe();
   });
 
+  updateViewControls();
   setMode(activeMode);
 &lt;/script&gt;
 
@@ -2121,5 +2193,3 @@ html&gt;body{padding:0}&lt;/style&gt;
 "></iframe>
 </body>
 </html>
-
-
