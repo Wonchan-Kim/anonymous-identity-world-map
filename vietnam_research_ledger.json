@@ -1,0 +1,3592 @@
+{
+  "country": "Vietnam",
+  "created_on": "2026-09-27",
+  "status": "research_started",
+  "method": "Direct web review; English-first then Vietnamese-language searches; Android-focused; official university sources only.",
+  "candidate_roster_source": "https://www.unirank.org/vn/ranking/",
+  "candidate_roster_count": 78,
+  "batch_summary": {
+    "research_started": 78,
+    "unreviewed": 0
+  },
+  "records": [
+    {
+      "roster_index": 1,
+      "university": "Vietnam National University, Hanoi",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/vietnam-national-university-hanoi/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_android_eap_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "parent_university_search_did_not_produce_a_parent_level_manual; constituent_ULIS_page_was_captive_portal_and_not_counted_for_the_parent_row"
+      },
+      "query_log": [
+        "Vietnam National University, Hanoi Vietnam eduroam Android WiFi setup official",
+        "Vietnam National University, Hanoi hướng dẫn eduroam Android WiFi",
+        "site:vnu.edu.vn eduroam Android WiFi anonymous identity",
+        "site:ulis.vnu.edu.vn WiFi Android hướng dẫn eduroam",
+        "site:vnu.edu.vn eduroam Android WiFi anonymous identity",
+        "site:ulis.vnu.edu.vn WiFi Android hướng dẫn eduroam",
+        "site:vnu.edu.vn eduroam Android WiFi anonymous identity",
+        "site:ulis.vnu.edu.vn WiFi Android hướng dẫn eduroam",
+        "site:vnu.edu.vn eduroam Android WiFi anonymous identity",
+        "site:ulis.vnu.edu.vn WiFi Android hướng dẫn eduroam",
+        "site:vnu.edu.vn eduroam Android WiFi anonymous identity",
+        "site:ulis.vnu.edu.vn WiFi Android hướng dẫn eduroam",
+        "site:vnu.edu.vn eduroam Android WiFi anonymous identity",
+        "site:ulis.vnu.edu.vn WiFi Android hướng dẫn eduroam",
+        "site:vnu.edu.vn eduroam Android WiFi anonymous identity",
+        "site:ulis.vnu.edu.vn WiFi Android hướng dẫn eduroam",
+        "site:vnu.edu.vn eduroam Android WiFi anonymous identity",
+        "site:ulis.vnu.edu.vn WiFi Android hướng dẫn eduroam",
+        "site:vnu.edu.vn eduroam Android WiFi anonymous identity",
+        "site:ulis.vnu.edu.vn WiFi Android hướng dẫn eduroam",
+        "site:vnu.edu.vn eduroam Android WiFi anonymous identity",
+        "site:ulis.vnu.edu.vn WiFi Android hướng dẫn eduroam",
+        "site:vnu.edu.vn eduroam Android WiFi anonymous identity",
+        "site:ulis.vnu.edu.vn WiFi Android hướng dẫn eduroam",
+        "site:vnu.edu.vn eduroam Android WiFi anonymous identity",
+        "site:ulis.vnu.edu.vn WiFi Android hướng dẫn eduroam",
+        "site:vnu.edu.vn eduroam Android WiFi anonymous identity",
+        "site:ulis.vnu.edu.vn WiFi Android hướng dẫn eduroam",
+        "site:vnu.edu.vn eduroam Android WiFi anonymous identity",
+        "site:ulis.vnu.edu.vn WiFi Android hướng dẫn eduroam",
+        "site:vnu.edu.vn eduroam Android WiFi anonymous identity",
+        "site:ulis.vnu.edu.vn WiFi Android hướng dẫn eduroam",
+        "site:vnu.edu.vn eduroam Android WiFi anonymous identity",
+        "site:ulis.vnu.edu.vn WiFi Android hướng dẫn eduroam",
+        "site:vnu.edu.vn eduroam Android WiFi anonymous identity",
+        "site:ulis.vnu.edu.vn WiFi Android hướng dẫn eduroam",
+        "site:vnu.edu.vn eduroam Android WiFi anonymous identity",
+        "site:ulis.vnu.edu.vn WiFi Android hướng dẫn eduroam",
+        "site:vnu.edu.vn eduroam Android WiFi anonymous identity",
+        "site:ulis.vnu.edu.vn WiFi Android hướng dẫn eduroam"
+      ],
+      "official_domains_checked": [
+        "vnu.edu.vn",
+        "en.vnu.edu.vn",
+        "ulis.vnu.edu.vn"
+      ],
+      "notes": "Official ULIS Wi-Fi page under the VNU system describes browser login after joining ULIS-Wifi; it is a captive-portal route and does not establish a parent VNU Android EAP/eduroam guide."
+    },
+    {
+      "roster_index": 2,
+      "university": "The University of Da nang",
+      "city": "Da Nang",
+      "roster_source_url": "https://www.unirank.org/vn/uni/the-university-of-da-nang/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "The University of Da nang Vietnam eduroam Android WiFi setup official",
+        "The University of Da nang hướng dẫn eduroam Android WiFi",
+        "site:udn.vn eduroam Android WiFi setup",
+        "site:udn.vn (wifi OR wireless) hướng dẫn Android",
+        "site:udn.vn eduroam Android WiFi setup",
+        "site:udn.vn (wifi OR wireless) hướng dẫn Android",
+        "site:udn.vn eduroam Android WiFi setup",
+        "site:udn.vn (wifi OR wireless) hướng dẫn Android",
+        "site:udn.vn eduroam Android WiFi setup",
+        "site:udn.vn (wifi OR wireless) hướng dẫn Android",
+        "site:udn.vn eduroam Android WiFi setup",
+        "site:udn.vn (wifi OR wireless) hướng dẫn Android",
+        "site:udn.vn eduroam Android WiFi setup",
+        "site:udn.vn (wifi OR wireless) hướng dẫn Android",
+        "site:udn.vn eduroam Android WiFi setup",
+        "site:udn.vn (wifi OR wireless) hướng dẫn Android",
+        "site:udn.vn eduroam Android WiFi setup",
+        "site:udn.vn (wifi OR wireless) hướng dẫn Android",
+        "site:udn.vn eduroam Android WiFi setup",
+        "site:udn.vn (wifi OR wireless) hướng dẫn Android",
+        "site:udn.vn eduroam Android WiFi setup",
+        "site:udn.vn (wifi OR wireless) hướng dẫn Android",
+        "site:udn.vn eduroam Android WiFi setup",
+        "site:udn.vn (wifi OR wireless) hướng dẫn Android",
+        "site:udn.vn eduroam Android WiFi setup",
+        "site:udn.vn (wifi OR wireless) hướng dẫn Android",
+        "site:udn.vn eduroam Android WiFi setup",
+        "site:udn.vn (wifi OR wireless) hướng dẫn Android",
+        "site:udn.vn eduroam Android WiFi setup",
+        "site:udn.vn (wifi OR wireless) hướng dẫn Android",
+        "site:udn.vn eduroam Android WiFi setup",
+        "site:udn.vn (wifi OR wireless) hướng dẫn Android",
+        "site:udn.vn eduroam Android WiFi setup",
+        "site:udn.vn (wifi OR wireless) hướng dẫn Android",
+        "site:udn.vn eduroam Android WiFi setup",
+        "site:udn.vn (wifi OR wireless) hướng dẫn Android",
+        "site:udn.vn eduroam Android WiFi setup",
+        "site:udn.vn (wifi OR wireless) hướng dẫn Android",
+        "site:udn.vn eduroam Android WiFi setup",
+        "site:udn.vn (wifi OR wireless) hướng dẫn Android"
+      ],
+      "official_domains_checked": [
+        "udn.vn",
+        "ued.udn.vn",
+        "cce.udn.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches surfaced general ICT/library materials but no qualifying public Android EAP or eduroam setup guide for the parent University of Da Nang row."
+    },
+    {
+      "roster_index": 3,
+      "university": "Hanoi University of Science and Technology",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hanoi-university-of-science-and-technology/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "excluded_captive_portal",
+        "exclusion_category": "captive_portal",
+        "source_url": "https://hust.edu.vn/vi/news/tin-tuc-su-kien/huong-dan-su-dung-nhanh-he-thong-wifi-hust-583688.html",
+        "basis": "official_HUST_guide instructs joining HUST WiFi then authenticating through a browser with an Office 365 account; no Android EAP field configuration is documented"
+      },
+      "query_log": [
+        "Hanoi University of Science and Technology Vietnam eduroam Android WiFi setup official",
+        "Hanoi University of Science and Technology hướng dẫn eduroam Android WiFi",
+        "site:hust.edu.vn eduroam Android WiFi setup",
+        "site:hust.edu.vn \"hướng dẫn sử dụng nhanh hệ thống WIFI HUST\"",
+        "site:hust.edu.vn eduroam Android WiFi setup",
+        "site:hust.edu.vn \"hướng dẫn sử dụng nhanh hệ thống WIFI HUST\"",
+        "site:hust.edu.vn eduroam Android WiFi setup",
+        "site:hust.edu.vn \"hướng dẫn sử dụng nhanh hệ thống WIFI HUST\"",
+        "site:hust.edu.vn eduroam Android WiFi setup",
+        "site:hust.edu.vn \"hướng dẫn sử dụng nhanh hệ thống WIFI HUST\"",
+        "site:hust.edu.vn eduroam Android WiFi setup",
+        "site:hust.edu.vn \"hướng dẫn sử dụng nhanh hệ thống WIFI HUST\"",
+        "site:hust.edu.vn eduroam Android WiFi setup",
+        "site:hust.edu.vn \"hướng dẫn sử dụng nhanh hệ thống WIFI HUST\"",
+        "site:hust.edu.vn eduroam Android WiFi setup",
+        "site:hust.edu.vn \"hướng dẫn sử dụng nhanh hệ thống WIFI HUST\"",
+        "site:hust.edu.vn eduroam Android WiFi setup",
+        "site:hust.edu.vn \"hướng dẫn sử dụng nhanh hệ thống WIFI HUST\"",
+        "site:hust.edu.vn eduroam Android WiFi setup",
+        "site:hust.edu.vn \"hướng dẫn sử dụng nhanh hệ thống WIFI HUST\"",
+        "site:hust.edu.vn eduroam Android WiFi setup",
+        "site:hust.edu.vn \"hướng dẫn sử dụng nhanh hệ thống WIFI HUST\"",
+        "site:hust.edu.vn eduroam Android WiFi setup",
+        "site:hust.edu.vn \"hướng dẫn sử dụng nhanh hệ thống WIFI HUST\"",
+        "site:hust.edu.vn eduroam Android WiFi setup",
+        "site:hust.edu.vn \"hướng dẫn sử dụng nhanh hệ thống WIFI HUST\"",
+        "site:hust.edu.vn eduroam Android WiFi setup",
+        "site:hust.edu.vn \"hướng dẫn sử dụng nhanh hệ thống WIFI HUST\"",
+        "site:hust.edu.vn eduroam Android WiFi setup",
+        "site:hust.edu.vn \"hướng dẫn sử dụng nhanh hệ thống WIFI HUST\"",
+        "site:hust.edu.vn eduroam Android WiFi setup",
+        "site:hust.edu.vn \"hướng dẫn sử dụng nhanh hệ thống WIFI HUST\"",
+        "site:hust.edu.vn eduroam Android WiFi setup",
+        "site:hust.edu.vn \"hướng dẫn sử dụng nhanh hệ thống WIFI HUST\"",
+        "site:hust.edu.vn eduroam Android WiFi setup",
+        "site:hust.edu.vn \"hướng dẫn sử dụng nhanh hệ thống WIFI HUST\"",
+        "site:hust.edu.vn eduroam Android WiFi setup",
+        "site:hust.edu.vn \"hướng dẫn sử dụng nhanh hệ thống WIFI HUST\"",
+        "site:hust.edu.vn eduroam Android WiFi setup",
+        "site:hust.edu.vn \"hướng dẫn sử dụng nhanh hệ thống WIFI HUST\""
+      ],
+      "official_domains_checked": [
+        "hust.edu.vn"
+      ],
+      "notes": "Official HUST Vietnamese guide is a browser/captive-portal login flow, so it is excluded from the school-WiFi EAP category."
+    },
+    {
+      "roster_index": 4,
+      "university": "National Economics University",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/national-economics-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "public_android_manual_reviewed",
+        "category": "not_mentioned",
+        "source_url": "https://cait.neu.edu.vn/Resources/Docs/SubDomain/cait/2023/H%E1%BB%87%20th%E1%BB%91ng%20wifi%20NEU.pdf",
+        "basis": "official_NEU_Android_guide identifies the NEU_Students SSID and institutional email credentials but does not mention Anonymous identity"
+      },
+      "query_log": [
+        "National Economics University Vietnam eduroam Android WiFi setup official",
+        "National Economics University hướng dẫn eduroam Android WiFi",
+        "site:neu.edu.vn WIFI NEU Students Android guide",
+        "site:cait.neu.edu.vn \"WIFI-NEU Students\" Android",
+        "site:neu.edu.vn WIFI NEU Students Android guide",
+        "site:cait.neu.edu.vn \"WIFI-NEU Students\" Android",
+        "site:neu.edu.vn WIFI NEU Students Android guide",
+        "site:cait.neu.edu.vn \"WIFI-NEU Students\" Android",
+        "site:neu.edu.vn WIFI NEU Students Android guide",
+        "site:cait.neu.edu.vn \"WIFI-NEU Students\" Android",
+        "site:neu.edu.vn WIFI NEU Students Android guide",
+        "site:cait.neu.edu.vn \"WIFI-NEU Students\" Android",
+        "site:neu.edu.vn WIFI NEU Students Android guide",
+        "site:cait.neu.edu.vn \"WIFI-NEU Students\" Android",
+        "site:neu.edu.vn WIFI NEU Students Android guide",
+        "site:cait.neu.edu.vn \"WIFI-NEU Students\" Android",
+        "site:neu.edu.vn WIFI NEU Students Android guide",
+        "site:cait.neu.edu.vn \"WIFI-NEU Students\" Android",
+        "site:neu.edu.vn WIFI NEU Students Android guide",
+        "site:cait.neu.edu.vn \"WIFI-NEU Students\" Android",
+        "site:neu.edu.vn WIFI NEU Students Android guide",
+        "site:cait.neu.edu.vn \"WIFI-NEU Students\" Android",
+        "site:neu.edu.vn WIFI NEU Students Android guide",
+        "site:cait.neu.edu.vn \"WIFI-NEU Students\" Android",
+        "site:neu.edu.vn WIFI NEU Students Android guide",
+        "site:cait.neu.edu.vn \"WIFI-NEU Students\" Android",
+        "site:neu.edu.vn WIFI NEU Students Android guide",
+        "site:cait.neu.edu.vn \"WIFI-NEU Students\" Android",
+        "site:neu.edu.vn WIFI NEU Students Android guide",
+        "site:cait.neu.edu.vn \"WIFI-NEU Students\" Android",
+        "site:neu.edu.vn WIFI NEU Students Android guide",
+        "site:cait.neu.edu.vn \"WIFI-NEU Students\" Android",
+        "site:neu.edu.vn WIFI NEU Students Android guide",
+        "site:cait.neu.edu.vn \"WIFI-NEU Students\" Android",
+        "site:neu.edu.vn WIFI NEU Students Android guide",
+        "site:cait.neu.edu.vn \"WIFI-NEU Students\" Android",
+        "site:neu.edu.vn WIFI NEU Students Android guide",
+        "site:cait.neu.edu.vn \"WIFI-NEU Students\" Android",
+        "site:neu.edu.vn WIFI NEU Students Android guide",
+        "site:cait.neu.edu.vn \"WIFI-NEU Students\" Android"
+      ],
+      "official_domains_checked": [
+        "neu.edu.vn",
+        "cait.neu.edu.vn",
+        "saa.neu.edu.vn"
+      ],
+      "notes": "Official Vietnamese PDF explicitly includes an Android procedure and email-based login; Anonymous identity is not mentioned in the searchable guide text."
+    },
+    {
+      "roster_index": 5,
+      "university": "University of Economics Ho Chi Minh City",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/university-of-economics-ho-chi-minh-city/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "University of Economics Ho Chi Minh City Vietnam eduroam Android WiFi setup official",
+        "University of Economics Ho Chi Minh City hướng dẫn eduroam Android WiFi",
+        "site:ueh.edu.vn eduroam Android WiFi setup",
+        "site:ueh.edu.vn wifi hướng dẫn sinh viên Android",
+        "site:ueh.edu.vn eduroam Android WiFi setup",
+        "site:ueh.edu.vn wifi hướng dẫn sinh viên Android",
+        "site:ueh.edu.vn eduroam Android WiFi setup",
+        "site:ueh.edu.vn wifi hướng dẫn sinh viên Android",
+        "site:ueh.edu.vn eduroam Android WiFi setup",
+        "site:ueh.edu.vn wifi hướng dẫn sinh viên Android",
+        "site:ueh.edu.vn eduroam Android WiFi setup",
+        "site:ueh.edu.vn wifi hướng dẫn sinh viên Android",
+        "site:ueh.edu.vn eduroam Android WiFi setup",
+        "site:ueh.edu.vn wifi hướng dẫn sinh viên Android",
+        "site:ueh.edu.vn eduroam Android WiFi setup",
+        "site:ueh.edu.vn wifi hướng dẫn sinh viên Android",
+        "site:ueh.edu.vn eduroam Android WiFi setup",
+        "site:ueh.edu.vn wifi hướng dẫn sinh viên Android",
+        "site:ueh.edu.vn eduroam Android WiFi setup",
+        "site:ueh.edu.vn wifi hướng dẫn sinh viên Android",
+        "site:ueh.edu.vn eduroam Android WiFi setup",
+        "site:ueh.edu.vn wifi hướng dẫn sinh viên Android",
+        "site:ueh.edu.vn eduroam Android WiFi setup",
+        "site:ueh.edu.vn wifi hướng dẫn sinh viên Android",
+        "site:ueh.edu.vn eduroam Android WiFi setup",
+        "site:ueh.edu.vn wifi hướng dẫn sinh viên Android",
+        "site:ueh.edu.vn eduroam Android WiFi setup",
+        "site:ueh.edu.vn wifi hướng dẫn sinh viên Android",
+        "site:ueh.edu.vn eduroam Android WiFi setup",
+        "site:ueh.edu.vn wifi hướng dẫn sinh viên Android",
+        "site:ueh.edu.vn eduroam Android WiFi setup",
+        "site:ueh.edu.vn wifi hướng dẫn sinh viên Android",
+        "site:ueh.edu.vn eduroam Android WiFi setup",
+        "site:ueh.edu.vn wifi hướng dẫn sinh viên Android",
+        "site:ueh.edu.vn eduroam Android WiFi setup",
+        "site:ueh.edu.vn wifi hướng dẫn sinh viên Android",
+        "site:ueh.edu.vn eduroam Android WiFi setup",
+        "site:ueh.edu.vn wifi hướng dẫn sinh viên Android"
+      ],
+      "official_domains_checked": [
+        "ueh.edu.vn",
+        "it.ueh.edu.vn",
+        "dsa.ueh.edu.vn"
+      ],
+      "notes": "English and Vietnamese searches of UEH official domains surfaced student-app and general IT material but no qualifying public Android EAP/eduroam setup guide."
+    },
+    {
+      "roster_index": 6,
+      "university": "Ho Chi Minh City University of Technology",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/ho-chi-minh-city-university-of-technology/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "public_android_manual_reviewed",
+        "category": "explicit_value",
+        "source_url": "https://netadm.hcmut.edu.vn/page/dich-vu-ho-tro/huong-dan-truy-cap-wifi/truy-cap-mang-hcmut01/android",
+        "basis": "official Vietnamese Android guide instructs TTLS/PAP and sets Anonymous Identity to the HCMUT account name"
+      },
+      "query_log": [
+        "Ho Chi Minh City University of Technology Vietnam eduroam Android WiFi setup official",
+        "Ho Chi Minh City University of Technology hướng dẫn eduroam Android WiFi",
+        "site:hcmut.edu.vn eduroam Android WiFi setup",
+        "site:hcmut.edu.vn wifi hướng dẫn Android anonymous identity",
+        "site:hcmut.edu.vn eduroam Android WiFi setup",
+        "site:hcmut.edu.vn wifi hướng dẫn Android anonymous identity",
+        "site:hcmut.edu.vn eduroam Android WiFi setup",
+        "site:hcmut.edu.vn wifi hướng dẫn Android anonymous identity",
+        "site:hcmut.edu.vn eduroam Android WiFi setup",
+        "site:hcmut.edu.vn wifi hướng dẫn Android anonymous identity",
+        "site:hcmut.edu.vn eduroam Android WiFi setup",
+        "site:hcmut.edu.vn wifi hướng dẫn Android anonymous identity",
+        "site:hcmut.edu.vn eduroam Android WiFi setup",
+        "site:hcmut.edu.vn wifi hướng dẫn Android anonymous identity",
+        "site:hcmut.edu.vn eduroam Android WiFi setup",
+        "site:hcmut.edu.vn wifi hướng dẫn Android anonymous identity",
+        "site:hcmut.edu.vn eduroam Android WiFi setup",
+        "site:hcmut.edu.vn wifi hướng dẫn Android anonymous identity",
+        "site:hcmut.edu.vn eduroam Android WiFi setup",
+        "site:hcmut.edu.vn wifi hướng dẫn Android anonymous identity",
+        "site:hcmut.edu.vn eduroam Android WiFi setup",
+        "site:hcmut.edu.vn wifi hướng dẫn Android anonymous identity",
+        "site:hcmut.edu.vn eduroam Android WiFi setup",
+        "site:hcmut.edu.vn wifi hướng dẫn Android anonymous identity",
+        "site:hcmut.edu.vn eduroam Android WiFi setup",
+        "site:hcmut.edu.vn wifi hướng dẫn Android anonymous identity",
+        "site:hcmut.edu.vn eduroam Android WiFi setup",
+        "site:hcmut.edu.vn wifi hướng dẫn Android anonymous identity",
+        "site:hcmut.edu.vn eduroam Android WiFi setup",
+        "site:hcmut.edu.vn wifi hướng dẫn Android anonymous identity",
+        "site:hcmut.edu.vn eduroam Android WiFi setup",
+        "site:hcmut.edu.vn wifi hướng dẫn Android anonymous identity",
+        "site:hcmut.edu.vn eduroam Android WiFi setup",
+        "site:hcmut.edu.vn wifi hướng dẫn Android anonymous identity",
+        "site:hcmut.edu.vn eduroam Android WiFi setup",
+        "site:hcmut.edu.vn wifi hướng dẫn Android anonymous identity",
+        "site:hcmut.edu.vn eduroam Android WiFi setup",
+        "site:hcmut.edu.vn wifi hướng dẫn Android anonymous identity"
+      ],
+      "official_domains_checked": [
+        "hcmut.edu.vn",
+        "netadm.hcmut.edu.vn"
+      ],
+      "notes": "Official HCMUT Android page explicitly requires the HCMUT account name in Anonymous Identity, an explicit non-blank value."
+    },
+    {
+      "roster_index": 7,
+      "university": "Can Tho University",
+      "city": "Can Tho",
+      "roster_source_url": "https://www.unirank.org/vn/uni/can-tho-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "excluded_captive_portal",
+        "exclusion_category": "captive_portal",
+        "source_url": "https://helpdesk.ctu.edu.vn/vi/blog/huong-dan-su-dung-mang-khong-day-wifi-tai-khu-2",
+        "basis": "official CTU helpdesk says to join area Wi-Fi and accept the browser usage page; no Android EAP field setup is provided"
+      },
+      "query_log": [
+        "Can Tho University Vietnam eduroam Android WiFi setup official",
+        "Can Tho University hướng dẫn eduroam Android WiFi",
+        "site:ctu.edu.vn eduroam Android WiFi setup",
+        "site:helpdesk.ctu.edu.vn wifi Android hướng dẫn",
+        "site:ctu.edu.vn eduroam Android WiFi setup",
+        "site:helpdesk.ctu.edu.vn wifi Android hướng dẫn",
+        "site:ctu.edu.vn eduroam Android WiFi setup",
+        "site:helpdesk.ctu.edu.vn wifi Android hướng dẫn",
+        "site:ctu.edu.vn eduroam Android WiFi setup",
+        "site:helpdesk.ctu.edu.vn wifi Android hướng dẫn",
+        "site:ctu.edu.vn eduroam Android WiFi setup",
+        "site:helpdesk.ctu.edu.vn wifi Android hướng dẫn",
+        "site:ctu.edu.vn eduroam Android WiFi setup",
+        "site:helpdesk.ctu.edu.vn wifi Android hướng dẫn",
+        "site:ctu.edu.vn eduroam Android WiFi setup",
+        "site:helpdesk.ctu.edu.vn wifi Android hướng dẫn",
+        "site:ctu.edu.vn eduroam Android WiFi setup",
+        "site:helpdesk.ctu.edu.vn wifi Android hướng dẫn",
+        "site:ctu.edu.vn eduroam Android WiFi setup",
+        "site:helpdesk.ctu.edu.vn wifi Android hướng dẫn",
+        "site:ctu.edu.vn eduroam Android WiFi setup",
+        "site:helpdesk.ctu.edu.vn wifi Android hướng dẫn",
+        "site:ctu.edu.vn eduroam Android WiFi setup",
+        "site:helpdesk.ctu.edu.vn wifi Android hướng dẫn",
+        "site:ctu.edu.vn eduroam Android WiFi setup",
+        "site:helpdesk.ctu.edu.vn wifi Android hướng dẫn",
+        "site:ctu.edu.vn eduroam Android WiFi setup",
+        "site:helpdesk.ctu.edu.vn wifi Android hướng dẫn",
+        "site:ctu.edu.vn eduroam Android WiFi setup",
+        "site:helpdesk.ctu.edu.vn wifi Android hướng dẫn",
+        "site:ctu.edu.vn eduroam Android WiFi setup",
+        "site:helpdesk.ctu.edu.vn wifi Android hướng dẫn",
+        "site:ctu.edu.vn eduroam Android WiFi setup",
+        "site:helpdesk.ctu.edu.vn wifi Android hướng dẫn",
+        "site:ctu.edu.vn eduroam Android WiFi setup",
+        "site:helpdesk.ctu.edu.vn wifi Android hướng dẫn",
+        "site:ctu.edu.vn eduroam Android WiFi setup",
+        "site:helpdesk.ctu.edu.vn wifi Android hướng dẫn"
+      ],
+      "official_domains_checked": [
+        "ctu.edu.vn",
+        "helpdesk.ctu.edu.vn",
+        "tansinhvien.ctu.edu.vn"
+      ],
+      "notes": "The official CTU Wi-Fi guide is a browser acceptance/captive-portal flow, excluded from field-level EAP categories."
+    },
+    {
+      "roster_index": 8,
+      "university": "Ho Chi Minh City University of Technology and Education",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/ho-chi-minh-city-university-of-technology-and-education/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Ho Chi Minh City University of Technology and Education Vietnam eduroam Android WiFi setup official",
+        "Ho Chi Minh City University of Technology and Education hướng dẫn eduroam Android WiFi",
+        "site:hcmute.edu.vn eduroam Android WiFi setup",
+        "site:hcmute.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmute.edu.vn eduroam Android WiFi setup",
+        "site:hcmute.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmute.edu.vn eduroam Android WiFi setup",
+        "site:hcmute.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmute.edu.vn eduroam Android WiFi setup",
+        "site:hcmute.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmute.edu.vn eduroam Android WiFi setup",
+        "site:hcmute.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmute.edu.vn eduroam Android WiFi setup",
+        "site:hcmute.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmute.edu.vn eduroam Android WiFi setup",
+        "site:hcmute.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmute.edu.vn eduroam Android WiFi setup",
+        "site:hcmute.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmute.edu.vn eduroam Android WiFi setup",
+        "site:hcmute.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmute.edu.vn eduroam Android WiFi setup",
+        "site:hcmute.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmute.edu.vn eduroam Android WiFi setup",
+        "site:hcmute.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmute.edu.vn eduroam Android WiFi setup",
+        "site:hcmute.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmute.edu.vn eduroam Android WiFi setup",
+        "site:hcmute.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmute.edu.vn eduroam Android WiFi setup",
+        "site:hcmute.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmute.edu.vn eduroam Android WiFi setup",
+        "site:hcmute.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmute.edu.vn eduroam Android WiFi setup",
+        "site:hcmute.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmute.edu.vn eduroam Android WiFi setup",
+        "site:hcmute.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmute.edu.vn eduroam Android WiFi setup",
+        "site:hcmute.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hcmute.edu.vn",
+        "oia.hcmute.edu.vn",
+        "dlc.hcmute.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of HCMUTE/HCM-UTE official domains surfaced general student/IT pages but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 9,
+      "university": "Foreign Trade University",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/foreign-trade-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "public_android_manual_reviewed",
+        "category": "explicit_blank",
+        "source_url": "https://ttcntt.ftu.edu.vn/huong-dan-truy-cap-wifi-test/",
+        "basis": "official FTU Android test guide specifies PEAP and says to leave Anonymous identity empty"
+      },
+      "query_log": [
+        "Foreign Trade University Vietnam eduroam Android WiFi setup official",
+        "Foreign Trade University hướng dẫn eduroam Android WiFi",
+        "site:ftu.edu.vn eduroam Android WiFi setup",
+        "site:ttcntt.ftu.edu.vn wifi Android \"danh tính ẩn danh\"",
+        "site:ftu.edu.vn eduroam Android WiFi setup",
+        "site:ttcntt.ftu.edu.vn wifi Android \"danh tính ẩn danh\"",
+        "site:ftu.edu.vn eduroam Android WiFi setup",
+        "site:ttcntt.ftu.edu.vn wifi Android \"danh tính ẩn danh\"",
+        "site:ftu.edu.vn eduroam Android WiFi setup",
+        "site:ttcntt.ftu.edu.vn wifi Android \"danh tính ẩn danh\"",
+        "site:ftu.edu.vn eduroam Android WiFi setup",
+        "site:ttcntt.ftu.edu.vn wifi Android \"danh tính ẩn danh\"",
+        "site:ftu.edu.vn eduroam Android WiFi setup",
+        "site:ttcntt.ftu.edu.vn wifi Android \"danh tính ẩn danh\"",
+        "site:ftu.edu.vn eduroam Android WiFi setup",
+        "site:ttcntt.ftu.edu.vn wifi Android \"danh tính ẩn danh\"",
+        "site:ftu.edu.vn eduroam Android WiFi setup",
+        "site:ttcntt.ftu.edu.vn wifi Android \"danh tính ẩn danh\"",
+        "site:ftu.edu.vn eduroam Android WiFi setup",
+        "site:ttcntt.ftu.edu.vn wifi Android \"danh tính ẩn danh\"",
+        "site:ftu.edu.vn eduroam Android WiFi setup",
+        "site:ttcntt.ftu.edu.vn wifi Android \"danh tính ẩn danh\"",
+        "site:ftu.edu.vn eduroam Android WiFi setup",
+        "site:ttcntt.ftu.edu.vn wifi Android \"danh tính ẩn danh\"",
+        "site:ftu.edu.vn eduroam Android WiFi setup",
+        "site:ttcntt.ftu.edu.vn wifi Android \"danh tính ẩn danh\"",
+        "site:ftu.edu.vn eduroam Android WiFi setup",
+        "site:ttcntt.ftu.edu.vn wifi Android \"danh tính ẩn danh\"",
+        "site:ftu.edu.vn eduroam Android WiFi setup",
+        "site:ttcntt.ftu.edu.vn wifi Android \"danh tính ẩn danh\"",
+        "site:ftu.edu.vn eduroam Android WiFi setup",
+        "site:ttcntt.ftu.edu.vn wifi Android \"danh tính ẩn danh\"",
+        "site:ftu.edu.vn eduroam Android WiFi setup",
+        "site:ttcntt.ftu.edu.vn wifi Android \"danh tính ẩn danh\"",
+        "site:ftu.edu.vn eduroam Android WiFi setup",
+        "site:ttcntt.ftu.edu.vn wifi Android \"danh tính ẩn danh\""
+      ],
+      "official_domains_checked": [
+        "ftu.edu.vn",
+        "ttcntt.ftu.edu.vn",
+        "hcmc.ftu.edu.vn"
+      ],
+      "notes": "The official FTU Android Wi-Fi test guide says PEAP, CA not validated, and explicitly instructs users not to fill Anonymous identity; older shared-password SSIDs were not used for this current manual route."
+    },
+    {
+      "roster_index": 10,
+      "university": "Duy Tan University",
+      "city": "Da Nang",
+      "roster_source_url": "https://www.unirank.org/vn/uni/duy-tan-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Duy Tan University Vietnam eduroam Android WiFi setup official",
+        "Duy Tan University hướng dẫn eduroam Android WiFi",
+        "site:duytan.edu.vn eduroam Android WiFi setup",
+        "site:duytan.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:duytan.edu.vn eduroam Android WiFi setup",
+        "site:duytan.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:duytan.edu.vn eduroam Android WiFi setup",
+        "site:duytan.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:duytan.edu.vn eduroam Android WiFi setup",
+        "site:duytan.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:duytan.edu.vn eduroam Android WiFi setup",
+        "site:duytan.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:duytan.edu.vn eduroam Android WiFi setup",
+        "site:duytan.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:duytan.edu.vn eduroam Android WiFi setup",
+        "site:duytan.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:duytan.edu.vn eduroam Android WiFi setup",
+        "site:duytan.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:duytan.edu.vn eduroam Android WiFi setup",
+        "site:duytan.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:duytan.edu.vn eduroam Android WiFi setup",
+        "site:duytan.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:duytan.edu.vn eduroam Android WiFi setup",
+        "site:duytan.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:duytan.edu.vn eduroam Android WiFi setup",
+        "site:duytan.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:duytan.edu.vn eduroam Android WiFi setup",
+        "site:duytan.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:duytan.edu.vn eduroam Android WiFi setup",
+        "site:duytan.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:duytan.edu.vn eduroam Android WiFi setup",
+        "site:duytan.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:duytan.edu.vn eduroam Android WiFi setup",
+        "site:duytan.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:duytan.edu.vn eduroam Android WiFi setup",
+        "site:duytan.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "duytan.edu.vn",
+        "files01.duytan.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Duy Tan official domains surfaced general student/IT materials but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 11,
+      "university": "Thuyloi University",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/thuyloi-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Thuyloi University Vietnam eduroam Android WiFi setup official",
+        "Thuyloi University hướng dẫn eduroam Android WiFi",
+        "site:tlu.edu.vn eduroam Android WiFi setup",
+        "site:tlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tlu.edu.vn eduroam Android WiFi setup",
+        "site:tlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tlu.edu.vn eduroam Android WiFi setup",
+        "site:tlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tlu.edu.vn eduroam Android WiFi setup",
+        "site:tlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tlu.edu.vn eduroam Android WiFi setup",
+        "site:tlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tlu.edu.vn eduroam Android WiFi setup",
+        "site:tlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tlu.edu.vn eduroam Android WiFi setup",
+        "site:tlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tlu.edu.vn eduroam Android WiFi setup",
+        "site:tlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tlu.edu.vn eduroam Android WiFi setup",
+        "site:tlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tlu.edu.vn eduroam Android WiFi setup",
+        "site:tlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tlu.edu.vn eduroam Android WiFi setup",
+        "site:tlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tlu.edu.vn eduroam Android WiFi setup",
+        "site:tlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tlu.edu.vn eduroam Android WiFi setup",
+        "site:tlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tlu.edu.vn eduroam Android WiFi setup",
+        "site:tlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tlu.edu.vn eduroam Android WiFi setup",
+        "site:tlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tlu.edu.vn eduroam Android WiFi setup",
+        "site:tlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tlu.edu.vn eduroam Android WiFi setup",
+        "site:tlu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "tlu.edu.vn",
+        "email.tlu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Thuyloi official domains did not surface a qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 12,
+      "university": "Ho Chi Minh City University of Education",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/ho-chi-minh-city-university-of-education/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Ho Chi Minh City University of Education Vietnam eduroam Android WiFi setup official",
+        "Ho Chi Minh City University of Education hướng dẫn eduroam Android WiFi",
+        "site:hcmue.edu.vn eduroam Android WiFi setup",
+        "site:hcmue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmue.edu.vn eduroam Android WiFi setup",
+        "site:hcmue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmue.edu.vn eduroam Android WiFi setup",
+        "site:hcmue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmue.edu.vn eduroam Android WiFi setup",
+        "site:hcmue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmue.edu.vn eduroam Android WiFi setup",
+        "site:hcmue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmue.edu.vn eduroam Android WiFi setup",
+        "site:hcmue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmue.edu.vn eduroam Android WiFi setup",
+        "site:hcmue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmue.edu.vn eduroam Android WiFi setup",
+        "site:hcmue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmue.edu.vn eduroam Android WiFi setup",
+        "site:hcmue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmue.edu.vn eduroam Android WiFi setup",
+        "site:hcmue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmue.edu.vn eduroam Android WiFi setup",
+        "site:hcmue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmue.edu.vn eduroam Android WiFi setup",
+        "site:hcmue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmue.edu.vn eduroam Android WiFi setup",
+        "site:hcmue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmue.edu.vn eduroam Android WiFi setup",
+        "site:hcmue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmue.edu.vn eduroam Android WiFi setup",
+        "site:hcmue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmue.edu.vn eduroam Android WiFi setup",
+        "site:hcmue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmue.edu.vn eduroam Android WiFi setup",
+        "site:hcmue.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hcmue.edu.vn",
+        "khoaanh.hcmue.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Ho Chi Minh City University of Education official domains did not surface a qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 13,
+      "university": "Nguyen Tat Thanh University",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/nguyen-tat-thanh-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Nguyen Tat Thanh University Vietnam eduroam Android WiFi setup official",
+        "Nguyen Tat Thanh University hướng dẫn eduroam Android WiFi",
+        "site:ntt.edu.vn eduroam Android WiFi setup",
+        "site:ntt.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntt.edu.vn eduroam Android WiFi setup",
+        "site:ntt.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntt.edu.vn eduroam Android WiFi setup",
+        "site:ntt.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntt.edu.vn eduroam Android WiFi setup",
+        "site:ntt.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntt.edu.vn eduroam Android WiFi setup",
+        "site:ntt.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntt.edu.vn eduroam Android WiFi setup",
+        "site:ntt.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntt.edu.vn eduroam Android WiFi setup",
+        "site:ntt.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntt.edu.vn eduroam Android WiFi setup",
+        "site:ntt.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntt.edu.vn eduroam Android WiFi setup",
+        "site:ntt.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntt.edu.vn eduroam Android WiFi setup",
+        "site:ntt.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntt.edu.vn eduroam Android WiFi setup",
+        "site:ntt.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntt.edu.vn eduroam Android WiFi setup",
+        "site:ntt.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntt.edu.vn eduroam Android WiFi setup",
+        "site:ntt.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntt.edu.vn eduroam Android WiFi setup",
+        "site:ntt.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntt.edu.vn eduroam Android WiFi setup",
+        "site:ntt.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntt.edu.vn eduroam Android WiFi setup",
+        "site:ntt.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "ntt.edu.vn",
+        "qttt.ntt.edu.vn",
+        "ctsv.ntt.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Nguyen Tat Thanh University official domains found general IT/e-learning pages but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 14,
+      "university": "Hanoi National University of Education",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hanoi-national-university-of-education/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Hanoi National University of Education Vietnam eduroam Android WiFi setup official",
+        "Hanoi National University of Education hướng dẫn eduroam Android WiFi",
+        "site:hnue.edu.vn eduroam Android WiFi setup",
+        "site:hnue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hnue.edu.vn eduroam Android WiFi setup",
+        "site:hnue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hnue.edu.vn eduroam Android WiFi setup",
+        "site:hnue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hnue.edu.vn eduroam Android WiFi setup",
+        "site:hnue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hnue.edu.vn eduroam Android WiFi setup",
+        "site:hnue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hnue.edu.vn eduroam Android WiFi setup",
+        "site:hnue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hnue.edu.vn eduroam Android WiFi setup",
+        "site:hnue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hnue.edu.vn eduroam Android WiFi setup",
+        "site:hnue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hnue.edu.vn eduroam Android WiFi setup",
+        "site:hnue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hnue.edu.vn eduroam Android WiFi setup",
+        "site:hnue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hnue.edu.vn eduroam Android WiFi setup",
+        "site:hnue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hnue.edu.vn eduroam Android WiFi setup",
+        "site:hnue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hnue.edu.vn eduroam Android WiFi setup",
+        "site:hnue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hnue.edu.vn eduroam Android WiFi setup",
+        "site:hnue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hnue.edu.vn eduroam Android WiFi setup",
+        "site:hnue.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hnue.edu.vn eduroam Android WiFi setup",
+        "site:hnue.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hnue.edu.vn",
+        "nvsp.hnue.edu.vn",
+        "ins.hnue.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Hanoi National University of Education official domains found student portals and general materials but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 15,
+      "university": "Ho Chi Minh City University of Transport",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/ho-chi-minh-city-university-of-transport/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Ho Chi Minh City University of Transport Vietnam eduroam Android WiFi setup official",
+        "Ho Chi Minh City University of Transport hướng dẫn eduroam Android WiFi",
+        "site:ut.edu.vn eduroam Android WiFi setup",
+        "site:ut.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ut.edu.vn eduroam Android WiFi setup",
+        "site:ut.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ut.edu.vn eduroam Android WiFi setup",
+        "site:ut.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ut.edu.vn eduroam Android WiFi setup",
+        "site:ut.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ut.edu.vn eduroam Android WiFi setup",
+        "site:ut.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ut.edu.vn eduroam Android WiFi setup",
+        "site:ut.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ut.edu.vn eduroam Android WiFi setup",
+        "site:ut.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ut.edu.vn eduroam Android WiFi setup",
+        "site:ut.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ut.edu.vn eduroam Android WiFi setup",
+        "site:ut.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ut.edu.vn eduroam Android WiFi setup",
+        "site:ut.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ut.edu.vn eduroam Android WiFi setup",
+        "site:ut.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ut.edu.vn eduroam Android WiFi setup",
+        "site:ut.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ut.edu.vn eduroam Android WiFi setup",
+        "site:ut.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ut.edu.vn eduroam Android WiFi setup",
+        "site:ut.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ut.edu.vn eduroam Android WiFi setup",
+        "site:ut.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ut.edu.vn eduroam Android WiFi setup",
+        "site:ut.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "ut.edu.vn",
+        "ut-hcmc.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches for Ho Chi Minh City University of Transport did not surface a qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 16,
+      "university": "Ho Chi Minh City University of Social Sciences and Humanities",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/ho-chi-minh-city-university-of-social-sciences-and-humanities/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Ho Chi Minh City University of Social Sciences and Humanities Vietnam eduroam Android WiFi setup official",
+        "Ho Chi Minh City University of Social Sciences and Humanities hướng dẫn eduroam Android WiFi",
+        "site:hcmussh.edu.vn eduroam Android WiFi setup",
+        "site:hcmussh.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmussh.edu.vn eduroam Android WiFi setup",
+        "site:hcmussh.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmussh.edu.vn eduroam Android WiFi setup",
+        "site:hcmussh.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmussh.edu.vn eduroam Android WiFi setup",
+        "site:hcmussh.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmussh.edu.vn eduroam Android WiFi setup",
+        "site:hcmussh.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmussh.edu.vn eduroam Android WiFi setup",
+        "site:hcmussh.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmussh.edu.vn eduroam Android WiFi setup",
+        "site:hcmussh.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmussh.edu.vn eduroam Android WiFi setup",
+        "site:hcmussh.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmussh.edu.vn eduroam Android WiFi setup",
+        "site:hcmussh.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmussh.edu.vn eduroam Android WiFi setup",
+        "site:hcmussh.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmussh.edu.vn eduroam Android WiFi setup",
+        "site:hcmussh.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmussh.edu.vn eduroam Android WiFi setup",
+        "site:hcmussh.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmussh.edu.vn eduroam Android WiFi setup",
+        "site:hcmussh.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmussh.edu.vn eduroam Android WiFi setup",
+        "site:hcmussh.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmussh.edu.vn eduroam Android WiFi setup",
+        "site:hcmussh.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmussh.edu.vn eduroam Android WiFi setup",
+        "site:hcmussh.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hcmussh.edu.vn",
+        "hcmussh.edu.vn/static/document"
+      ],
+      "notes": "Direct English and Vietnamese searches of the University of Social Sciences and Humanities HCMC official domain found student/library material but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 17,
+      "university": "University of Medicine and Pharmacy at Ho Chi Minh City",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/university-of-medicine-and-pharmacy-at-ho-chi-minh-city/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "University of Medicine and Pharmacy at Ho Chi Minh City Vietnam eduroam Android WiFi setup official",
+        "University of Medicine and Pharmacy at Ho Chi Minh City hướng dẫn eduroam Android WiFi",
+        "site:ump.edu.vn eduroam Android WiFi setup",
+        "site:ump.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ump.edu.vn eduroam Android WiFi setup",
+        "site:ump.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ump.edu.vn eduroam Android WiFi setup",
+        "site:ump.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ump.edu.vn eduroam Android WiFi setup",
+        "site:ump.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ump.edu.vn eduroam Android WiFi setup",
+        "site:ump.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ump.edu.vn eduroam Android WiFi setup",
+        "site:ump.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ump.edu.vn eduroam Android WiFi setup",
+        "site:ump.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ump.edu.vn eduroam Android WiFi setup",
+        "site:ump.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ump.edu.vn eduroam Android WiFi setup",
+        "site:ump.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ump.edu.vn eduroam Android WiFi setup",
+        "site:ump.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ump.edu.vn eduroam Android WiFi setup",
+        "site:ump.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ump.edu.vn eduroam Android WiFi setup",
+        "site:ump.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ump.edu.vn eduroam Android WiFi setup",
+        "site:ump.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ump.edu.vn eduroam Android WiFi setup",
+        "site:ump.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ump.edu.vn eduroam Android WiFi setup",
+        "site:ump.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "ump.edu.vn",
+        "library.ump.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of University of Medicine and Pharmacy at HCMC official domains surfaced online-learning/library material but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 18,
+      "university": "Ho Chi Minh City International University",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/ho-chi-minh-city-international-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Ho Chi Minh City International University Vietnam eduroam Android WiFi setup official",
+        "Ho Chi Minh City International University hướng dẫn eduroam Android WiFi",
+        "site:hcmiu.edu.vn eduroam Android WiFi setup",
+        "site:hcmiu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmiu.edu.vn eduroam Android WiFi setup",
+        "site:hcmiu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmiu.edu.vn eduroam Android WiFi setup",
+        "site:hcmiu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmiu.edu.vn eduroam Android WiFi setup",
+        "site:hcmiu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmiu.edu.vn eduroam Android WiFi setup",
+        "site:hcmiu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmiu.edu.vn eduroam Android WiFi setup",
+        "site:hcmiu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmiu.edu.vn eduroam Android WiFi setup",
+        "site:hcmiu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmiu.edu.vn eduroam Android WiFi setup",
+        "site:hcmiu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmiu.edu.vn eduroam Android WiFi setup",
+        "site:hcmiu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmiu.edu.vn eduroam Android WiFi setup",
+        "site:hcmiu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmiu.edu.vn eduroam Android WiFi setup",
+        "site:hcmiu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmiu.edu.vn eduroam Android WiFi setup",
+        "site:hcmiu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmiu.edu.vn eduroam Android WiFi setup",
+        "site:hcmiu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmiu.edu.vn eduroam Android WiFi setup",
+        "site:hcmiu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmiu.edu.vn eduroam Android WiFi setup",
+        "site:hcmiu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hcmiu.edu.vn",
+        "iuoss.com",
+        "iuoss.com/welcome_week"
+      ],
+      "notes": "Direct English and Vietnamese searches of HCMIU official/IT-support pages surfaced general student-service material but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 19,
+      "university": "Ho Chi Minh City University of Science",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/ho-chi-minh-city-university-of-science/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "excluded_captive_portal",
+        "exclusion_category": "captive_portal",
+        "source_url": "https://netadmin.hcmus.edu.vn/wifi-hcmus-free/wifi-hcmus-free-dong-hoa/huong-dan-truy-cap-wifi",
+        "basis": "official HCMUS page directs users to HCMUS-PUBLIC/HCMUS-PHONGHOC and a browser login/terms page; no Android EAP field configuration is provided"
+      },
+      "query_log": [
+        "Ho Chi Minh City University of Science Vietnam eduroam Android WiFi setup official",
+        "Ho Chi Minh City University of Science hướng dẫn eduroam Android WiFi",
+        "site:hcmus.edu.vn eduroam Android WiFi setup",
+        "site:netadmin.hcmus.edu.vn wifi Android hướng dẫn",
+        "site:hcmus.edu.vn eduroam Android WiFi setup",
+        "site:netadmin.hcmus.edu.vn wifi Android hướng dẫn",
+        "site:hcmus.edu.vn eduroam Android WiFi setup",
+        "site:netadmin.hcmus.edu.vn wifi Android hướng dẫn",
+        "site:hcmus.edu.vn eduroam Android WiFi setup",
+        "site:netadmin.hcmus.edu.vn wifi Android hướng dẫn",
+        "site:hcmus.edu.vn eduroam Android WiFi setup",
+        "site:netadmin.hcmus.edu.vn wifi Android hướng dẫn",
+        "site:hcmus.edu.vn eduroam Android WiFi setup",
+        "site:netadmin.hcmus.edu.vn wifi Android hướng dẫn",
+        "site:hcmus.edu.vn eduroam Android WiFi setup",
+        "site:netadmin.hcmus.edu.vn wifi Android hướng dẫn",
+        "site:hcmus.edu.vn eduroam Android WiFi setup",
+        "site:netadmin.hcmus.edu.vn wifi Android hướng dẫn",
+        "site:hcmus.edu.vn eduroam Android WiFi setup",
+        "site:netadmin.hcmus.edu.vn wifi Android hướng dẫn",
+        "site:hcmus.edu.vn eduroam Android WiFi setup",
+        "site:netadmin.hcmus.edu.vn wifi Android hướng dẫn",
+        "site:hcmus.edu.vn eduroam Android WiFi setup",
+        "site:netadmin.hcmus.edu.vn wifi Android hướng dẫn",
+        "site:hcmus.edu.vn eduroam Android WiFi setup",
+        "site:netadmin.hcmus.edu.vn wifi Android hướng dẫn",
+        "site:hcmus.edu.vn eduroam Android WiFi setup",
+        "site:netadmin.hcmus.edu.vn wifi Android hướng dẫn",
+        "site:hcmus.edu.vn eduroam Android WiFi setup",
+        "site:netadmin.hcmus.edu.vn wifi Android hướng dẫn",
+        "site:hcmus.edu.vn eduroam Android WiFi setup",
+        "site:netadmin.hcmus.edu.vn wifi Android hướng dẫn"
+      ],
+      "official_domains_checked": [
+        "hcmus.edu.vn",
+        "netadmin.hcmus.edu.vn"
+      ],
+      "notes": "Official HCMUS free-Wi-Fi guide documents browser captive-portal authentication and is excluded from field-level EAP categories."
+    },
+    {
+      "roster_index": 20,
+      "university": "HUTECH University",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hutech-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "HUTECH University Vietnam eduroam Android WiFi setup official",
+        "HUTECH University hướng dẫn eduroam Android WiFi",
+        "site:hutech.edu.vn eduroam Android WiFi setup",
+        "site:hutech.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hutech.edu.vn eduroam Android WiFi setup",
+        "site:hutech.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hutech.edu.vn eduroam Android WiFi setup",
+        "site:hutech.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hutech.edu.vn eduroam Android WiFi setup",
+        "site:hutech.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hutech.edu.vn eduroam Android WiFi setup",
+        "site:hutech.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hutech.edu.vn eduroam Android WiFi setup",
+        "site:hutech.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hutech.edu.vn eduroam Android WiFi setup",
+        "site:hutech.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hutech.edu.vn eduroam Android WiFi setup",
+        "site:hutech.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hutech.edu.vn eduroam Android WiFi setup",
+        "site:hutech.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hutech.edu.vn eduroam Android WiFi setup",
+        "site:hutech.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hutech.edu.vn eduroam Android WiFi setup",
+        "site:hutech.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hutech.edu.vn eduroam Android WiFi setup",
+        "site:hutech.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hutech.edu.vn eduroam Android WiFi setup",
+        "site:hutech.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hutech.edu.vn eduroam Android WiFi setup",
+        "site:hutech.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hutech.edu.vn eduroam Android WiFi setup",
+        "site:hutech.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hutech.edu.vn",
+        "www.hutech.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of HUTECH official domains did not surface a qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 21,
+      "university": "Nha Trang University",
+      "city": "Nha Trang",
+      "roster_source_url": "https://www.unirank.org/vn/uni/nha-trang-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Nha Trang University Vietnam eduroam Android WiFi setup official",
+        "Nha Trang University hướng dẫn eduroam Android WiFi",
+        "site:ntu.edu.vn eduroam Android WiFi setup",
+        "site:ntu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntu.edu.vn eduroam Android WiFi setup",
+        "site:ntu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntu.edu.vn eduroam Android WiFi setup",
+        "site:ntu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntu.edu.vn eduroam Android WiFi setup",
+        "site:ntu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntu.edu.vn eduroam Android WiFi setup",
+        "site:ntu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntu.edu.vn eduroam Android WiFi setup",
+        "site:ntu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntu.edu.vn eduroam Android WiFi setup",
+        "site:ntu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntu.edu.vn eduroam Android WiFi setup",
+        "site:ntu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntu.edu.vn eduroam Android WiFi setup",
+        "site:ntu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntu.edu.vn eduroam Android WiFi setup",
+        "site:ntu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntu.edu.vn eduroam Android WiFi setup",
+        "site:ntu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntu.edu.vn eduroam Android WiFi setup",
+        "site:ntu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntu.edu.vn eduroam Android WiFi setup",
+        "site:ntu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:ntu.edu.vn eduroam Android WiFi setup",
+        "site:ntu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "ntu.edu.vn",
+        "phongcntt.ntu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Nha Trang University official domains found general Wi-Fi/service references but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 22,
+      "university": "Hanoi University",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hanoi-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide",
+        "note": "HANU Connections is an official student application guide, but the public page does not expose Android EAP fields or an Anonymous identity instruction."
+      },
+      "query_log": [
+        "Hanoi University Vietnam eduroam Android WiFi setup official",
+        "Hanoi University hướng dẫn eduroam Android WiFi",
+        "site:hanu.edu.vn eduroam Android WiFi setup",
+        "site:hanu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hanu.edu.vn eduroam Android WiFi setup",
+        "site:hanu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hanu.edu.vn eduroam Android WiFi setup",
+        "site:hanu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hanu.edu.vn eduroam Android WiFi setup",
+        "site:hanu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hanu.edu.vn eduroam Android WiFi setup",
+        "site:hanu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hanu.edu.vn eduroam Android WiFi setup",
+        "site:hanu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hanu.edu.vn eduroam Android WiFi setup",
+        "site:hanu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hanu.edu.vn eduroam Android WiFi setup",
+        "site:hanu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hanu.edu.vn eduroam Android WiFi setup",
+        "site:hanu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hanu.edu.vn eduroam Android WiFi setup",
+        "site:hanu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hanu.edu.vn eduroam Android WiFi setup",
+        "site:hanu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hanu.edu.vn eduroam Android WiFi setup",
+        "site:hanu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hanu.edu.vn eduroam Android WiFi setup",
+        "site:hanu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hanu.edu.vn eduroam Android WiFi setup",
+        "site:hanu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hanu.edu.vn",
+        "mlearning.hanu.edu.vn"
+      ],
+      "notes": "The official HANU Connections page was reviewed; it does not provide a qualifying public Android manual EAP field configuration or eduroam setup guide."
+    },
+    {
+      "roster_index": 23,
+      "university": "Van Lang University",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/van-lang-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "public_android_manual_reviewed",
+        "category": "not_mentioned",
+        "source_url": "https://www.vlu.edu.vn/life-at-vlu/it-services/tien-ich-it",
+        "basis": "official VLU Wi-Fi page documents VLID student/staff SSIDs and email credentials, but does not mention Anonymous identity or expose Android EAP fields"
+      },
+      "query_log": [
+        "Van Lang University Vietnam eduroam Android WiFi setup official",
+        "Van Lang University hướng dẫn eduroam Android WiFi",
+        "site:vlu.edu.vn eduroam Android WiFi setup",
+        "site:vlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vlu.edu.vn eduroam Android WiFi setup",
+        "site:vlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vlu.edu.vn eduroam Android WiFi setup",
+        "site:vlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vlu.edu.vn eduroam Android WiFi setup",
+        "site:vlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vlu.edu.vn eduroam Android WiFi setup",
+        "site:vlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vlu.edu.vn eduroam Android WiFi setup",
+        "site:vlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vlu.edu.vn eduroam Android WiFi setup",
+        "site:vlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vlu.edu.vn eduroam Android WiFi setup",
+        "site:vlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vlu.edu.vn eduroam Android WiFi setup",
+        "site:vlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vlu.edu.vn eduroam Android WiFi setup",
+        "site:vlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vlu.edu.vn eduroam Android WiFi setup",
+        "site:vlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vlu.edu.vn eduroam Android WiFi setup",
+        "site:vlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vlu.edu.vn eduroam Android WiFi setup",
+        "site:vlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vlu.edu.vn eduroam Android WiFi setup",
+        "site:vlu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "vlu.edu.vn",
+        "vanlanguni.edu.vn",
+        "itconnect.vlu.edu.vn"
+      ],
+      "notes": "Official VLU Vietnamese/English service pages document campus Wi-Fi SSIDs and institutional email login; no Anonymous identity instruction is given."
+    },
+    {
+      "roster_index": 24,
+      "university": "Ho Chi Minh City University of Information Technology",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/ho-chi-minh-city-university-of-information-technology/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "public_android_manual_reviewed",
+        "category": "explicit_blank",
+        "source_url": "https://portal.uit.edu.vn/bai-viet/huong-dan-ket-noi-wifi-uit",
+        "basis": "official UIT Android guide specifies PEAP/MSCHAPV2, system certificates, domain uit.edu.vn, and explicitly says Anonymous identity is left blank"
+      },
+      "query_log": [
+        "Ho Chi Minh City University of Information Technology Vietnam eduroam Android WiFi setup official",
+        "Ho Chi Minh City University of Information Technology hướng dẫn eduroam Android WiFi",
+        "site:uit.edu.vn eduroam Android WiFi setup",
+        "site:portal.uit.edu.vn \"hướng dẫn kết nối wifi UIT\"",
+        "site:uit.edu.vn eduroam Android WiFi setup",
+        "site:portal.uit.edu.vn \"hướng dẫn kết nối wifi UIT\"",
+        "site:uit.edu.vn eduroam Android WiFi setup",
+        "site:portal.uit.edu.vn \"hướng dẫn kết nối wifi UIT\"",
+        "site:uit.edu.vn eduroam Android WiFi setup",
+        "site:portal.uit.edu.vn \"hướng dẫn kết nối wifi UIT\"",
+        "site:uit.edu.vn eduroam Android WiFi setup",
+        "site:portal.uit.edu.vn \"hướng dẫn kết nối wifi UIT\"",
+        "site:uit.edu.vn eduroam Android WiFi setup",
+        "site:portal.uit.edu.vn \"hướng dẫn kết nối wifi UIT\"",
+        "site:uit.edu.vn eduroam Android WiFi setup",
+        "site:portal.uit.edu.vn \"hướng dẫn kết nối wifi UIT\"",
+        "site:uit.edu.vn eduroam Android WiFi setup",
+        "site:portal.uit.edu.vn \"hướng dẫn kết nối wifi UIT\"",
+        "site:uit.edu.vn eduroam Android WiFi setup",
+        "site:portal.uit.edu.vn \"hướng dẫn kết nối wifi UIT\"",
+        "site:uit.edu.vn eduroam Android WiFi setup",
+        "site:portal.uit.edu.vn \"hướng dẫn kết nối wifi UIT\"",
+        "site:uit.edu.vn eduroam Android WiFi setup",
+        "site:portal.uit.edu.vn \"hướng dẫn kết nối wifi UIT\"",
+        "site:uit.edu.vn eduroam Android WiFi setup",
+        "site:portal.uit.edu.vn \"hướng dẫn kết nối wifi UIT\"",
+        "site:uit.edu.vn eduroam Android WiFi setup",
+        "site:portal.uit.edu.vn \"hướng dẫn kết nối wifi UIT\"",
+        "site:uit.edu.vn eduroam Android WiFi setup",
+        "site:portal.uit.edu.vn \"hướng dẫn kết nối wifi UIT\""
+      ],
+      "official_domains_checked": [
+        "uit.edu.vn",
+        "portal.uit.edu.vn"
+      ],
+      "notes": "Official UIT Vietnamese guide gives a complete Android PEAP configuration and explicitly instructs users to leave Anonymous identity empty."
+    },
+    {
+      "roster_index": 25,
+      "university": "Ho Chi Minh City University of Agriculture and Forestry",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/ho-chi-minh-city-university-of-agriculture-and-forestry/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Ho Chi Minh City University of Agriculture and Forestry Vietnam eduroam Android WiFi setup official",
+        "Ho Chi Minh City University of Agriculture and Forestry hướng dẫn eduroam Android WiFi",
+        "site:hcmuaf.edu.vn eduroam Android WiFi setup",
+        "site:hcmuaf.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmuaf.edu.vn eduroam Android WiFi setup",
+        "site:hcmuaf.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmuaf.edu.vn eduroam Android WiFi setup",
+        "site:hcmuaf.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmuaf.edu.vn eduroam Android WiFi setup",
+        "site:hcmuaf.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmuaf.edu.vn eduroam Android WiFi setup",
+        "site:hcmuaf.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmuaf.edu.vn eduroam Android WiFi setup",
+        "site:hcmuaf.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmuaf.edu.vn eduroam Android WiFi setup",
+        "site:hcmuaf.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmuaf.edu.vn eduroam Android WiFi setup",
+        "site:hcmuaf.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmuaf.edu.vn eduroam Android WiFi setup",
+        "site:hcmuaf.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmuaf.edu.vn eduroam Android WiFi setup",
+        "site:hcmuaf.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmuaf.edu.vn eduroam Android WiFi setup",
+        "site:hcmuaf.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmuaf.edu.vn eduroam Android WiFi setup",
+        "site:hcmuaf.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmuaf.edu.vn eduroam Android WiFi setup",
+        "site:hcmuaf.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hcmuaf.edu.vn",
+        "it.hcmuaf.edu.vn",
+        "phgl.hcmuaf.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Ho Chi Minh City University of Agriculture and Forestry official domains found historical/general Wi-Fi material but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 26,
+      "university": "Hanoi University of Industry",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hanoi-university-of-industry/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "excluded_captive_portal",
+        "exclusion_category": "captive_portal",
+        "source_url": "https://itc.haui.edu.vn/media/Tai%20Lieu%20Huong%20Dan/HUONG%20DAN%20WIFI%20HaUI.pdf",
+        "basis": "official HaUI Wi-Fi guide has users join HaUI-Staffs and authenticate through a browser popup/hotspot page; it does not document Android EAP fields"
+      },
+      "query_log": [
+        "Hanoi University of Industry Vietnam eduroam Android WiFi setup official",
+        "Hanoi University of Industry hướng dẫn eduroam Android WiFi",
+        "site:haui.edu.vn eduroam Android WiFi setup",
+        "site:itc.haui.edu.vn \"wifi\" Android hướng dẫn",
+        "site:haui.edu.vn eduroam Android WiFi setup",
+        "site:itc.haui.edu.vn \"wifi\" Android hướng dẫn",
+        "site:haui.edu.vn eduroam Android WiFi setup",
+        "site:itc.haui.edu.vn \"wifi\" Android hướng dẫn",
+        "site:haui.edu.vn eduroam Android WiFi setup",
+        "site:itc.haui.edu.vn \"wifi\" Android hướng dẫn",
+        "site:haui.edu.vn eduroam Android WiFi setup",
+        "site:itc.haui.edu.vn \"wifi\" Android hướng dẫn",
+        "site:haui.edu.vn eduroam Android WiFi setup",
+        "site:itc.haui.edu.vn \"wifi\" Android hướng dẫn",
+        "site:haui.edu.vn eduroam Android WiFi setup",
+        "site:itc.haui.edu.vn \"wifi\" Android hướng dẫn",
+        "site:haui.edu.vn eduroam Android WiFi setup",
+        "site:itc.haui.edu.vn \"wifi\" Android hướng dẫn",
+        "site:haui.edu.vn eduroam Android WiFi setup",
+        "site:itc.haui.edu.vn \"wifi\" Android hướng dẫn",
+        "site:haui.edu.vn eduroam Android WiFi setup",
+        "site:itc.haui.edu.vn \"wifi\" Android hướng dẫn",
+        "site:haui.edu.vn eduroam Android WiFi setup",
+        "site:itc.haui.edu.vn \"wifi\" Android hướng dẫn",
+        "site:haui.edu.vn eduroam Android WiFi setup",
+        "site:itc.haui.edu.vn \"wifi\" Android hướng dẫn",
+        "site:haui.edu.vn eduroam Android WiFi setup",
+        "site:itc.haui.edu.vn \"wifi\" Android hướng dẫn"
+      ],
+      "official_domains_checked": [
+        "haui.edu.vn",
+        "itc.haui.edu.vn"
+      ],
+      "notes": "Official HaUI Android PDF documents a hotspot/browser login flow at staff.haui.edu.vn, so it is excluded as captive portal rather than classified by Anonymous identity fields."
+    },
+    {
+      "roster_index": 27,
+      "university": "Vietnam National University of Agriculture",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/vietnam-national-university-of-agriculture/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Vietnam National University of Agriculture Vietnam eduroam Android WiFi setup official",
+        "Vietnam National University of Agriculture hướng dẫn eduroam Android WiFi",
+        "site:vnua.edu.vn eduroam Android WiFi setup",
+        "site:vnua.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnua.edu.vn eduroam Android WiFi setup",
+        "site:vnua.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnua.edu.vn eduroam Android WiFi setup",
+        "site:vnua.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnua.edu.vn eduroam Android WiFi setup",
+        "site:vnua.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnua.edu.vn eduroam Android WiFi setup",
+        "site:vnua.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnua.edu.vn eduroam Android WiFi setup",
+        "site:vnua.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnua.edu.vn eduroam Android WiFi setup",
+        "site:vnua.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnua.edu.vn eduroam Android WiFi setup",
+        "site:vnua.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnua.edu.vn eduroam Android WiFi setup",
+        "site:vnua.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnua.edu.vn eduroam Android WiFi setup",
+        "site:vnua.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnua.edu.vn eduroam Android WiFi setup",
+        "site:vnua.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnua.edu.vn eduroam Android WiFi setup",
+        "site:vnua.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnua.edu.vn eduroam Android WiFi setup",
+        "site:vnua.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "vnua.edu.vn",
+        "fita.vnua.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Vietnam National University of Agriculture official domains found academic/network references but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 28,
+      "university": "Ho Chi Minh City University of Foreign Languages and Information Technology",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/ho-chi-minh-city-university-of-foreign-languages-and-information-technology/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Ho Chi Minh City University of Foreign Languages and Information Technology Vietnam eduroam Android WiFi setup official",
+        "Ho Chi Minh City University of Foreign Languages and Information Technology hướng dẫn eduroam Android WiFi",
+        "site:huflit.edu.vn eduroam Android WiFi setup",
+        "site:huflit.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huflit.edu.vn eduroam Android WiFi setup",
+        "site:huflit.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huflit.edu.vn eduroam Android WiFi setup",
+        "site:huflit.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huflit.edu.vn eduroam Android WiFi setup",
+        "site:huflit.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huflit.edu.vn eduroam Android WiFi setup",
+        "site:huflit.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huflit.edu.vn eduroam Android WiFi setup",
+        "site:huflit.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huflit.edu.vn eduroam Android WiFi setup",
+        "site:huflit.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huflit.edu.vn eduroam Android WiFi setup",
+        "site:huflit.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huflit.edu.vn eduroam Android WiFi setup",
+        "site:huflit.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huflit.edu.vn eduroam Android WiFi setup",
+        "site:huflit.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huflit.edu.vn eduroam Android WiFi setup",
+        "site:huflit.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huflit.edu.vn eduroam Android WiFi setup",
+        "site:huflit.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huflit.edu.vn eduroam Android WiFi setup",
+        "site:huflit.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "huflit.edu.vn",
+        "fit.huflit.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Ho Chi Minh City University of Foreign Languages and Information Technology official domains found coursework on wireless networking but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 29,
+      "university": "Thuongmai University",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/thuongmai-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Thuongmai University Vietnam eduroam Android WiFi setup official",
+        "Thuongmai University hướng dẫn eduroam Android WiFi",
+        "site:tmu.edu.vn eduroam Android WiFi setup",
+        "site:tmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tmu.edu.vn eduroam Android WiFi setup",
+        "site:tmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tmu.edu.vn eduroam Android WiFi setup",
+        "site:tmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tmu.edu.vn eduroam Android WiFi setup",
+        "site:tmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tmu.edu.vn eduroam Android WiFi setup",
+        "site:tmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tmu.edu.vn eduroam Android WiFi setup",
+        "site:tmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tmu.edu.vn eduroam Android WiFi setup",
+        "site:tmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tmu.edu.vn eduroam Android WiFi setup",
+        "site:tmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tmu.edu.vn eduroam Android WiFi setup",
+        "site:tmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tmu.edu.vn eduroam Android WiFi setup",
+        "site:tmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tmu.edu.vn eduroam Android WiFi setup",
+        "site:tmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tmu.edu.vn eduroam Android WiFi setup",
+        "site:tmu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "tmu.edu.vn",
+        "qldt.tmu.edu.vn",
+        "csv.tmu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Thuongmai University official domains found references to campus Wi-Fi availability but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 30,
+      "university": "Hue University",
+      "city": "Hue",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hue-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Hue University Vietnam eduroam Android WiFi setup official",
+        "Hue University hướng dẫn eduroam Android WiFi",
+        "site:hueuni.edu.vn eduroam Android WiFi setup",
+        "site:hueuni.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hueuni.edu.vn eduroam Android WiFi setup",
+        "site:hueuni.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hueuni.edu.vn eduroam Android WiFi setup",
+        "site:hueuni.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hueuni.edu.vn eduroam Android WiFi setup",
+        "site:hueuni.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hueuni.edu.vn eduroam Android WiFi setup",
+        "site:hueuni.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hueuni.edu.vn eduroam Android WiFi setup",
+        "site:hueuni.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hueuni.edu.vn eduroam Android WiFi setup",
+        "site:hueuni.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hueuni.edu.vn eduroam Android WiFi setup",
+        "site:hueuni.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hueuni.edu.vn eduroam Android WiFi setup",
+        "site:hueuni.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hueuni.edu.vn eduroam Android WiFi setup",
+        "site:hueuni.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hueuni.edu.vn eduroam Android WiFi setup",
+        "site:hueuni.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hueuni.edu.vn eduroam Android WiFi setup",
+        "site:hueuni.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hueuni.edu.vn",
+        "idter.hueuni.edu.vn",
+        "husc.hueuni.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Hue University official domains found general statements about free Wi-Fi but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 31,
+      "university": "Hanoi Medical University",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hanoi-medical-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Hanoi Medical University Vietnam eduroam Android WiFi setup official",
+        "Hanoi Medical University hướng dẫn eduroam Android WiFi",
+        "site:hmu.edu.vn eduroam Android WiFi setup",
+        "site:hmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hmu.edu.vn eduroam Android WiFi setup",
+        "site:hmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hmu.edu.vn eduroam Android WiFi setup",
+        "site:hmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hmu.edu.vn eduroam Android WiFi setup",
+        "site:hmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hmu.edu.vn eduroam Android WiFi setup",
+        "site:hmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hmu.edu.vn eduroam Android WiFi setup",
+        "site:hmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hmu.edu.vn eduroam Android WiFi setup",
+        "site:hmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hmu.edu.vn eduroam Android WiFi setup",
+        "site:hmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hmu.edu.vn eduroam Android WiFi setup",
+        "site:hmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hmu.edu.vn eduroam Android WiFi setup",
+        "site:hmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hmu.edu.vn eduroam Android WiFi setup",
+        "site:hmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hmu.edu.vn eduroam Android WiFi setup",
+        "site:hmu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hmu.edu.vn",
+        "lms.hmu.edu.vn",
+        "thuvien.hmu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Hanoi Medical University official domains surfaced LMS/library material but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 32,
+      "university": "Hoa Sen University",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hoa-sen-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "excluded_psk_shared_password",
+        "exclusion_category": "psk_shared_password",
+        "source_url": "https://www.hoasen.edu.vn/demontfort/huong-dan-su-dung-ung-dung-hoa-sen/",
+        "basis": "official Hoa Sen notice instructs students to join HSU_Student with a shared password for attendance; this is PSK/non-EAP and excluded"
+      },
+      "query_log": [
+        "Hoa Sen University Vietnam eduroam Android WiFi setup official",
+        "Hoa Sen University hướng dẫn eduroam Android WiFi",
+        "site:hoasen.edu.vn eduroam Android WiFi setup",
+        "site:hoasen.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hoasen.edu.vn eduroam Android WiFi setup",
+        "site:hoasen.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hoasen.edu.vn eduroam Android WiFi setup",
+        "site:hoasen.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hoasen.edu.vn eduroam Android WiFi setup",
+        "site:hoasen.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hoasen.edu.vn eduroam Android WiFi setup",
+        "site:hoasen.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hoasen.edu.vn eduroam Android WiFi setup",
+        "site:hoasen.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hoasen.edu.vn eduroam Android WiFi setup",
+        "site:hoasen.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hoasen.edu.vn eduroam Android WiFi setup",
+        "site:hoasen.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hoasen.edu.vn eduroam Android WiFi setup",
+        "site:hoasen.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hoasen.edu.vn eduroam Android WiFi setup",
+        "site:hoasen.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hoasen.edu.vn eduroam Android WiFi setup",
+        "site:hoasen.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hoasen.edu.vn eduroam Android WiFi setup",
+        "site:hoasen.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hoasen.edu.vn"
+      ],
+      "notes": "Official Hoa Sen student-app notice names HSU_Student and a shared password; PSK/non-EAP routes are excluded from Anonymous identity categories."
+    },
+    {
+      "roster_index": 33,
+      "university": "University of Economics and Law",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/university-of-economics-and-law/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "public_android_manual_reviewed",
+        "category": "not_mentioned",
+        "source_url": "https://cntt.uel.edu.vn/Resources/Docs/SubDomain/cntt/DichVu/WIFI/%5BCNTT%5DHD-Ket-Noi-Wifi-Forget.pdf",
+        "basis": "official UEL PDF includes Android Wi-Fi steps, but only says to select Wi-Fi and enter a password; it does not expose EAP or Anonymous identity fields"
+      },
+      "query_log": [
+        "University of Economics and Law Vietnam eduroam Android WiFi setup official",
+        "University of Economics and Law hướng dẫn eduroam Android WiFi",
+        "site:uel.edu.vn eduroam Android WiFi setup",
+        "site:cntt.uel.edu.vn wifi Android hướng dẫn",
+        "site:uel.edu.vn eduroam Android WiFi setup",
+        "site:cntt.uel.edu.vn wifi Android hướng dẫn",
+        "site:uel.edu.vn eduroam Android WiFi setup",
+        "site:cntt.uel.edu.vn wifi Android hướng dẫn",
+        "site:uel.edu.vn eduroam Android WiFi setup",
+        "site:cntt.uel.edu.vn wifi Android hướng dẫn",
+        "site:uel.edu.vn eduroam Android WiFi setup",
+        "site:cntt.uel.edu.vn wifi Android hướng dẫn",
+        "site:uel.edu.vn eduroam Android WiFi setup",
+        "site:cntt.uel.edu.vn wifi Android hướng dẫn",
+        "site:uel.edu.vn eduroam Android WiFi setup",
+        "site:cntt.uel.edu.vn wifi Android hướng dẫn",
+        "site:uel.edu.vn eduroam Android WiFi setup",
+        "site:cntt.uel.edu.vn wifi Android hướng dẫn",
+        "site:uel.edu.vn eduroam Android WiFi setup",
+        "site:cntt.uel.edu.vn wifi Android hướng dẫn",
+        "site:uel.edu.vn eduroam Android WiFi setup",
+        "site:cntt.uel.edu.vn wifi Android hướng dẫn",
+        "site:uel.edu.vn eduroam Android WiFi setup",
+        "site:cntt.uel.edu.vn wifi Android hướng dẫn"
+      ],
+      "official_domains_checked": [
+        "uel.edu.vn",
+        "cntt.uel.edu.vn"
+      ],
+      "notes": "Official UEL Android Wi-Fi PDF was reviewed. It documents generic password connection and does not mention Anonymous identity; the KTL.A email-authentication note does not provide Android EAP fields."
+    },
+    {
+      "roster_index": 34,
+      "university": "Vietnam National University, Ho Chi Minh City",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/vietnam-national-university-ho-chi-minh-city/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide",
+        "note": "VNU-HCM parent-level search did not produce a qualifying public Android EAP guide; constituent UEL was reviewed separately as row 33."
+      },
+      "query_log": [
+        "Vietnam National University, Ho Chi Minh City Vietnam eduroam Android WiFi setup official",
+        "Vietnam National University, Ho Chi Minh City hướng dẫn eduroam Android WiFi",
+        "site:vnuhcm.edu.vn eduroam Android WiFi setup",
+        "site:vnuhcm.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnuhcm.edu.vn eduroam Android WiFi setup",
+        "site:vnuhcm.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnuhcm.edu.vn eduroam Android WiFi setup",
+        "site:vnuhcm.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnuhcm.edu.vn eduroam Android WiFi setup",
+        "site:vnuhcm.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnuhcm.edu.vn eduroam Android WiFi setup",
+        "site:vnuhcm.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnuhcm.edu.vn eduroam Android WiFi setup",
+        "site:vnuhcm.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnuhcm.edu.vn eduroam Android WiFi setup",
+        "site:vnuhcm.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnuhcm.edu.vn eduroam Android WiFi setup",
+        "site:vnuhcm.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnuhcm.edu.vn eduroam Android WiFi setup",
+        "site:vnuhcm.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnuhcm.edu.vn eduroam Android WiFi setup",
+        "site:vnuhcm.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vnuhcm.edu.vn eduroam Android WiFi setup",
+        "site:vnuhcm.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "vnuhcm.edu.vn",
+        "portal.vnuhcm.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Vietnam National University Ho Chi Minh City parent domains found no parent-level Android EAP or eduroam setup guide; constituent-campus findings are not promoted to this parent row."
+    },
+    {
+      "roster_index": 35,
+      "university": "Saigon University",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/saigon-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Saigon University Vietnam eduroam Android WiFi setup official",
+        "Saigon University hướng dẫn eduroam Android WiFi",
+        "site:sgu.edu.vn eduroam Android WiFi setup",
+        "site:sgu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:sgu.edu.vn eduroam Android WiFi setup",
+        "site:sgu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:sgu.edu.vn eduroam Android WiFi setup",
+        "site:sgu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:sgu.edu.vn eduroam Android WiFi setup",
+        "site:sgu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:sgu.edu.vn eduroam Android WiFi setup",
+        "site:sgu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:sgu.edu.vn eduroam Android WiFi setup",
+        "site:sgu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:sgu.edu.vn eduroam Android WiFi setup",
+        "site:sgu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:sgu.edu.vn eduroam Android WiFi setup",
+        "site:sgu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:sgu.edu.vn eduroam Android WiFi setup",
+        "site:sgu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:sgu.edu.vn eduroam Android WiFi setup",
+        "site:sgu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:sgu.edu.vn eduroam Android WiFi setup",
+        "site:sgu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "sgu.edu.vn",
+        "ttcntt.sgu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Saigon University official domains surfaced general ICT material but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 36,
+      "university": "Thai Nguyen University",
+      "city": "Thai Nguyen",
+      "roster_source_url": "https://www.unirank.org/vn/uni/thai-nguyen-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Thai Nguyen University Vietnam eduroam Android WiFi setup official",
+        "Thai Nguyen University hướng dẫn eduroam Android WiFi",
+        "site:tnu.edu.vn eduroam Android WiFi setup",
+        "site:tnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tnu.edu.vn eduroam Android WiFi setup",
+        "site:tnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tnu.edu.vn eduroam Android WiFi setup",
+        "site:tnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tnu.edu.vn eduroam Android WiFi setup",
+        "site:tnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tnu.edu.vn eduroam Android WiFi setup",
+        "site:tnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tnu.edu.vn eduroam Android WiFi setup",
+        "site:tnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tnu.edu.vn eduroam Android WiFi setup",
+        "site:tnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tnu.edu.vn eduroam Android WiFi setup",
+        "site:tnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tnu.edu.vn eduroam Android WiFi setup",
+        "site:tnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tnu.edu.vn eduroam Android WiFi setup",
+        "site:tnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tnu.edu.vn eduroam Android WiFi setup",
+        "site:tnu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "tnu.edu.vn",
+        "ictu.tnu.edu.vn",
+        "jst.tnu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Thai Nguyen University official domains surfaced academic/networking material but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 37,
+      "university": "VNU University of Engineering and Technology",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/vnu-university-of-engineering-and-technology/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "VNU University of Engineering and Technology Vietnam eduroam Android WiFi setup official",
+        "VNU University of Engineering and Technology hướng dẫn eduroam Android WiFi",
+        "site:uet.vnu.edu.vn eduroam Android WiFi setup",
+        "site:uet.vnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uet.vnu.edu.vn eduroam Android WiFi setup",
+        "site:uet.vnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uet.vnu.edu.vn eduroam Android WiFi setup",
+        "site:uet.vnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uet.vnu.edu.vn eduroam Android WiFi setup",
+        "site:uet.vnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uet.vnu.edu.vn eduroam Android WiFi setup",
+        "site:uet.vnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uet.vnu.edu.vn eduroam Android WiFi setup",
+        "site:uet.vnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uet.vnu.edu.vn eduroam Android WiFi setup",
+        "site:uet.vnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uet.vnu.edu.vn eduroam Android WiFi setup",
+        "site:uet.vnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uet.vnu.edu.vn eduroam Android WiFi setup",
+        "site:uet.vnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uet.vnu.edu.vn eduroam Android WiFi setup",
+        "site:uet.vnu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "uet.vnu.edu.vn",
+        "fit.uet.vnu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of VNU University of Engineering and Technology official domains found general network references but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 38,
+      "university": "Dalat University",
+      "city": "Dalat",
+      "roster_source_url": "https://www.unirank.org/vn/uni/dalat-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Dalat University Vietnam eduroam Android WiFi setup official",
+        "Dalat University hướng dẫn eduroam Android WiFi",
+        "site:dlu.edu.vn eduroam Android WiFi setup",
+        "site:dlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:dlu.edu.vn eduroam Android WiFi setup",
+        "site:dlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:dlu.edu.vn eduroam Android WiFi setup",
+        "site:dlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:dlu.edu.vn eduroam Android WiFi setup",
+        "site:dlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:dlu.edu.vn eduroam Android WiFi setup",
+        "site:dlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:dlu.edu.vn eduroam Android WiFi setup",
+        "site:dlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:dlu.edu.vn eduroam Android WiFi setup",
+        "site:dlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:dlu.edu.vn eduroam Android WiFi setup",
+        "site:dlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:dlu.edu.vn eduroam Android WiFi setup",
+        "site:dlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:dlu.edu.vn eduroam Android WiFi setup",
+        "site:dlu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "dlu.edu.vn",
+        "cntt.dlu.edu.vn",
+        "knl.dlu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Dalat University official domains found statements about free campus Wi-Fi but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 39,
+      "university": "Hanoi University of Civil Engineering",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hanoi-university-of-civil-engineering/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Hanoi University of Civil Engineering Vietnam eduroam Android WiFi setup official",
+        "Hanoi University of Civil Engineering hướng dẫn eduroam Android WiFi",
+        "site:huce.edu.vn eduroam Android WiFi setup",
+        "site:huce.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huce.edu.vn eduroam Android WiFi setup",
+        "site:huce.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huce.edu.vn eduroam Android WiFi setup",
+        "site:huce.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huce.edu.vn eduroam Android WiFi setup",
+        "site:huce.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huce.edu.vn eduroam Android WiFi setup",
+        "site:huce.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huce.edu.vn eduroam Android WiFi setup",
+        "site:huce.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huce.edu.vn eduroam Android WiFi setup",
+        "site:huce.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huce.edu.vn eduroam Android WiFi setup",
+        "site:huce.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huce.edu.vn eduroam Android WiFi setup",
+        "site:huce.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huce.edu.vn eduroam Android WiFi setup",
+        "site:huce.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "huce.edu.vn",
+        "thuvien.huce.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Hanoi University of Civil Engineering official domains surfaced library/VPN material but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 40,
+      "university": "University of Transport and Communications",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/university-of-transport-and-communications/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "excluded_captive_portal",
+        "exclusion_category": "captive_portal",
+        "source_url": "https://hotrokythuat.utc.edu.vn/node/29",
+        "basis": "official UTC guide says to join Wifi-UTC and then authenticate in a browser using an electronic-office account; no Android EAP field configuration is provided"
+      },
+      "query_log": [
+        "University of Transport and Communications Vietnam eduroam Android WiFi setup official",
+        "University of Transport and Communications hướng dẫn eduroam Android WiFi",
+        "site:utc.edu.vn eduroam Android WiFi setup",
+        "site:hotrokythuat.utc.edu.vn wifi Android hướng dẫn",
+        "site:utc.edu.vn eduroam Android WiFi setup",
+        "site:hotrokythuat.utc.edu.vn wifi Android hướng dẫn",
+        "site:utc.edu.vn eduroam Android WiFi setup",
+        "site:hotrokythuat.utc.edu.vn wifi Android hướng dẫn",
+        "site:utc.edu.vn eduroam Android WiFi setup",
+        "site:hotrokythuat.utc.edu.vn wifi Android hướng dẫn",
+        "site:utc.edu.vn eduroam Android WiFi setup",
+        "site:hotrokythuat.utc.edu.vn wifi Android hướng dẫn",
+        "site:utc.edu.vn eduroam Android WiFi setup",
+        "site:hotrokythuat.utc.edu.vn wifi Android hướng dẫn",
+        "site:utc.edu.vn eduroam Android WiFi setup",
+        "site:hotrokythuat.utc.edu.vn wifi Android hướng dẫn",
+        "site:utc.edu.vn eduroam Android WiFi setup",
+        "site:hotrokythuat.utc.edu.vn wifi Android hướng dẫn",
+        "site:utc.edu.vn eduroam Android WiFi setup",
+        "site:hotrokythuat.utc.edu.vn wifi Android hướng dẫn",
+        "site:utc.edu.vn eduroam Android WiFi setup",
+        "site:hotrokythuat.utc.edu.vn wifi Android hướng dẫn"
+      ],
+      "official_domains_checked": [
+        "utc.edu.vn",
+        "hotrokythuat.utc.edu.vn",
+        "cait.utc.edu.vn"
+      ],
+      "notes": "Official UTC Wi-Fi guide documents a browser login after joining Wifi-UTC, so it is excluded as captive portal."
+    },
+    {
+      "roster_index": 41,
+      "university": "Vinh University",
+      "city": "Vinh",
+      "roster_source_url": "https://www.unirank.org/vn/uni/vinh-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Vinh University Vietnam eduroam Android WiFi setup official",
+        "Vinh University hướng dẫn eduroam Android WiFi",
+        "site:vinhuni.edu.vn eduroam Android WiFi setup",
+        "site:vinhuni.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vinhuni.edu.vn eduroam Android WiFi setup",
+        "site:vinhuni.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vinhuni.edu.vn eduroam Android WiFi setup",
+        "site:vinhuni.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vinhuni.edu.vn eduroam Android WiFi setup",
+        "site:vinhuni.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vinhuni.edu.vn eduroam Android WiFi setup",
+        "site:vinhuni.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vinhuni.edu.vn eduroam Android WiFi setup",
+        "site:vinhuni.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vinhuni.edu.vn eduroam Android WiFi setup",
+        "site:vinhuni.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vinhuni.edu.vn eduroam Android WiFi setup",
+        "site:vinhuni.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vinhuni.edu.vn eduroam Android WiFi setup",
+        "site:vinhuni.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "vinhuni.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Vinh University official domains found no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 42,
+      "university": "Ho Chi Minh City University of Law",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/ho-chi-minh-city-university-of-law/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Ho Chi Minh City University of Law Vietnam eduroam Android WiFi setup official",
+        "Ho Chi Minh City University of Law hướng dẫn eduroam Android WiFi",
+        "site:hcmulaw.edu.vn eduroam Android WiFi setup",
+        "site:hcmulaw.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmulaw.edu.vn eduroam Android WiFi setup",
+        "site:hcmulaw.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmulaw.edu.vn eduroam Android WiFi setup",
+        "site:hcmulaw.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmulaw.edu.vn eduroam Android WiFi setup",
+        "site:hcmulaw.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmulaw.edu.vn eduroam Android WiFi setup",
+        "site:hcmulaw.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmulaw.edu.vn eduroam Android WiFi setup",
+        "site:hcmulaw.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmulaw.edu.vn eduroam Android WiFi setup",
+        "site:hcmulaw.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmulaw.edu.vn eduroam Android WiFi setup",
+        "site:hcmulaw.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hcmulaw.edu.vn eduroam Android WiFi setup",
+        "site:hcmulaw.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hcmulaw.edu.vn",
+        "pctsv.hcmulaw.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Ho Chi Minh City University of Law official domains found Wi-Fi support references but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 43,
+      "university": "Hai Phong Medical University",
+      "city": "Hai Phong",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hai-phong-medical-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Hai Phong Medical University Vietnam eduroam Android WiFi setup official",
+        "Hai Phong Medical University hướng dẫn eduroam Android WiFi",
+        "site:hpmu.edu.vn eduroam Android WiFi setup",
+        "site:hpmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hpmu.edu.vn eduroam Android WiFi setup",
+        "site:hpmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hpmu.edu.vn eduroam Android WiFi setup",
+        "site:hpmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hpmu.edu.vn eduroam Android WiFi setup",
+        "site:hpmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hpmu.edu.vn eduroam Android WiFi setup",
+        "site:hpmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hpmu.edu.vn eduroam Android WiFi setup",
+        "site:hpmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hpmu.edu.vn eduroam Android WiFi setup",
+        "site:hpmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hpmu.edu.vn eduroam Android WiFi setup",
+        "site:hpmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hpmu.edu.vn eduroam Android WiFi setup",
+        "site:hpmu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hpmu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Hai Phong Medical University official domains found general infrastructure references but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 44,
+      "university": "Hanoi Law University",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hanoi-law-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Hanoi Law University Vietnam eduroam Android WiFi setup official",
+        "Hanoi Law University hướng dẫn eduroam Android WiFi",
+        "site:hlu.edu.vn eduroam Android WiFi setup",
+        "site:hlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hlu.edu.vn eduroam Android WiFi setup",
+        "site:hlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hlu.edu.vn eduroam Android WiFi setup",
+        "site:hlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hlu.edu.vn eduroam Android WiFi setup",
+        "site:hlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hlu.edu.vn eduroam Android WiFi setup",
+        "site:hlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hlu.edu.vn eduroam Android WiFi setup",
+        "site:hlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hlu.edu.vn eduroam Android WiFi setup",
+        "site:hlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hlu.edu.vn eduroam Android WiFi setup",
+        "site:hlu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hlu.edu.vn eduroam Android WiFi setup",
+        "site:hlu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hlu.edu.vn",
+        "sv.hlu.edu.vn",
+        "thuvien.hlu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Hanoi Law University official domains found library/Wi-Fi availability references but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 45,
+      "university": "Lac Hong University",
+      "city": "Bien Hoa",
+      "roster_source_url": "https://www.unirank.org/vn/uni/lac-hong-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Lac Hong University Vietnam eduroam Android WiFi setup official",
+        "Lac Hong University hướng dẫn eduroam Android WiFi",
+        "site:lhu.edu.vn eduroam Android WiFi setup",
+        "site:lhu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:lhu.edu.vn eduroam Android WiFi setup",
+        "site:lhu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:lhu.edu.vn eduroam Android WiFi setup",
+        "site:lhu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:lhu.edu.vn eduroam Android WiFi setup",
+        "site:lhu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:lhu.edu.vn eduroam Android WiFi setup",
+        "site:lhu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:lhu.edu.vn eduroam Android WiFi setup",
+        "site:lhu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:lhu.edu.vn eduroam Android WiFi setup",
+        "site:lhu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:lhu.edu.vn eduroam Android WiFi setup",
+        "site:lhu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "lhu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Lac Hong University official domains found general Wi-Fi education/coverage material but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 46,
+      "university": "Vietnam Maritime University",
+      "city": "Hai Phong",
+      "roster_source_url": "https://www.unirank.org/vn/uni/vietnam-maritime-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Vietnam Maritime University Vietnam eduroam Android WiFi setup official",
+        "Vietnam Maritime University hướng dẫn eduroam Android WiFi",
+        "site:vmu.edu.vn eduroam Android WiFi setup",
+        "site:vmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vmu.edu.vn eduroam Android WiFi setup",
+        "site:vmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vmu.edu.vn eduroam Android WiFi setup",
+        "site:vmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vmu.edu.vn eduroam Android WiFi setup",
+        "site:vmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vmu.edu.vn eduroam Android WiFi setup",
+        "site:vmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vmu.edu.vn eduroam Android WiFi setup",
+        "site:vmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vmu.edu.vn eduroam Android WiFi setup",
+        "site:vmu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vmu.edu.vn eduroam Android WiFi setup",
+        "site:vmu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "vmu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Vietnam Maritime University official domains found no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 47,
+      "university": "Hanoi University of Mining and Geology",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hanoi-university-of-mining-and-geology/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Hanoi University of Mining and Geology Vietnam eduroam Android WiFi setup official",
+        "Hanoi University of Mining and Geology hướng dẫn eduroam Android WiFi",
+        "site:humg.edu.vn eduroam Android WiFi setup",
+        "site:humg.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:humg.edu.vn eduroam Android WiFi setup",
+        "site:humg.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:humg.edu.vn eduroam Android WiFi setup",
+        "site:humg.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:humg.edu.vn eduroam Android WiFi setup",
+        "site:humg.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:humg.edu.vn eduroam Android WiFi setup",
+        "site:humg.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:humg.edu.vn eduroam Android WiFi setup",
+        "site:humg.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:humg.edu.vn eduroam Android WiFi setup",
+        "site:humg.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:humg.edu.vn eduroam Android WiFi setup",
+        "site:humg.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "humg.edu.vn",
+        "qlkh.humg.edu.vn",
+        "tapchi.humg.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Hanoi University of Mining and Geology official domains found networking coursework and account pages but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 48,
+      "university": "Ho Chi Minh City University of Industry and Trade",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/ho-chi-minh-city-university-of-industry-and-trade/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Ho Chi Minh City University of Industry and Trade Vietnam eduroam Android WiFi setup official",
+        "Ho Chi Minh City University of Industry and Trade hướng dẫn eduroam Android WiFi",
+        "site:huit.edu.vn eduroam Android WiFi setup",
+        "site:huit.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huit.edu.vn eduroam Android WiFi setup",
+        "site:huit.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huit.edu.vn eduroam Android WiFi setup",
+        "site:huit.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huit.edu.vn eduroam Android WiFi setup",
+        "site:huit.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huit.edu.vn eduroam Android WiFi setup",
+        "site:huit.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huit.edu.vn eduroam Android WiFi setup",
+        "site:huit.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huit.edu.vn eduroam Android WiFi setup",
+        "site:huit.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huit.edu.vn eduroam Android WiFi setup",
+        "site:huit.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "huit.edu.vn",
+        "ttbdktnn.huit.edu.vn",
+        "kcnhh.huit.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Ho Chi Minh City University of Industry and Trade official domains found general Wi-Fi references but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 49,
+      "university": "An Giang University",
+      "city": "Long Xuyen City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/an-giang-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "excluded_mac_registration",
+        "exclusion_category": "mac_registration",
+        "source_url": "https://its.agu.edu.vn/sites/default/files/Dang_ky_WiFi.pdf",
+        "basis": "official AGU Wi-Fi training document describes device/MAC registration through the university portal rather than an Android EAP field configuration"
+      },
+      "query_log": [
+        "An Giang University Vietnam eduroam Android WiFi setup official",
+        "An Giang University hướng dẫn eduroam Android WiFi",
+        "site:agu.edu.vn eduroam Android WiFi setup",
+        "site:its.agu.edu.vn wifi Android hướng dẫn MAC",
+        "site:agu.edu.vn eduroam Android WiFi setup",
+        "site:its.agu.edu.vn wifi Android hướng dẫn MAC",
+        "site:agu.edu.vn eduroam Android WiFi setup",
+        "site:its.agu.edu.vn wifi Android hướng dẫn MAC",
+        "site:agu.edu.vn eduroam Android WiFi setup",
+        "site:its.agu.edu.vn wifi Android hướng dẫn MAC",
+        "site:agu.edu.vn eduroam Android WiFi setup",
+        "site:its.agu.edu.vn wifi Android hướng dẫn MAC",
+        "site:agu.edu.vn eduroam Android WiFi setup",
+        "site:its.agu.edu.vn wifi Android hướng dẫn MAC",
+        "site:agu.edu.vn eduroam Android WiFi setup",
+        "site:its.agu.edu.vn wifi Android hướng dẫn MAC"
+      ],
+      "official_domains_checked": [
+        "agu.edu.vn",
+        "its.agu.edu.vn",
+        "cict.agu.edu.vn"
+      ],
+      "notes": "The official AGU Wi-Fi document uses MAC registration at its.wifi.macreg; MAC-registration/non-EAP access is excluded from Anonymous identity categories."
+    },
+    {
+      "roster_index": 50,
+      "university": "Hanoi Architectural University",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hanoi-architectural-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Hanoi Architectural University Vietnam eduroam Android WiFi setup official",
+        "Hanoi Architectural University hướng dẫn eduroam Android WiFi",
+        "site:hau.edu.vn eduroam Android WiFi setup",
+        "site:hau.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hau.edu.vn eduroam Android WiFi setup",
+        "site:hau.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hau.edu.vn eduroam Android WiFi setup",
+        "site:hau.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hau.edu.vn eduroam Android WiFi setup",
+        "site:hau.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hau.edu.vn eduroam Android WiFi setup",
+        "site:hau.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hau.edu.vn eduroam Android WiFi setup",
+        "site:hau.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hau.edu.vn eduroam Android WiFi setup",
+        "site:hau.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hau.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Hanoi Architectural University official domains found general Wi-Fi/infrastructure references but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 51,
+      "university": "Van Hien University",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/van-hien-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Van Hien University Vietnam eduroam Android WiFi setup official",
+        "Van Hien University hướng dẫn eduroam Android WiFi",
+        "site:vhu.edu.vn eduroam Android WiFi setup",
+        "site:vhu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vhu.edu.vn eduroam Android WiFi setup",
+        "site:vhu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vhu.edu.vn eduroam Android WiFi setup",
+        "site:vhu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vhu.edu.vn eduroam Android WiFi setup",
+        "site:vhu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vhu.edu.vn eduroam Android WiFi setup",
+        "site:vhu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vhu.edu.vn eduroam Android WiFi setup",
+        "site:vhu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vhu.edu.vn eduroam Android WiFi setup",
+        "site:vhu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "vhu.edu.vn",
+        "vhu.edu.vn/Resources/Docs/SubDomain"
+      ],
+      "notes": "Direct English and Vietnamese searches of Van Hien University official domains found Wi-Fi availability/infrastructure references but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 52,
+      "university": "University of Architecture Ho Chi Minh City",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/university-of-architecture-ho-chi-minh-city/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "University of Architecture Ho Chi Minh City Vietnam eduroam Android WiFi setup official",
+        "University of Architecture Ho Chi Minh City hướng dẫn eduroam Android WiFi",
+        "site:uah.edu.vn eduroam Android WiFi setup",
+        "site:uah.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uah.edu.vn eduroam Android WiFi setup",
+        "site:uah.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uah.edu.vn eduroam Android WiFi setup",
+        "site:uah.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uah.edu.vn eduroam Android WiFi setup",
+        "site:uah.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uah.edu.vn eduroam Android WiFi setup",
+        "site:uah.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uah.edu.vn eduroam Android WiFi setup",
+        "site:uah.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uah.edu.vn eduroam Android WiFi setup",
+        "site:uah.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "uah.edu.vn",
+        "lms.uah.edu.vn",
+        "ce.uah.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of University of Architecture Ho Chi Minh City official domains found course/LMS material but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 53,
+      "university": "Thai Binh University of Medicine and Pharmacy",
+      "city": "Thai Binh",
+      "roster_source_url": "https://www.unirank.org/vn/uni/thai-binh-university-of-medicine-and-pharmacy/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Thai Binh University of Medicine and Pharmacy Vietnam eduroam Android WiFi setup official",
+        "Thai Binh University of Medicine and Pharmacy hướng dẫn eduroam Android WiFi",
+        "site:tbump.edu.vn eduroam Android WiFi setup",
+        "site:tbump.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tbump.edu.vn eduroam Android WiFi setup",
+        "site:tbump.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tbump.edu.vn eduroam Android WiFi setup",
+        "site:tbump.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tbump.edu.vn eduroam Android WiFi setup",
+        "site:tbump.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tbump.edu.vn eduroam Android WiFi setup",
+        "site:tbump.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tbump.edu.vn eduroam Android WiFi setup",
+        "site:tbump.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "tbump.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Thai Binh University of Medicine and Pharmacy official domains found equipment/LMS material but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 54,
+      "university": "Hong Bang International University",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hong-bang-international-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Hong Bang International University Vietnam eduroam Android WiFi setup official",
+        "Hong Bang International University hướng dẫn eduroam Android WiFi",
+        "site:hiu.edu.vn eduroam Android WiFi setup",
+        "site:hiu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hiu.edu.vn eduroam Android WiFi setup",
+        "site:hiu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hiu.edu.vn eduroam Android WiFi setup",
+        "site:hiu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hiu.edu.vn eduroam Android WiFi setup",
+        "site:hiu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hiu.edu.vn eduroam Android WiFi setup",
+        "site:hiu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hiu.edu.vn eduroam Android WiFi setup",
+        "site:hiu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hiu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Hong Bang International University official domains found no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 55,
+      "university": "Dong Nai University of Technology",
+      "city": "Bien Hoa",
+      "roster_source_url": "https://www.unirank.org/vn/uni/dong-nai-university-of-technology/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Dong Nai University of Technology Vietnam eduroam Android WiFi setup official",
+        "Dong Nai University of Technology hướng dẫn eduroam Android WiFi",
+        "site:dntech.edu.vn eduroam Android WiFi setup",
+        "site:dntech.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:dntech.edu.vn eduroam Android WiFi setup",
+        "site:dntech.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:dntech.edu.vn eduroam Android WiFi setup",
+        "site:dntech.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:dntech.edu.vn eduroam Android WiFi setup",
+        "site:dntech.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:dntech.edu.vn eduroam Android WiFi setup",
+        "site:dntech.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:dntech.edu.vn eduroam Android WiFi setup",
+        "site:dntech.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "dntech.edu.vn",
+        "dntu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Dong Nai University of Technology official domains found no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 56,
+      "university": "University of Economics - Technology for Industries",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/university-of-economics-technology-for-industries/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "University of Economics - Technology for Industries Vietnam eduroam Android WiFi setup official",
+        "University of Economics - Technology for Industries hướng dẫn eduroam Android WiFi",
+        "site:uneti.edu.vn eduroam Android WiFi setup",
+        "site:uneti.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uneti.edu.vn eduroam Android WiFi setup",
+        "site:uneti.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uneti.edu.vn eduroam Android WiFi setup",
+        "site:uneti.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uneti.edu.vn eduroam Android WiFi setup",
+        "site:uneti.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uneti.edu.vn eduroam Android WiFi setup",
+        "site:uneti.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:uneti.edu.vn eduroam Android WiFi setup",
+        "site:uneti.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "uneti.edu.vn",
+        "opac.uneti.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of University of Economics - Technology for Industries official domains found networking coursework and LMS guides but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 57,
+      "university": "Baria Vungtau University",
+      "city": "Vung Tau",
+      "roster_source_url": "https://www.unirank.org/vn/uni/baria-vungtau-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Baria Vungtau University Vietnam eduroam Android WiFi setup official",
+        "Baria Vungtau University hướng dẫn eduroam Android WiFi",
+        "site:bvu.edu.vn eduroam Android WiFi setup",
+        "site:bvu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:bvu.edu.vn eduroam Android WiFi setup",
+        "site:bvu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:bvu.edu.vn eduroam Android WiFi setup",
+        "site:bvu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:bvu.edu.vn eduroam Android WiFi setup",
+        "site:bvu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:bvu.edu.vn eduroam Android WiFi setup",
+        "site:bvu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "bvu.edu.vn",
+        "sinhvien.bvu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Baria Vungtau University official domains found general student/service pages but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 58,
+      "university": "Hanoi University of Pharmacy",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hanoi-university-of-pharmacy/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Hanoi University of Pharmacy Vietnam eduroam Android WiFi setup official",
+        "Hanoi University of Pharmacy hướng dẫn eduroam Android WiFi",
+        "site:hup.edu.vn eduroam Android WiFi setup",
+        "site:hup.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hup.edu.vn eduroam Android WiFi setup",
+        "site:hup.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hup.edu.vn eduroam Android WiFi setup",
+        "site:hup.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hup.edu.vn eduroam Android WiFi setup",
+        "site:hup.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hup.edu.vn eduroam Android WiFi setup",
+        "site:hup.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hup.edu.vn",
+        "tuyensinh.hup.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Hanoi University of Pharmacy official domains found no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 59,
+      "university": "Quy Nhon University",
+      "city": "Quy Nhon",
+      "roster_source_url": "https://www.unirank.org/vn/uni/quy-nhon-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "excluded_captive_portal",
+        "exclusion_category": "captive_portal",
+        "source_url": "https://ict.qnu.edu.vn/Resources/Docs/SubDomain/ict/huong%20dan%20su%20dung%20tai%20khoan%20dang%20nhap%20he%20thong%20wifi%20truong.pdf",
+        "basis": "official QNU guide has phones/laptops join an open WiNet-QNU SSID and then authenticate at login.qnu.edu.vn in a browser"
+      },
+      "query_log": [
+        "Quy Nhon University Vietnam eduroam Android WiFi setup official",
+        "Quy Nhon University hướng dẫn eduroam Android WiFi",
+        "site:qnu.edu.vn eduroam Android WiFi setup",
+        "site:ict.qnu.edu.vn wifi Android hướng dẫn tài khoản",
+        "site:qnu.edu.vn eduroam Android WiFi setup",
+        "site:ict.qnu.edu.vn wifi Android hướng dẫn tài khoản",
+        "site:qnu.edu.vn eduroam Android WiFi setup",
+        "site:ict.qnu.edu.vn wifi Android hướng dẫn tài khoản",
+        "site:qnu.edu.vn eduroam Android WiFi setup",
+        "site:ict.qnu.edu.vn wifi Android hướng dẫn tài khoản",
+        "site:qnu.edu.vn eduroam Android WiFi setup",
+        "site:ict.qnu.edu.vn wifi Android hướng dẫn tài khoản"
+      ],
+      "official_domains_checked": [
+        "qnu.edu.vn",
+        "ict.qnu.edu.vn",
+        "servicedesk.qnu.edu.vn"
+      ],
+      "notes": "Official Quy Nhon University guide documents an open WiNet-QNU SSID followed by browser login at login.qnu.edu.vn; captive portal is excluded."
+    },
+    {
+      "roster_index": 60,
+      "university": "Hanoi University of Business and Technology",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hanoi-university-of-business-and-technology/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Hanoi University of Business and Technology Vietnam eduroam Android WiFi setup official",
+        "Hanoi University of Business and Technology hướng dẫn eduroam Android WiFi",
+        "site:hbu.edu.vn eduroam Android WiFi setup",
+        "site:hbu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hbu.edu.vn eduroam Android WiFi setup",
+        "site:hbu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hbu.edu.vn eduroam Android WiFi setup",
+        "site:hbu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hbu.edu.vn eduroam Android WiFi setup",
+        "site:hbu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hbu.edu.vn eduroam Android WiFi setup",
+        "site:hbu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hbu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Hanoi University of Business and Technology official domains found no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 61,
+      "university": "FPT University",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/fpt-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "public_android_manual_reviewed",
+        "category": "explicit_blank",
+        "source_url": "https://it.fpt.edu.vn/cantho/cach-vao-wifi-truong-bang-dien-thoai/",
+        "basis": "official FPT University Helpdesk Android guide specifies PEAP and explicitly says Anonymous Identity is left blank for FU-Students/FU-Staff"
+      },
+      "query_log": [
+        "FPT University Vietnam eduroam Android WiFi setup official",
+        "FPT University hướng dẫn eduroam Android WiFi",
+        "site:fpt.edu.vn eduroam Android WiFi setup",
+        "site:it.fpt.edu.vn wifi Android \"Anonymous Identity\"",
+        "site:fpt.edu.vn eduroam Android WiFi setup",
+        "site:it.fpt.edu.vn wifi Android \"Anonymous Identity\"",
+        "site:fpt.edu.vn eduroam Android WiFi setup",
+        "site:it.fpt.edu.vn wifi Android \"Anonymous Identity\"",
+        "site:fpt.edu.vn eduroam Android WiFi setup",
+        "site:it.fpt.edu.vn wifi Android \"Anonymous Identity\""
+      ],
+      "official_domains_checked": [
+        "fpt.edu.vn",
+        "it.fpt.edu.vn",
+        "it-hcm.fpt.edu.vn"
+      ],
+      "notes": "Official FPT University Helpdesk Vietnamese Android guide explicitly sets Anonymous Identity to blank; it also provides Android 11 PEAP/MSCHAPV2 and CA/domain details."
+    },
+    {
+      "roster_index": 62,
+      "university": "Saigon International University",
+      "city": "Ho Chi Minh City",
+      "roster_source_url": "https://www.unirank.org/vn/uni/saigon-international-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Saigon International University Vietnam eduroam Android WiFi setup official",
+        "Saigon International University hướng dẫn eduroam Android WiFi",
+        "site:siu.edu.vn eduroam Android WiFi setup",
+        "site:siu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:siu.edu.vn eduroam Android WiFi setup",
+        "site:siu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:siu.edu.vn eduroam Android WiFi setup",
+        "site:siu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:siu.edu.vn eduroam Android WiFi setup",
+        "site:siu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "siu.edu.vn",
+        "file.siu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Saigon International University official domains found campus-Wi-Fi coverage statements but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 63,
+      "university": "Hanoi University of Culture",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hanoi-university-of-culture/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Hanoi University of Culture Vietnam eduroam Android WiFi setup official",
+        "Hanoi University of Culture hướng dẫn eduroam Android WiFi",
+        "site:huc.edu.vn eduroam Android WiFi setup",
+        "site:huc.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huc.edu.vn eduroam Android WiFi setup",
+        "site:huc.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huc.edu.vn eduroam Android WiFi setup",
+        "site:huc.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:huc.edu.vn eduroam Android WiFi setup",
+        "site:huc.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "huc.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Hanoi University of Culture official domains found no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 64,
+      "university": "Hong Duc University",
+      "city": "Thanh Hoa",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hong-duc-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Hong Duc University Vietnam eduroam Android WiFi setup official",
+        "Hong Duc University hướng dẫn eduroam Android WiFi",
+        "site:hdu.edu.vn eduroam Android WiFi setup",
+        "site:hdu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hdu.edu.vn eduroam Android WiFi setup",
+        "site:hdu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hdu.edu.vn eduroam Android WiFi setup",
+        "site:hdu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hdu.edu.vn eduroam Android WiFi setup",
+        "site:hdu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hdu.edu.vn",
+        "media.hdu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Hong Duc University official domains found course/online-exam connectivity references but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 65,
+      "university": "Tay Bac University",
+      "city": "Son La",
+      "roster_source_url": "https://www.unirank.org/vn/uni/tay-bac-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Tay Bac University Vietnam eduroam Android WiFi setup official",
+        "Tay Bac University hướng dẫn eduroam Android WiFi",
+        "site:tbu.edu.vn eduroam Android WiFi setup",
+        "site:tbu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tbu.edu.vn eduroam Android WiFi setup",
+        "site:tbu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:tbu.edu.vn eduroam Android WiFi setup",
+        "site:tbu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "tbu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Tay Bac University official domains found campus Wi-Fi coverage references but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 66,
+      "university": "Hung Vuong University",
+      "city": "Viet Tri",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hung-vuong-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Hung Vuong University Vietnam eduroam Android WiFi setup official",
+        "Hung Vuong University hướng dẫn eduroam Android WiFi",
+        "site:hvu.edu.vn eduroam Android WiFi setup",
+        "site:hvu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hvu.edu.vn eduroam Android WiFi setup",
+        "site:hvu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:hvu.edu.vn eduroam Android WiFi setup",
+        "site:hvu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hvu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Hung Vuong University official domains found no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 67,
+      "university": "University of Technology & Management",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/university-of-technology-management/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "University of Technology & Management Vietnam eduroam Android WiFi setup official",
+        "University of Technology & Management hướng dẫn eduroam Android WiFi",
+        "site:utm.edu.vn eduroam Android WiFi setup",
+        "site:utm.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:utm.edu.vn eduroam Android WiFi setup",
+        "site:utm.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:utm.edu.vn eduroam Android WiFi setup",
+        "site:utm.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "utm.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of University of Technology & Management official domains found academic wireless-network material but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 68,
+      "university": "VNU University of Science",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/vnu-university-of-science/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "excluded_psk_shared_password",
+        "exclusion_category": "psk_shared_password",
+        "source_url": "https://hus.vnu.edu.vn/thong-bao/cong-tac-sinh-vien/huong-dan-su-dung-mang-khong-day-wireless-tai-truong-dh-khoa-hoc-tu-nhien-2652",
+        "basis": "official HUS wireless guide specifies WPA2 and a shared password “daihockhtn”; it is PSK/non-EAP and does not expose Anonymous identity fields"
+      },
+      "query_log": [
+        "VNU University of Science Vietnam eduroam Android WiFi setup official",
+        "VNU University of Science hướng dẫn eduroam Android WiFi",
+        "site:hus.vnu.edu.vn eduroam Android WiFi setup",
+        "site:hus.vnu.edu.vn wifi Android hướng dẫn",
+        "site:hus.vnu.edu.vn eduroam Android WiFi setup",
+        "site:hus.vnu.edu.vn wifi Android hướng dẫn",
+        "site:hus.vnu.edu.vn eduroam Android WiFi setup",
+        "site:hus.vnu.edu.vn wifi Android hướng dẫn"
+      ],
+      "official_domains_checked": [
+        "hus.vnu.edu.vn",
+        "hus.edu.vn"
+      ],
+      "notes": "Official HUS wireless guide documents KHTN_Wifi_X_Y with WPA2 and a shared password, plus proxy login; PSK/non-EAP is excluded from Anonymous identity categories."
+    },
+    {
+      "roster_index": 69,
+      "university": "Eastern University of Technology",
+      "city": "Xuan Thanh",
+      "roster_source_url": "https://www.unirank.org/vn/uni/eastern-university-of-technology/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Eastern University of Technology Vietnam eduroam Android WiFi setup official",
+        "Eastern University of Technology hướng dẫn eduroam Android WiFi",
+        "site:eaut.edu.vn eduroam Android WiFi setup",
+        "site:eaut.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:eaut.edu.vn eduroam Android WiFi setup",
+        "site:eaut.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "eaut.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Eastern University of Technology official domains found general IT/library material but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 70,
+      "university": "Vo Truong Toan University",
+      "city": "Tan Phu Thanh",
+      "roster_source_url": "https://www.unirank.org/vn/uni/vo-truong-toan-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Vo Truong Toan University Vietnam eduroam Android WiFi setup official",
+        "Vo Truong Toan University hướng dẫn eduroam Android WiFi",
+        "site:vttu.edu.vn eduroam Android WiFi setup",
+        "site:vttu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:vttu.edu.vn eduroam Android WiFi setup",
+        "site:vttu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "vttu.edu.vn",
+        "library.vttu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Vo Truong Toan University official domains found general campus Wi-Fi/infrastructure references but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 71,
+      "university": "University of Education",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/university-of-education-hanoi/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "University of Education Vietnam eduroam Android WiFi setup official",
+        "University of Education hướng dẫn eduroam Android WiFi",
+        "site:education.vnu.edu.vn eduroam Android WiFi setup",
+        "site:education.vnu.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:education.vnu.edu.vn eduroam Android WiFi setup",
+        "site:education.vnu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "education.vnu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of the VNU University of Education (Hanoi) official domain found no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 72,
+      "university": "Phuong Dong University",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/phuong-dong-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Phuong Dong University Vietnam eduroam Android WiFi setup official",
+        "Phuong Dong University hướng dẫn eduroam Android WiFi",
+        "site:phuongdong.edu.vn eduroam Android WiFi setup",
+        "site:phuongdong.edu.vn wifi hướng dẫn Android sinh viên",
+        "site:phuongdong.edu.vn eduroam Android WiFi setup",
+        "site:phuongdong.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "phuongdong.edu.vn",
+        "itsupport.phuongdong.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Phuong Dong University official domains found Teams/Microsoft account help but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 73,
+      "university": "Mientrung University of Civil Engineering",
+      "city": "Tuy Hoa",
+      "roster_source_url": "https://www.unirank.org/vn/uni/mientrung-university-of-civil-engineering/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Mientrung University of Civil Engineering Vietnam eduroam Android WiFi setup official",
+        "Mientrung University of Civil Engineering hướng dẫn eduroam Android WiFi",
+        "site:muce.edu.vn eduroam Android WiFi setup",
+        "site:muce.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "muce.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Mientrung University of Civil Engineering official domains found conference/material pages but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 74,
+      "university": "Hanoi Industrial Textile Garment University",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hanoi-industrial-textile-garment-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Hanoi Industrial Textile Garment University Vietnam eduroam Android WiFi setup official",
+        "Hanoi Industrial Textile Garment University hướng dẫn eduroam Android WiFi",
+        "site:hict.edu.vn eduroam Android WiFi setup",
+        "site:hict.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "hict.edu.vn",
+        "vieclam.hict.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Hanoi Industrial Textile Garment University official domains found student-handbook/account material but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 75,
+      "university": "Bac Lieu University",
+      "city": "Bac Lieu",
+      "roster_source_url": "https://www.unirank.org/vn/uni/bac-lieu-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Bac Lieu University Vietnam eduroam Android WiFi setup official",
+        "Bac Lieu University hướng dẫn eduroam Android WiFi",
+        "site:blu.edu.vn eduroam Android WiFi setup",
+        "site:blu.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "blu.edu.vn",
+        "kythuatcongnghe.blu.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Bac Lieu University official domains found academic/program material but no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 76,
+      "university": "Dong Do International University",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/dong-do-international-university/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Dong Do International University Vietnam eduroam Android WiFi setup official",
+        "Dong Do International University hướng dẫn eduroam Android WiFi",
+        "site:daihocdongdo.edu.vn eduroam Android WiFi setup",
+        "site:daihocdongdo.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "daihocdongdo.edu.vn",
+        "dongdo.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Dong Do International University official domains found no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 77,
+      "university": "Hanoi University of Industrial Fine Arts",
+      "city": "Hanoi",
+      "roster_source_url": "https://www.unirank.org/vn/uni/hanoi-university-of-industrial-fine-arts/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "Hanoi University of Industrial Fine Arts Vietnam eduroam Android WiFi setup official",
+        "Hanoi University of Industrial Fine Arts hướng dẫn eduroam Android WiFi",
+        "site:huc.edu.vn eduroam Android WiFi setup",
+        "site:huc.edu.vn wifi hướng dẫn Android sinh viên mỹ thuật"
+      ],
+      "official_domains_checked": [
+        "huc.edu.vn",
+        "my.huc.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of Hanoi University of Industrial Fine Arts official domains found no qualifying public Android EAP or eduroam setup guide."
+    },
+    {
+      "roster_index": 78,
+      "university": "University of Hai Duong",
+      "city": "Hai Duong",
+      "roster_source_url": "https://www.unirank.org/vn/uni/university-of-hai-duong/",
+      "review_state": "initial_direct_pass_complete",
+      "eduroam": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "school_wifi": {
+        "state": "no_qualifying_public_guide_found_in_initial_direct_pass",
+        "closure_category": "not_mentioned",
+        "closure_basis": "direct_english_and_vietnamese_search_completed_without_a_qualifying_public_android_manual_eap_guide"
+      },
+      "query_log": [
+        "University of Hai Duong Vietnam eduroam Android WiFi setup official",
+        "University of Hai Duong hướng dẫn eduroam Android WiFi",
+        "site:uhd.edu.vn eduroam Android WiFi setup",
+        "site:uhd.edu.vn wifi hướng dẫn Android sinh viên"
+      ],
+      "official_domains_checked": [
+        "uhd.edu.vn"
+      ],
+      "notes": "Direct English and Vietnamese searches of University of Hai Duong official domains found Wi-Fi infrastructure references but no qualifying public Android EAP or eduroam setup guide."
+    }
+  ],
+  "last_updated": "2026-09-27"
+}

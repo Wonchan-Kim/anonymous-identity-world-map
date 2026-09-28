@@ -1,17 +1,17 @@
 # APAN public-guide research coverage
 
-Checked 2026-09-22 against the APAN layer loaded by the official
+Checked 2026-09-27 against the APAN layer loaded by the official
 [eduroam levels map](https://monitor.eduroam.org/user_map/eduroam_map.php?type=levels).
 Its country/territory inventory is provided by
 [apan_capital.kml](https://monitor.eduroam.org/kml/apan_capital.kml).
 This is the map's grouping, not a general APAN membership list or an eduroam
 participant census. The layer currently contains 25 countries/territories.
 
-## Existing country research records: 10
+## Existing country research records: 11
 
 Australia (AU), mainland China (CN), Hong Kong (HK), Indonesia (ID),
 Japan (JP), Malaysia (MY), South Korea (KR), New Zealand (NZ), Singapore (SG),
-Thailand (TH).
+Thailand (TH), Vietnam (VN).
 
 “Existing” means local official-guide research records are present, not that
 every country's discovery or unresolved-guide review is finished. Mainland
@@ -58,6 +58,20 @@ official university setup-guide study.
   not establish the identity transmitted at runtime.
 
 Only aggregated research values are published; no credentials or API keys.
+
+## Vietnam public aggregates
+
+- eduroam: all 78 uniRank-listed Vietnamese universities were searched directly
+  in English followed by Vietnamese. No qualifying public Android eduroam EAP
+  manual was found; the 78 roster-level closures are not mentioned and remain
+  outside the route pie. This is not a participation census.
+- School Wi-Fi: all 78 institutions were reviewed. Seven eligible Android EAP
+  routes were found: explicit blank 3, explicit value 1, and not mentioned 3.
+  Sixty-two institutions had no qualifying public guide and nine captive portal,
+  PSK/shared-password or MAC-registration/non-EAP routes were excluded from the
+  pie.
+- Results describe public setup guidance, not runtime outer-identity
+  transmission. Review date: 2026-09-27.
 
 ## Malaysia public aggregates
 
