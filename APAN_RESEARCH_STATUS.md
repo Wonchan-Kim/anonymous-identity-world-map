@@ -7,11 +7,11 @@ Its country/territory inventory is provided by
 This is the map's grouping, not a general APAN membership list or an eduroam
 participant census. The layer currently contains 25 countries/territories.
 
-## Existing country research records: 11
+## Existing country research records: 12
 
 Australia (AU), mainland China (CN), Hong Kong (HK), Indonesia (ID),
 Japan (JP), Malaysia (MY), South Korea (KR), New Zealand (NZ), Singapore (SG),
-Thailand (TH), Vietnam (VN).
+Thailand (TH), Vietnam (VN), Bangladesh (BD).
 
 “Existing” means local official-guide research records are present, not that
 every country's discovery or unresolved-guide review is finished. Mainland
@@ -19,12 +19,11 @@ China retains unresolved cases in its earlier dataset and is not included
 in the current public globe. Indonesia, Malaysia and Thailand manual results are included in
 both network views; other country aggregates are unchanged.
 
-## No existing country-level official-guide research records: 15
+## No existing country-level official-guide research records: 14
 
 | Map ID | Country / territory |
 | --- | --- |
 | AE | United Arab Emirates |
-| BD | Bangladesh |
 | IN | India |
 | IR | Iran |
 | LA | Laos |
@@ -72,6 +71,26 @@ Only aggregated research values are published; no credentials or API keys.
   pie.
 - Results describe public setup guidance, not runtime outer-identity
   transmission. Review date: 2026-09-27.
+
+## Bangladesh public aggregates
+
+- The denominator is the 160-institution 2026 uniRank Bangladesh A–Z roster;
+  English searches were followed by Bangla keyword searches. The official
+  BdREN participant list (40 organisations) was used as an eduroam lead set,
+  not as a participation census.
+- eduroam: one qualifying official Android route was found (RUET,
+  `explicit blank`); the other reviewed public portals were installer/app-only
+  or had no manual EAP fields.
+- School Wi-Fi: one qualifying official Android route was found (KUET,
+  `not mentioned`); the remaining roster entries had no qualifying public
+  Android EAP guide or only generic Wi-Fi/service pages.
+- Captive portals, QR/app-only onboarding, PSK/shared-password networks and
+  non-EAP routes are excluded. An absent public guide does not prove that a
+  campus lacks EAP or that no outer identity is transmitted.
+- Review date: 2026-09-28. Sources: [uniRank roster](https://www.unirank.org/bd/a-z/),
+  [BdREN participant list](https://eduroam.bdren.net.bd/participants),
+  [RUET mobile guide](https://www.ruet.ac.bd/public/storage/files/edumobile_1700301756.pdf),
+  [KUET Wi-Fi guide](https://kuet.ac.bd/storage/webfile/forms/KUET_eduroamWi-FiConnectivity_2023.pdf).
 
 ## Malaysia public aggregates
 

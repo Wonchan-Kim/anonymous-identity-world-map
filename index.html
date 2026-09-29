@@ -1549,6 +1549,38 @@ html&gt;body{padding:0}&lt;/style&gt;
     mapData[mode].sort((a, b) =&gt; a.country.localeCompare(b.country));
   }
 
+  // Bangladesh uses the 160-institution uniRank roster for coverage. The
+  // BdREN participant list is an eduroam lead set, not a participation census.
+  // Only qualifying public Android EAP manuals enter the route pies.
+  const bangladeshCommon = {
+    iso3: &quot;BGD&quot;, country: &quot;Bangladesh&quot;, pending: 0,
+    anonymousValue: 0, anonymousShare: 0, notApplicable: 0, unclear: 0,
+    needsReview: 0, easyroamProfiles: 0, securew2Profiles: 0,
+    reviewComplete: true, identityUnit: &quot;Android EAP routes&quot;,
+    taxonomy: &quot;bangladesh-five-category&quot;, reviewedOn: &quot;2026-09-28&quot;
+  };
+  const bangladeshRows = {
+    eduroam: {
+      ...bangladeshCommon, total: 160, completed: 160,
+      guideFound: 1, guideNotFound: 159, guideUnclear: 0,
+      profileTotal: 1, explicitValue: 0, realIdentity: 0,
+      explicitBlank: 1, fieldShown: 0, notSpecified: 0,
+      methodNote: &quot;2026-09-28: all 160 uniRank-listed Bangladeshi universities were closed with official-domain English searches followed by Bangla keyword searches. The BdREN participant list (40 organisations) was used as an eduroam lead set, not as a participation census. One qualifying official Android eduroam manual was found (RUET, explicit blank); other public portals were installer/app-only, generic service pages, or lacked manual EAP fields. The route pie describes public-guide evidence, not live outer-identity transmission. Captive portal, PSK/shared-password and non-EAP routes are excluded.&quot;
+    },
+    schoolWifi: {
+      ...bangladeshCommon, total: 160, completed: 160,
+      guideFound: 1, guideNotFound: 159, guideUnclear: 0,
+      profileTotal: 1, explicitValue: 0, realIdentity: 0,
+      explicitBlank: 0, fieldShown: 0, notSpecified: 1,
+      methodNote: &quot;2026-09-28: all 160 uniRank-listed Bangladeshi universities were closed with official-domain English searches followed by Bangla keyword searches. One qualifying official Android school-Wi-Fi EAP manual was found (KUET, not mentioned). The remaining roster entries had no qualifying public Android EAP guide or only generic Wi-Fi/service pages. Captive portal, QR/app-only onboarding, PSK/shared-password and non-EAP routes are excluded. An absent public guide does not prove that a campus lacks EAP or establish runtime outer-identity behavior.&quot;
+    }
+  };
+  for (const [mode, row] of Object.entries(bangladeshRows)) {
+    mapData[mode] = mapData[mode].filter((item) =&gt; item.iso3 !== &quot;BGD&quot;);
+    mapData[mode].push(row);
+    mapData[mode].sort((a, b) =&gt; a.country.localeCompare(b.country));
+  }
+
   const ns = &quot;http://www.w3.org/2000/svg&quot;;
   const initialScale = 280;
   const initialRotation = [-15, -50, 0];
