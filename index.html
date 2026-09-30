@@ -1581,6 +1581,38 @@ html&gt;body{padding:0}&lt;/style&gt;
     mapData[mode].sort((a, b) =&gt; a.country.localeCompare(b.country));
   }
 
+  // UAE uses the 54-institution uniRank roster for coverage. Only official
+  // Android EAP manuals enter the route pies; generic Wi-Fi/eduroam mentions
+  // and Ankabut participation leads remain outside the pies.
+  const uaeCommon = {
+    iso3: &quot;ARE&quot;, country: &quot;United Arab Emirates&quot;, pending: 0,
+    anonymousValue: 0, anonymousShare: 0, notApplicable: 0, unclear: 0,
+    needsReview: 0, easyroamProfiles: 0, securew2Profiles: 0,
+    reviewComplete: true, identityUnit: &quot;Android EAP routes&quot;,
+    taxonomy: &quot;uae-five-category&quot;, reviewedOn: &quot;2026-09-30&quot;
+  };
+  const uaeRows = {
+    eduroam: {
+      ...uaeCommon, total: 54, completed: 54,
+      guideFound: 0, guideNotFound: 54, guideUnclear: 0,
+      profileTotal: 0, explicitValue: 0, realIdentity: 0,
+      explicitBlank: 0, fieldShown: 0, notSpecified: 0,
+      methodNote: &quot;2026-09-30: all 54 uniRank-listed UAE institutions were searched directly in English, with Arabic follow-up where needed. No qualifying public Android eduroam EAP manual exposing an Anonymous identity field was found. Ankabut participation/coverage pages and institutional statements that eduroam is available are retained as service evidence, not route categories. This is a public-guide review, not a participation census or runtime outer-identity measurement.&quot;
+    },
+    schoolWifi: {
+      ...uaeCommon, total: 54, completed: 54,
+      guideFound: 5, guideNotFound: 49, guideUnclear: 0,
+      profileTotal: 5, explicitValue: 1, realIdentity: 0,
+      explicitBlank: 1, fieldShown: 1, notSpecified: 2,
+      methodNote: &quot;2026-09-30: all 54 uniRank-listed UAE institutions were searched directly in English, with Arabic follow-up where needed. Five universities have eligible official Android EAP routes: explicit blank 1 (Middlesex Dubai), explicit value 1 (American University of Sharjah), field shown without instruction 1 (Ajman University), and not mentioned 2 (University of Sharjah and AUD). The other 49 have no qualifying public Android guide and remain outside the pie. Captive portal, PSK, app-only and non-EAP routes are excluded; outcomes describe public setup guidance, not live outer-identity transmission.&quot;
+    }
+  };
+  for (const [mode, row] of Object.entries(uaeRows)) {
+    mapData[mode] = mapData[mode].filter((item) =&gt; item.iso3 !== &quot;ARE&quot;);
+    mapData[mode].push(row);
+    mapData[mode].sort((a, b) =&gt; a.country.localeCompare(b.country));
+  }
+
   const ns = &quot;http://www.w3.org/2000/svg&quot;;
   const initialScale = 280;
   const initialRotation = [-15, -50, 0];
