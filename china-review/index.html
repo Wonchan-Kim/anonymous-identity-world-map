@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="USRA 中国高校 Android Wi-Fi 匿名身份研究复核工作台。对照官方指南、核实证据并导出审阅意见。">
+  <meta name="robots" content="noindex,nofollow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>中国高校 Wi-Fi 复核 · USRA</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" type="module"></script>
+</head>
+<body>
+  <a class="skip-link" href="#caseDetail">跳至审阅内容</a>
+  <header class="site-header">
+    <a href="./" class="brand" aria-label="USRA 复核工作台首页">
+      <span class="brand-symbol" aria-hidden="true"><svg viewBox="0 0 28 28" fill="none"><path d="M4 10.5a15 15 0 0 1 20 0M7.5 14a10 10 0 0 1 13 0M11 17.5a5 5 0 0 1 6 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="14" cy="22" r="1.8" fill="currentColor"/></svg></span>
+      <span><strong>USRA <span class="brand-divider">/</span> 复核工作台</strong><small>ANDROID · OUTER IDENTITY RESEARCH</small></span>
+    </a>
+    <div class="header-actions">
+      <span class="local-pill"><span></span> 记录保存在本机</span>
+      <button id="guideButton" class="button quiet" type="button">复核说明</button>
+      <a href="../" class="button quiet map-link" target="_blank" rel="noopener noreferrer">研究地图 ↗</a>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="intro" aria-labelledby="pageTitle">
+      <div class="intro-copy">
+        <div class="eyebrow"><span class="country-mark">CN</span> 中国 · 中文原文复核 <span class="snapshot-date" id="snapshotDate">2026.11.12 数据快照</span></div>
+        <h1 id="pageTitle">让每一个分类，<span>都有原文依据。</span></h1>
+        <p>对照高校官方指南，重点核实 Android 的 <strong>Anonymous identity / 匿名身份</strong>。从待核实资料开始，也可以复查已有分类或补充新指南。</p>
+      </div>
+      <aside class="reviewer-card">
+        <label for="reviewerName">本轮审阅人 <span>可使用姓名或缩写</span></label>
+        <input id="reviewerName" maxlength="100" placeholder="例如：Li / 张同学" autocomplete="name">
+        <div class="reviewer-card-footer"><span id="saveStatus" role="status">尚无审阅记录</span><button class="text-button" id="exportTop" type="button">导出审阅 ↗</button></div>
+      </aside>
+    </section>
+
+    <section class="stats" aria-label="研究快照概况">
+      <div><span class="stat-label">名录学校</span><strong>933<span>所</span></strong><small>固定研究样本</small></div>
+      <div><span class="stat-label">手动 EAP 指南</span><strong>180<span>条</span></strong><small>来自 150 所高校</small></div>
+      <div class="priority-stat"><span class="stat-label"><i></i> 待核实原文</span><strong>96<span>校</span></strong><small>部分资料仍未读到</small></div>
+      <div class="progress-stat"><span class="stat-label">本轮已复核 · 本机</span><strong id="reviewedStat">0<span>项</span></strong><small id="draftStat">未改变研究原始分类</small></div>
+    </section>
+
+    <section class="workspace" aria-label="原文对照与复核">
+      <div class="workspace-top">
+        <nav class="tabs" aria-label="审阅范围" id="modeTabs" role="tablist">
+          <button id="tab-followups" type="button" data-mode="followups" class="active" aria-selected="true" role="tab" aria-controls="reviewPanel">待核实资料 <span>96</span></button>
+          <button id="tab-routes" type="button" data-mode="routes" aria-selected="false" role="tab" aria-controls="reviewPanel" tabindex="-1">已确认 EAP 指南 <span>180</span></button>
+          <button id="tab-tools" type="button" data-mode="tools" aria-selected="false" role="tab" aria-controls="reviewPanel" tabindex="-1">连接工具 <span>20</span></button>
+          <button id="tab-universities" type="button" data-mode="universities" aria-selected="false" role="tab" aria-controls="reviewPanel" tabindex="-1">全部学校 <span>933</span></button>
+        </nav>
+        <div class="workspace-tools"><button id="importButton" class="button subtle small" type="button">导入意见</button><button id="exportButton" class="button primary small" type="button"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v9m-3-3 3 3 3-3M4 13v3h12v-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>导出审阅文件</button></div>
+      </div>
+
+      <div class="workspace-body" id="reviewPanel" role="tabpanel" aria-labelledby="tab-followups">
+        <aside class="case-sidebar" aria-label="审阅项目列表">
+          <div class="sidebar-controls">
+            <label class="search-field"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.5"/><path d="m13 13 4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><input id="searchInput" type="search" placeholder="搜索中文校名、英文或 SSID" aria-label="搜索审阅项目" autocomplete="off"></label>
+            <div class="filter-row"><label><span class="sr-only">审阅进度</span><select id="progressFilter"><option value="all">全部进度</option><option value="todo">尚未复核</option><option value="draft">已有草稿</option><option value="done">已复核</option><option value="changed">修改／新证据</option><option value="imported">有导入意见</option></select></label><label><span class="sr-only">网络范围</span><select id="networkFilter"><option value="all">全部网络</option><option value="school_wifi">学校 Wi-Fi</option><option value="eduroam">eduroam</option></select></label></div>
+            <label class="category-filter" id="categoryFilterWrap" hidden><span class="sr-only">现有匿名身份分类</span><select id="categoryFilter"><option value="all">全部现有分类</option><option value="explicit_blank">明确要求留空</option><option value="explicit_value">明确指定匿名值</option><option value="same_as_identity">与真实身份相同</option><option value="not_mentioned">未说明匿名身份</option></select></label>
+            <div class="list-summary"><span id="resultCount" aria-live="polite">正在载入研究快照…</span><button id="resetFilters" class="text-button" type="button">重置筛选</button></div>
+          </div>
+          <div class="case-list" id="caseList" role="list" aria-label="研究项目"></div>
+          <div class="sidebar-bottom"><span id="selectionPosition">优先复核尚未读到的原文</span><button id="nextButton" class="text-button" type="button">下一待审项 →</button></div>
+        </aside>
+        <article class="case-detail" id="caseDetail" tabindex="-1"><div class="loading-state"><span class="loading-dot"></span><h2>正在准备复核资料</h2><p>学校名录、原文链接与已核对图像正在载入。</p></div></article>
+      </div>
+    </section>
+    <footer class="page-footer"><p>研究原始快照与本轮审阅意见分开保存。仅下载后发回团队，意见才会共享。</p><span>USRA · 中国高校 Android Wi-Fi 研究</span></footer>
+  </main>
+
+  <dialog id="guideDialog" class="modal guide-modal" aria-labelledby="guideTitle">
+    <button class="dialog-close" type="button" data-close="guideDialog" aria-label="关闭复核说明">×</button>
+    <div class="eyebrow">REVIEW PROTOCOL</div><h2 id="guideTitle">先确认配置范围，再判断匿名身份。</h2>
+    <p>研究对象是高校官方发布的 <strong>Android 手动 EAP / 802.1X 配置指南</strong>。即使没有写 Android，只要实际界面、机型或操作上下文足够明确，也可以纳入；请记录判断依据。</p>
+    <ol class="protocol-steps"><li><strong>打开官方原文</strong><span>区分学校 Wi-Fi 与 eduroam，记录页面或手册版本。需要查看的截图、扫描页或视频也属于证据。</span></li><li><strong>核对 Android 与 EAP</strong><span>查找 EAP、PEAP、802.1X、Identity 等参数；网页认证 Portal、共享密码 PSK 和其他非 EAP 连接不纳入匿名身份分类。</span></li><li><strong>按明确指示分类</strong><span>未填写的示例框不等于要求留空。图片必须实际查看；没有打开的材料保留“未核实”。</span></li><li><strong>记录并导出意见</strong><span>填写建议、官方链接和关键原文。点击“完成本项复核”后，下载 JSON 发给研究团队；也可以导出 CSV 阅读版。</span></li></ol>
+    <div class="protocol-categories"><div><span class="category-badge explicit_blank">明确要求留空</span><p>原文明示 Anonymous identity / 匿名身份留空。</p></div><div><span class="category-badge explicit_value">明确指定匿名值</span><p>例如 anonymous@realm；记录实际值，核对是否包含真实身份。</p></div><div><span class="category-badge same_as_identity">与真实身份相同</span><p>原文明示将真实账号填入匿名身份字段。</p></div><div><span class="category-badge not_mentioned">未说明匿名身份</span><p>已核对完整 Android EAP 步骤，但没有给该字段指示；只展示空框也属于此类。</p></div></div>
+    <div class="note-box"><strong>“未说明”与“未核实”分开记录</strong><p>96 所学校各有至少一份未充分读取的资料。学校可能已有其他确认的指南；96 不是所有资料都不可读，也不能直接归入 not mentioned。安装器、CAT、geteduroam 和普通联网客户端单列。</p></div>
+    <p class="muted small-text">此网页无账号登录，也不收集或上传审阅意见。记录保存在当前浏览器；换设备前请下载 JSON 备份。导入的意见保留为独立记录，不覆盖原始研究分类。</p>
+    <button class="button primary" type="button" data-close="guideDialog">开始复核</button>
+  </dialog>
+
+  <dialog id="exportDialog" class="modal export-modal" aria-labelledby="exportTitle"><button class="dialog-close" type="button" data-close="exportDialog" aria-label="关闭导出窗口">×</button><div class="eyebrow">REVIEW HANDOFF</div><h2 id="exportTitle">把审阅意见交回团队</h2><p id="exportSummary"></p><div class="export-options"><button id="downloadJson" type="button"><span class="file-icon">{ }</span><span><strong>下载 JSON 审阅文件</strong><small>推荐 · 保留全部字段，可恢复或导入合并</small></span><span>↓</span></button><button id="downloadCsv" type="button"><span class="file-icon">▦</span><span><strong>下载 CSV 阅读版</strong><small>适合用 Excel / 表格浏览意见</small></span><span>↓</span></button></div><div class="note-box"><strong>下载后，将文件发送给研究团队。</strong><p>网页不会自动上传或同步意见。JSON 文件包含草稿和已完成意见；导入的记录也会保留。</p></div><p id="exportMessage" class="form-message" role="status"></p></dialog>
+
+  <dialog id="imageDialog" class="image-modal" aria-label="查看研究证据原图"><div class="image-modal-toolbar"><span id="imageCaption">研究团队已核对图像</span><a id="viewOriginalImage" href="#" target="_blank" rel="noopener noreferrer">新窗口查看原图 ↗</a><button type="button" data-close="imageDialog" aria-label="关闭证据原图">关闭 ×</button></div><img id="expandedImage" alt="高校官方指南中的 Android 配置证据"><p>图中示例值与空白字段请结合原文指示判断。</p></dialog>
+  <input type="file" id="importFile" accept="application/json,.json" hidden>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
